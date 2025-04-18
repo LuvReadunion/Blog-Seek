@@ -1,0 +1,37 @@
+Unknown command: "env"
+
+To see a list of supported npm commands, run:
+  npm help
+Unknown command: "env"
+
+To see a list of supported npm commands, run:
+  npm help
+
+> project@0.0.0 dev
+> vite --host
+
+
+  VITE v6.2.6  ready in 1003 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://154.44.31.8:5173/
+  ➜  Network: http://100.85.189.81:5173/
+  ➜  Vue DevTools: Open http://localhost:5173/__devtools__/ as a separate window
+  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools
+
+> project@0.0.0 dev
+> vite --host
+
+
+  VITE v6.2.6  ready in 1117 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://154.44.31.8:5173/
+  ➜  Network: http://100.85.189.81:5173/
+  ➜  Vue DevTools: Open http://localhost:5173/__devtools__/ as a separate window
+  ➜  Vue DevTools: Press Alt(⌥)+Shift(⇧)+D in App to toggle the Vue DevTools
+npm error Missing script: "serve"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /home/user/.npm/_logs/2025-04-16T09_59_30_882Z-debug-0.log
