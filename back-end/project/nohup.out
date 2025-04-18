@@ -617,3 +617,16 @@ Showing data: {'results': [{'title': '深度优先搜索', 'url': 'http://blog.d
 [18/Apr/2025 02:41:04] "OPTIONS /api/BlogSeek/ HTTP/1.1" 200 0
 [18/Apr/2025 02:41:04] "POST /api/BlogSeek/ HTTP/1.1" 200 61
 [18/Apr/2025 02:41:05] "GET /api/BlogSeek/answer/ HTTP/1.1" 200 806
+Unknown command: 'server'. Did you mean runserver?
+Type 'manage.py help' for usage.
+Watching for file changes with StatReloader
+[18/Apr/2025 03:31:46] "GET /api/BlogSeek/answer/ HTTP/1.1" 200 2
+[18/Apr/2025 03:31:52] "POST /api/BlogSeek/ HTTP/1.1" 200 61
+[18/Apr/2025 03:31:52] "GET /api/BlogSeek/answer/ HTTP/1.1" 200 737
+[18/Apr/2025 03:32:06] "POST /api/BlogSeek/ HTTP/1.1" 200 61
+[18/Apr/2025 03:32:06] "GET /api/BlogSeek/answer/ HTTP/1.1" 200 781
+[18/Apr/2025 03:32:39] "POST /api/BlogSeek/ HTTP/1.1" 200 61
+[18/Apr/2025 03:32:39] "GET /api/BlogSeek/answer/ HTTP/1.1" 200 881
+[18/Apr/2025 03:34:00] "GET /api/BlogSeek/answer/ HTTP/1.1" 200 881
+[18/Apr/2025 03:34:07] "POST /api/BlogSeek/ HTTP/1.1" 200 61
+[18/Apr/2025 03:34:07] "GET /api/BlogSeek/answer/ HTTP/1.1" 200 710
