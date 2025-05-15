@@ -1,0 +1,512 @@
+        <!DOCTYPE html>
+        <html lang="zh-CN">
+        
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<title>扯氮集 &#8211; 多歧为贵 不取苟同</title>
+<link rel='dns-prefetch' href='//weiwuhui.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="扯氮集 &raquo; Feed" href="http://weiwuhui.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="扯氮集 &raquo; 评论Feed" href="http://weiwuhui.com/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/weiwuhui.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='http://weiwuhui.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.19' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='http://weiwuhui.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.0.19' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://weiwuhui.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='catchresponsive-fonts-css'  href='http://weiwuhui.com/wp-content/fonts/d22cb8cb822c799ef7e5348dc59639f3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='catchresponsive-style-css'  href='http://weiwuhui.com/wp-content/themes/catch-responsive/style.css?ver=20230318-171230' type='text/css' media='all' />
+<link rel='stylesheet' id='catchresponsive-block-style-css'  href='http://weiwuhui.com/wp-content/themes/catch-responsive/css/blocks.css?ver=2.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://weiwuhui.com/wp-content/themes/catch-responsive/css/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-sidr-css'  href='http://weiwuhui.com/wp-content/themes/catch-responsive/css/jquery.sidr.light.min.css?ver=2.1.0' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://weiwuhui.com/wp-content/themes/catch-responsive/js/html5.min.js?ver=3.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='http://weiwuhui.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://weiwuhui.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://weiwuhui.com/wp-content/themes/catch-responsive/js/jquery.sidr.min.js?ver=2.2.1.1'></script>
+<script type='text/javascript' src='http://weiwuhui.com/wp-content/themes/catch-responsive/js/catchresponsive-custom-scripts.min.js'></script>
+<link rel='https://api.w.org/' href='http://weiwuhui.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://weiwuhui.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://weiwuhui.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.19" />
+<style data-context="foundation-flickity-css">/*! Flickity v2.0.2
+http://flickity.metafizzy.co
+---------------------------------------------- */.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-prev-next-button{position:absolute;top:50%;width:44px;height:44px;border:none;border-radius:50%;background:#fff;background:hsla(0,0%,100%,.75);cursor:pointer;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.flickity-prev-next-button:hover{background:#fff}.flickity-prev-next-button:focus{outline:0;box-shadow:0 0 0 5px #09f}.flickity-prev-next-button:active{opacity:.6}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button:disabled{opacity:.3;cursor:auto}.flickity-prev-next-button svg{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-prev-next-button .arrow{fill:#333}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}</style><style data-context="foundation-slideout-css">.slideout-menu{position:fixed;left:0;top:0;bottom:0;right:auto;z-index:0;width:256px;overflow-y:auto;-webkit-overflow-scrolling:touch;display:none}.slideout-menu.pushit-right{left:auto;right:0}.slideout-panel{position:relative;z-index:1;will-change:transform}.slideout-open,.slideout-open .slideout-panel,.slideout-open body{overflow:hidden}.slideout-open .slideout-menu{display:block}.pushit{display:none}</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("http://weiwuhui.com/wp-content/themes/catch-responsive/images/body-bg.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+<link rel="icon" href="http://weiwuhui.com/wp-content/uploads/2020/04/cropped-截屏2020-04-05-下午8.38.09-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://weiwuhui.com/wp-content/uploads/2020/04/cropped-截屏2020-04-05-下午8.38.09-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://weiwuhui.com/wp-content/uploads/2020/04/cropped-截屏2020-04-05-下午8.38.09-180x180.png" />
+<meta name="msapplication-TileImage" content="http://weiwuhui.com/wp-content/uploads/2020/04/cropped-截屏2020-04-05-下午8.38.09-270x270.png" />
+<style>.ios7.web-app-mode.has-fixed header{ background-color: rgba(45,53,63,.88);}</style></head>
+
+<body class="home blog custom-background wp-embed-responsive two-columns content-left full-content mobile-menu-one">
+
+
+		<div id="page" class="hfeed site">
+				<header id="masthead" role="banner">
+    		<div class="wrapper">
+		
+    <div id="mobile-header-left-menu" class="mobile-menu-anchor primary-menu">
+        <a href="#mobile-header-left-nav" id="header-left-menu" class="genericon genericon-menu">
+            <span class="mobile-menu-text">Menu</span>
+        </a>
+    </div><!-- #mobile-header-menu -->
+    <div id="site-branding"><div id="site-header"><h1 class="site-title"><a href="http://weiwuhui.com/" rel="home">扯氮集</a></h1><p class="site-description">多歧为贵 不取苟同</p></div><!-- #site-header --></div><!-- #site-branding-->	<aside class="sidebar sidebar-header-right widget-area">
+		<section class="widget widget_search" id="header-right-search">
+			<div class="widget-wrap">
+				
+<form role="search" method="get" class="search-form" action="http://weiwuhui.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="搜索..." value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+			</div>
+		</section>
+					<section class="widget widget_catchresponsive_social_icons" id="header-right-social-icons">
+				<div class="widget-wrap">
+					<a class="genericon_parent genericon genericon-mail" target="_blank" title="Email" href="mailto:me&#64;&#119;e&#105;wuhui.com"><span class="screen-reader-text">Email</span> </a><a class="genericon_parent genericon genericon-feed" target="_blank" title="Feed" href="http://weiwuhui.com/feed"><span class="screen-reader-text">Feed</span> </a><a class="genericon_parent genericon genericon-linkedin" target="_blank" title="LinkedIn" href="https://cn.linkedin.com/in/weiwuhui"><span class="screen-reader-text">LinkedIn</span> </a><a class="genericon_parent genericon genericon-instagram" target="_blank" title="Instagram" href="https://www.instagram.com/weiwuhui"><span class="screen-reader-text">Instagram</span> </a><a class="genericon_parent genericon genericon-website" target="_blank" title="Website" href="http://skychee.com/index.html"><span class="screen-reader-text">Website</span> </a>				</div><!-- .widget-wrap -->
+			</section><!-- #header-right-social-icons -->
+			</aside><!-- .sidebar .header-sidebar .widget-area -->
+			</div><!-- .wrapper -->
+		</header><!-- #masthead -->
+			<nav class="site-navigation nav-primary search-enabled" role="navigation">
+        <div class="wrapper">
+            <h2 class="screen-reader-text">Primary Menu</h2>
+            <div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+            <ul id="menu-tmt%e4%b9%b1%e5%bc%b9" class="menu catchresponsive-nav-menu"><li id="menu-item-8249" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-8249"><a href="http://weiwuhui.com">首页</a></li>
+<li id="menu-item-8259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8259"><a href="http://weiwuhui.com/resume">一个公用的简介</a></li>
+<li id="menu-item-8260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8260"><a href="http://weiwuhui.com/logic">常见逻辑谬误</a></li>
+<li id="menu-item-8258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8258"><a href="http://weiwuhui.com/comments">评论处理</a></li>
+<li id="menu-item-8262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8262"><a href="http://weiwuhui.com/about">关于我</a></li>
+</ul>                <div id="search-toggle" class="genericon">
+                    <a class="screen-reader-text" href="#search-container">Search</a>
+                </div>
+
+                <div id="search-container" class="displaynone">
+                    
+<form role="search" method="get" class="search-form" action="http://weiwuhui.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="搜索..." value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+                </div>
+    	</div><!-- .wrapper -->
+    </nav><!-- .nav-primary -->
+    <!-- refreshing cache --><!-- Disable Header Image -->
+				<section id="feature-slider">
+					<div class="wrapper">
+						<div class="cycle-slideshow"
+						    data-cycle-log="false"
+						    data-cycle-pause-on-hover="true"
+						    data-cycle-swipe="true"
+						    data-cycle-auto-height=container
+						    data-cycle-fx="fadeout"
+							data-cycle-speed="1000"
+							data-cycle-timeout="4000"
+							data-cycle-loader="true"
+							data-cycle-slides="> article"
+							>
+
+						    <!-- prev/next links -->
+						    <div class="cycle-prev"></div>
+						    <div class="cycle-next"></div>
+
+						    <!-- empty element for pager links -->
+	    					<div class="cycle-pager"></div>
+								<article class="post hentry slides demo-image displayblock">
+									<figure class="slider-image">
+										<a title="Slider Image 1" href="http://weiwuhui.com/">
+											<img src="http://weiwuhui.com/wp-content/themes/catch-responsive/images/gallery/slider1-1200x514.jpg" class="wp-post-image" alt="Slider Image 1" title="Slider Image 1">
+										</a>
+									</figure>
+									<div class="entry-container">
+										<header class="entry-header">
+											<h2 class="entry-title">
+												<a title="Slider Image 1" href="#"><span>Slider Image 1</span></a>
+											</h2>
+										</header>
+										<div class="entry-content">
+											<p>Slider Image 1 Content</p>
+										</div>
+									</div>
+								</article><!-- .slides -->
+
+								<article class="post hentry slides demo-image displaynone">
+									<figure class="Slider Image 2">
+										<a title="Slider Image 2" href="http://weiwuhui.com/">
+											<img src="http://weiwuhui.com/wp-content/themes/catch-responsive/images/gallery/slider2-1200x514.jpg" class="wp-post-image" alt="Slider Image 2" title="Slider Image 2">
+										</a>
+									</figure>
+									<div class="entry-container">
+										<header class="entry-header">
+											<h2 class="entry-title">
+												<a title="Slider Image 2" href="#"><span>Slider Image 2</span></a>
+											</h2>
+										</header>
+										<div class="entry-content">
+											<p>Slider Image 2 Content</p>
+										</div>
+									</div>
+								</article><!-- .slides --> 
+						</div><!-- .cycle-slideshow -->
+					</div><!-- .wrapper -->
+				</section><!-- #feature-slider --><!-- refreshing cache -->
+				<section id="featured-content" class="layout-three featured-page-content">
+					<div class="wrapper"><div class="featured-heading-wrap"><h2 id="featured-heading" class="entry-title">本Blog建于公元2007年4月13日 不抱团跟风 不颂圣媚众 不煽情卖弄</h2></div><!-- .featured-heading-wrap -->
+						<div class="featured-content-wrap">
+						</div><!-- .featured-content-wrap -->
+					</div><!-- .wrapper -->
+				</section><!-- #featured-content -->		<div id="content" class="site-content">
+			<div class="wrapper">
+	
+	<main id="main" class="site-main" role="main">
+
+		
+						
+				
+<article id="post-10670" class="post-10670 post type-post status-publish format-standard hentry category-newmedia">
+	<div class="archive-post-wrap">
+		
+		<div class="entry-container">
+			<header class="entry-header">
+				<h2 class="entry-title"><a href="http://weiwuhui.com/10670.html" rel="bookmark">百度的槽点到底在哪里</a></h2>
+
+				
+					<p class="entry-meta"><span class="posted-on"><span class="screen-reader-text">Posted on</span><a href="http://weiwuhui.com/10670.html" rel="bookmark"><time class="entry-date published" datetime="2024-05-11T14:17:53+00:00">2024年5月11日</time><time class="updated" datetime="2024-05-13T14:22:10+00:00">2024年5月13日</time></a></span><span class="comments-link"><a href="http://weiwuhui.com/10670.html#comments">4 Comments</a></span></p><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+
+							<div class="entry-content">
+					<p>一</p>
+<p>先说点百度璩静这个事的后续吧。</p>
+<p>璩静自己承认了错误，既然是错误，那就要支付代价。于是离了职。</p>
+<p>​但百度官方，一直没啥明确态度。最多就是借助一场内部表彰大会，大领导旁敲侧击地说了几句而已。</p>
+<p>要知道，2016年百度有个总监，在外头说错了话，那可是开除了事的：<br />
+<a href="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.53.29.png"><img src="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.53.29-1024x810.png" alt="" width="780" height="617" class="alignnone size-large wp-image-10671" srcset="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.53.29-1024x810.png 1024w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.53.29-300x237.png 300w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.53.29-768x607.png 768w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.53.29.png 1318w" sizes="(max-width: 780px) 100vw, 780px" /></a></p>
+<p>嗯，内网。刘超是被内网好一通热议的。</p>
+<p>据说璩静这事，内网总体静悄悄。</p>
+<p>二</p>
+<p>也就是在百度内部表彰会上，百度高层李彦宏也好，崔珊珊也好，都发表了对百度文化的看法。崔珊珊更是长篇大论，语重心长。</p>
+<p>话音刚落，百度文化立刻发布了一个短视频，载歌载舞了一番简单可依赖，算是对大领导指示表态要及时及时再及时。</p>
+<p>当然是不大可能听完指示才立刻去部署执行，这未免太仓促。但发布就在领导讲话之后，这种对上管理，还是很得其味的。</p>
+<p>只可惜，不仅看着特别尬，而且，还有极强的“借鉴”味儿。<br />
+<a href="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.42.12.png"><img src="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.42.12-1024x498.png" alt="" width="780" height="379" class="alignnone size-large wp-image-10673" srcset="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.42.12-1024x498.png 1024w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.42.12-300x146.png 300w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.42.12-768x373.png 768w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-16.42.12.png 1386w" sizes="(max-width: 780px) 100vw, 780px" /></a></p>
+<p>唉，PR一号位有，会丢人现眼。没有，还是会丢人现眼啊。</p>
+<p>三</p>
+<p>以上其实都是小节，无关大局。</p>
+<p>然而，我总有一个问题，想不大透。这就是：百度的槽点，到底具象表现为何？</p>
+<p>对于很多大公司而言，都有自己所谓的“议题”（issue），一般而言，都还会做一些议题管理以及危机预案。所谓议题，就是这个公司最容易被诟病然后爆发的点。比如说，对于麦当劳肯德基这样的企业，它们一个非常重要的议题就是食品健康。因为老有人认为，快餐=垃圾。</p>
+<p>这些议题管理，不仅仅是对外话术上的，而且渗入到企业的各个业务链条上。生怕哪个环节没做好，议题就会上升成舆论中的议程。</p>
+<p>在中国互联网大厂里，很多企业，在我看来，都有它们的议题（你或者说成要害、薄弱点都行）。比如阿里，早期的议题就是淘宝卖假货。现在的议题我看很大程度上是所谓阿里职场文化。腾讯，早期的议题是抄袭山寨，现在的议题极有可能是游戏就是电子海洛因。</p>
+<p>再比如后期的一线企业，字节，那当然是信息茧房、奶头乐；美团，外卖不健康、骑手困在系统里；滴滴，安全，以及，数据。B站？引战、网暴、不赚钱。小红书？炫富、滤镜摆拍、消费主义。</p>
+<p>百度的议题是什么？</p>
+<p>为什么那么多人不喜欢百度，到底不喜欢它什么？</p>
+<p>四</p>
+<p>百度早期确实是有明确槽点的，主要是它和谷歌的竞争关系。</p>
+<p>江湖上有不少它怎么对付谷歌的流言，未经证实也未经证伪。但无论如何，相当多有点网龄的网民，总会有这样一种感觉：要不是谷歌缺席，百度你日子会过得这么好么？再进一步，由于你日子太好（百度一度净利润率能高达6成），你就肯定不会太思进取。</p>
+<p>果不其然，谷歌率先搞了gmail体系，后来成了谷歌所有服务的通行证。李彦宏虽然当年在hi空间里问过，要不要百度也搞个邮箱体系，但终究是不了了之。以至于百度有一段时间，要花很大的力气，才算整合出一套用户体系来。</p>
+<p>再后来，谷歌收购安卓并将之改造提升为全球最大的手机操作系统。百度呢？空白。</p>
+<p>因为有同行衬托而不满百度的人中，有不少是相当有影响力的KOL。比如当年有科技圈头号博客之称的keso，就是对百度很不以为然的人。南方周末甚至报道过一个细节：百度某员工将keso的一篇文章（肯定是批评性质的）呈给李彦宏看，后者嗤之以鼻：燕雀安知鸿鹄之志。——这个细节活灵活现，很有画面感，对很多读者有影响。但确实也不知道是真的假的。</p>
+<p>但实话实说，这个槽点在今天，年轻网民们，我想应该是不大在意的，都是陈谷子烂芝麻的事儿了。</p>
+<p>五</p>
+<p>魏则西事件，是百度一次危机总爆发。</p>
+<p>在魏则西事件之前，由于百度掌握了桌面流量入口，使得相当多媒体网站对百度不敢批评太狠，很有一些敢怒不敢言的意味。但魏则西事件，一来彼时移动互联网大潮已起，百度不再能控制流量，二来百度多年来竞价排名的广告（但它又死活不承认是广告，且在相当多诉讼里获得了法院的认可）之多，相比谷歌，又被衬托成要钱到了不要吃相的地步。</p>
+<p>很长一段时间，百度都不能摆脱魏则西事件所造成的阴影，我看一直到今天，都依然存在：这就是个给钱就上的主儿。某人所谓的“媒体都是妓女，给钱就能搞定”这话落在百度上，不少人其实就是这么认为的。</p>
+<p>但平心而论，百度今天乱七八糟的医疗广告，并不多（我不敢说肯定一个都没有），搜索的左侧结果页，广告量也没铺天盖地以至于翻几页都是广告。魏则西事件之后，互联网广告管理办法出台，前两年又改版升了一次级。既然搜索关键字营销被认定为广告，百度还是走在广告领域一系列法律法规的轨道上的。</p>
+<p>这就变得很有趣。我们不妨把腾讯拿出来比较一下。</p>
+<p>腾讯过去有一个特别大的负面形象，喜欢抄袭山寨别人的东西。但到底啥叫抄袭啥叫山寨啥叫我受到了启发捣鼓出一个自己的东西，界限并不清晰。可以这么说，一直到今天，腾讯依然颇有一些产品，你是可以找到同行的。最赚钱的两款游戏，王者荣耀、和平精英，就没其它先行者影子了？</p>
+<p>但可以这么说，腾讯现在这个负面形象基本已经烟消云散，主流观点从来不再会认为，腾讯就是靠山寨抄袭取胜。正相反，腾讯这家企业，今天的对外形象可能是诸多大厂里最好的一家——虽然事实上，它毛病依然不是没有，甚至也不少。</p>
+<p>那百度咋就摆脱不了了呢？</p>
+<p>到了2019年，甚至发生了李彦宏演讲当众被泼水的事儿，现场自然还是支持他的，但要说网上，看热闹看得兴高采烈的，大有人在。<br />
+<a href="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-18.53.08.png"><img src="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-18.53.08-1024x548.png" alt="" width="780" height="417" class="alignnone size-large wp-image-10672" srcset="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-18.53.08-1024x548.png 1024w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-18.53.08-300x160.png 300w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-18.53.08-768x411.png 768w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-11-18.53.08.png 1372w" sizes="(max-width: 780px) 100vw, 780px" /></a></p>
+<p>六</p>
+<p>和三表交流起这个事，三表的答案是：腾讯帮助人赚钱了，但百度，似乎没有。</p>
+<p>说法自然是不错的。腾讯所谓的抄袭山寨，要害还是走了自己的路让别人无路可走。也就是吃独食挡了别人发财的道。后来腾讯大搞开放生态，尤其是在微信里，又是公号平台又是小程序，多少人多少企业，依靠腾讯在发家致富，这当然是帮助别人赚钱了。</p>
+<p>百度有没有帮人赚钱呢？我不是太清楚，但我至少知道，没有什么搞内容的人，是主要通过百度赚钱的。</p>
+<p>正相反的事是，搜索引擎是不大在乎所谓内容好坏的，它的结果排序基本规则是网页权重值。而通常较高的网页权重值，都是大网站或者历史悠久的网站。</p>
+<p>13年百度在桂林召开一个媒体会议，当时的百度公关一号位朱光，信誓旦旦地说，我们要保护原创者的利益，在搜索里要给原创者流量倾斜，让搜索结果优先考虑原创源头（大意如此，原话忘却）。这番话语引起了现场的热烈掌声，但我却大大不以为然。因为话当然是好听的，但他不可能做到。</p>
+<p>到了移动时代，百度由于移动app各自的巨岛化，不得已在手百里大量呈现的都是百家号的内容。这曾经引起学者方可成的批评：搜索引擎百度已死。我虽然理解百度的苦衷，但结果确实是这样的：手百里太多百家号的内容，而连当年全互联网索引都不像了。</p>
+<p>在手百上，呈现出了搜索引擎与内容客户端在底层逻辑上的尖锐冲突：前者需要用户越快离开越好，后者需要用户大把大把的时长。</p>
+<p>饶是如此，相当多的媒体也好号也号，百家号不是主力阵地。</p>
+<p>在这次璩静事件中，一个媒体鞭牛士，由于对这件事做了一篇大概百度不喜欢的报道，其百家号被封杀。但我看，对鞭牛士而言，这种损失近乎于不值一提。</p>
+<p>在我记忆中，百度可能形象最好的时刻，是早期百家号时期。与今天的百家号不同，当时的百家号是邀请制，清一色都是科技圈比较有名的KOL。然后广告在这些百家号呈现。僧少粥多，我甚至有一篇文章广告费分成就过了上万。</p>
+<p>内容生产者利益并不在百度，我看是百度形象的一个短板。功利点讲，没有什么人有兴趣为百度辩护，除了一小部分确实获得百度投放的人。而璩静所谓公关部自己来不用投放了，那。。。就更完蛋了。</p>
+<p>但我还是要说一句，太多文字内容输出者，百度是不可或缺的。</p>
+<p>这就显得特别。。。可惜了不是？</p>
+<p>七</p>
+<p>东拉西扯说了一堆，不乏百度并不乐意看到的内容，但最后我还是想说，我依然没搞清，百度的槽点到底在哪里。</p>
+<p>内容生产者不靠它发家致富，只能说护城河不够，但这不是槽点。</p>
+<p>几乎人人都用百度，但百度依然不讨喜，我不知道百度的高层，有没有想过这个问题。</p>
+<p>光说自己的文化简单可依赖就是好，是没有用的。</p>
+<p>—— 首发 扯氮集 ——</p>
+									</div><!-- .entry-content -->
+			
+			<footer class="entry-footer">
+				<p class="entry-meta"><span class="cat-links"><span class="screen-reader-text">Categories</span><a href="http://weiwuhui.com/category/management/newmedia" rel="category tag">TMT乱弹</a></span></p><!-- .entry-meta -->			</footer><!-- .entry-footer -->
+		</div><!-- .entry-container -->
+	</div><!-- .archive-post-wrap -->
+</article><!-- #post -->
+			
+				
+<article id="post-10675" class="post-10675 post type-post status-publish format-standard hentry category-newmedia">
+	<div class="archive-post-wrap">
+		
+		<div class="entry-container">
+			<header class="entry-header">
+				<h2 class="entry-title"><a href="http://weiwuhui.com/10675.html" rel="bookmark">这届百度公关 专业丢分了</a></h2>
+
+				
+					<p class="entry-meta"><span class="posted-on"><span class="screen-reader-text">Posted on</span><a href="http://weiwuhui.com/10675.html" rel="bookmark"><time class="entry-date published" datetime="2024-05-08T14:28:11+00:00">2024年5月8日</time><time class="updated" datetime="2024-05-13T14:31:29+00:00">2024年5月13日</time></a></span><span class="comments-link"><a href="http://weiwuhui.com/10675.html#comments">1 Comment</a></span></p><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+
+							<div class="entry-content">
+					<p>一</p>
+<p>百度副总裁，公关一号位，璩静女士最近引发的争议，让我想起了一个消失有那么大几年的词：这届百度公关。</p>
+<p>这其实是一个公号的名字，第一篇文章发于2016年7月13日。<br />
+<a href="http://weiwuhui.com/wp-content/uploads/2024/05/WechatIMG280.jpg"><img src="http://weiwuhui.com/wp-content/uploads/2024/05/WechatIMG280-556x1024.jpg" alt="" width="556" height="1024" class="alignnone size-large wp-image-10678" srcset="http://weiwuhui.com/wp-content/uploads/2024/05/WechatIMG280-556x1024.jpg 556w, http://weiwuhui.com/wp-content/uploads/2024/05/WechatIMG280-163x300.jpg 163w, http://weiwuhui.com/wp-content/uploads/2024/05/WechatIMG280-768x1415.jpg 768w, http://weiwuhui.com/wp-content/uploads/2024/05/WechatIMG280.jpg 1290w" sizes="(max-width: 556px) 100vw, 556px" /></a></p>
+<p>2016年发生了什么事呢？</p>
+<p>1月，网友曝出，百度有意出售包括“血友病吧”等热门疾病贴吧的冠名权。舆论哗然。百度紧急公关，召回其实已经另有任用的前公关一号位朱光。在表示收回出售决定后，这件事算是淡出舆情。</p>
+<p>然而，一个春节过后，爆出了更大的事件。</p>
+<p>3月30日，西安电子科技大学计算机专业的大学生魏则西在知乎网上记录了自己求医的经历，半个月后离世。这件事在当年非常知名，可史称“魏则西事件”。</p>
+<p>这个社会新闻非同小可，后来直接导致了讨论中的《互联网广告管理暂行办法》于7月生效，将搜索引擎的关键字营销——百度自称为P4P（按效果付费）的营销推广而拒认是广告——认定为广告。</p>
+<p>事实上，从2012年开始（这一年，同时也是微信公号的起始年，随后数年，各平台的各种号层出不穷），百度就已经在商业上表现出了疲态，2016年在被认定为广告后，全年业绩更是惨不忍睹：<br />
+<a href="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-08-13.49.04.png"><img src="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-08-13.49.04-1024x624.png" alt="" width="780" height="475" class="alignnone size-large wp-image-10677" srcset="http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-08-13.49.04-1024x624.png 1024w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-08-13.49.04-300x183.png 300w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-08-13.49.04-768x468.png 768w, http://weiwuhui.com/wp-content/uploads/2024/05/截屏2024-05-08-13.49.04.png 1526w" sizes="(max-width: 780px) 100vw, 780px" /></a></p>
+<p>这届百度公关，就是这样一个大背景下启动的。</p>
+<p>二</p>
+<p>这个公号的定位是有些自黑自嘲性质的，希望通过这种气质，来软化百度很长时间以来的那种刚硬吃相。</p>
+<p>这个吃相形成的主要原因在于，桌面时代，百度就是流量第一入口。对百度不友好，它是有终极武器的：贵网站从百度索引库消失，就麻烦大了去。即便不动用这个终极武器，只要略略调整一下贵网站的权重，你也难受异常。</p>
+<p>所以在百度能一统江山的时候，不是太大的社会新闻层面上的负面，都能轻松解决。</p>
+<p>然而，号这个东西兴起后，百度这个能力受到了严重的挑战。微信公号的内容，甚至是百度不可搜的。加上移动互联网的APP巨岛化，14年手机成为第一网络接入设备，百度的商业变现水平也受到了严重的挑战。</p>
+<p>百度公关，很显然，第一要务就是要提升品牌美誉度。在“这届百度公关”大约一年的更新期里，软化工作是有些效果的。</p>
+<p>很可惜，自从那位疑似楚国王族后裔的公关总监离职后，这个公号便停了摆，最后一篇发于2017年10月25日。</p>
+<p>三</p>
+<p>这届百度公关，再次延续“这届百度公关”的思路，就是公关要前置，要主动发声，形成自己的流量高地。这个基本逻辑没啥太大变化。当然，具体做法，是不同的。</p>
+<p>“这届百度公关”是一个图文机构号的做法，而这届百度公关，则是视频个人号的做法。我琢磨着，出发点有二：其一，个人号会更有一些个性更容易建立人设，表演得好更易吸粉；其二，发动公关部全员上阵每人做一个，还可以形成矩阵，互导流量，也比较容易形成规模。</p>
+<p>要说这种思路，细节上也确有bug：不是所有人都擅长树人设。但大体而言是成立的。也符合当下很多企业都是个人出道去攒粉丝的套路。连雷老板周老板都豁出去亲自上阵了嘛。</p>
+<p>然而，我不得不说，璩静女士的内容，搞砸了。非常不专业，我是指公关意义上的不专业——买号不是不专业，常规操作，没啥了不得的。</p>
+<p>我无意对璩女士的人品做什么判断，更没兴趣在公开场合讨论那些或真或假的瓜，只说她呈现出来的视频内容。</p>
+<p>四</p>
+<p>璩静用了一些非常有争议性的内容，试图建构所谓职场大女主的人设。剑走争议性，应该是想速火。当然，我估计她内心深处，也真认同她所表达出来的那些内容。</p>
+<p>职场上上位者该如何管理下位者，有些话说出来很难听，但话粗理端。反过来，下位者如何看待上位者的管理，也有可以说出来很难听但着实也确属如此的说法。说白了，就是见山见水，立场不同看法自然五花八门。</p>
+<p>最好的做法是窝在心里，用自己内心的一把尺去度量。次一点，或者实在憋不住，内部讲讲也过得去。但你要公开讲出来，那必定惹出来很大的争议性。</p>
+<p>这就涉及到一个问题，大公司在价值观问题上，到底要不要争议性？答案真得很显而易见，大部分情况下，应该能避免则避免。<br />
+尤其是这年头，一个海外上市有着外资背景的互联网大厂，何苦让自己上一个涉及价值观的热搜？躲都来不及，是不是这个理儿？</p>
+<p>我今天见到了在抖音上，有人用她的句式，站在打工者的角度，狠狠输出了一通。大家有兴趣可以搜“阿顾！”这个号。</p>
+<p>璩的做法，已经俨然有一种挑起劳资对立的味儿了。</p>
+<p>五</p>
+<p>璩静的第二个会惹来麻烦的内容，是提到了300封举报信。</p>
+<p>本来她不提，这种举报信外部没啥人会知道。但既然你提了，内容又火了，十亿网民就没人心生好奇想看看这举报信到底在举报什么么？十亿网民就没人能找出举报信么？</p>
+<p>果不其然，很快，举报信就被翻出了。</p>
+<p>接下来，什么一指禅之类的东西，也被翻出了。</p>
+<p>PR给自己的工作对象媒体人建个档，做个表罗列点信息，本来也是常规操作。但通常也不会告诉对方。现在大白于天下，总让媒体人们有点膈应。</p>
+<p>更何况，其中有些媒体人，可不是普通的媒体人哦！</p>
+<p>这事闹大了，对璩没啥好处，对百度，更没啥好处。又何苦去闹大呢？</p>
+<p>要知道，闹大了和没闹大，处理方式是截然不同的。一个干了那么久的公关，这都不知道那就只能归为“不专业”了。</p>
+<p>六</p>
+<p>璩静的前东家，华为，是有一些靠争议引起海量关注的做法，最有名的，莫过于“遥遥领先”了。</p>
+<p>但华为是什么企业，百度又是什么企业。谁更有民族大旗这张护身符呢？</p>
+<p>所以，现在如何挽救，我有一招：</p>
+<p>在百度日语搜索里搜核能，第一条就是抗议日本排核废水。然后，微博挂出：“员工好样的！”</p>
+<p>开个玩笑，如有雷同，纯属巧合。</p>
+<p>—— 首发 扯氮集 ——</p>
+									</div><!-- .entry-content -->
+			
+			<footer class="entry-footer">
+				<p class="entry-meta"><span class="cat-links"><span class="screen-reader-text">Categories</span><a href="http://weiwuhui.com/category/management/newmedia" rel="category tag">TMT乱弹</a></span></p><!-- .entry-meta -->			</footer><!-- .entry-footer -->
+		</div><!-- .entry-container -->
+	</div><!-- .archive-post-wrap -->
+</article><!-- #post -->
+			
+				        <nav role="navigation" id="nav-below">
+	        	<h3 class="screen-reader-text">Post navigation</h3>
+				<div class='wp-pagenavi' role='navigation'>
+<span class='pages'>第 1 页，共 33 页</span><span aria-current='page' class='current'>1</span><a class="page larger" title="第 2 页" href="http://weiwuhui.com/page/2">2</a><a class="page larger" title="第 3 页" href="http://weiwuhui.com/page/3">3</a><a class="page larger" title="第 4 页" href="http://weiwuhui.com/page/4">4</a><a class="page larger" title="第 5 页" href="http://weiwuhui.com/page/5">5</a><span class='extend'>...</span><a class="larger page" title="第 10 页" href="http://weiwuhui.com/page/10">10</a><a class="larger page" title="第 20 页" href="http://weiwuhui.com/page/20">20</a><a class="larger page" title="第 30 页" href="http://weiwuhui.com/page/30">30</a><span class='extend'>...</span><a class="nextpostslink" rel="next" aria-label="Next Page" href="http://weiwuhui.com/page/2">»</a><a class="last" aria-label="Last Page" href="http://weiwuhui.com/page/33">最旧 »</a>
+</div>	        </nav><!-- #nav -->
+		
+			</main><!-- #main -->
+
+
+
+<aside class="sidebar sidebar-primary widget-area" role="complementary">
+<section id="custom_html-3" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title">吾日三省吾身</h4><div class="textwidget custom-html-widget">蛋与石站理乎？舍人不舍我乎？诚于己乎？</div></div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="custom_html-2" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title">自07年4月13日以来，</h4><div class="textwidget custom-html-widget"><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span> 
+<script language="javascript">
+var now = new Date();
+function createtime(){
+var grt= new Date("04/13/2007 00:00:00");//此处修改你的建站时间或者网站上线时间
+now.setTime(now.getTime()+250);
+days = (now - grt ) / 1000 / 60 / 60 / 24;
+dnum = Math.floor(days);
+hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+hnum = Math.floor(hours);
+if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+mnum = Math.floor(minutes);
+if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+snum = Math.round(seconds);
+if(String(snum).length ==1 ){snum = "0" + snum;}
+document.getElementById("timeDate").innerHTML = "本Blog已存活"+dnum+"天";
+document.getElementById("times").innerHTML = hnum + "小时" + mnum + "分" + snum + "秒";
+}
+setInterval("createtime()",250);
+</script></div></div><!-- .widget-wrap --></section><!-- #widget-default-search -->		<section id="recent-posts-3" class="widget widget_recent_entries"><div class="widget-wrap">		<h4 class="widget-title">近期文章</h4>		<ul>
+											<li>
+					<a href="http://weiwuhui.com/10670.html">百度的槽点到底在哪里</a>
+											<span class="post-date">2024年5月11日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10675.html">这届百度公关 专业丢分了</a>
+											<span class="post-date">2024年5月8日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10680.html">韩信的悲剧 其实是被时代抛弃了</a>
+											<span class="post-date">2024年5月6日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10682.html">幕府将军：原来竟是一部文艺片</a>
+											<span class="post-date">2024年4月29日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10684.html">看呐 车展上的那对红男绿男</a>
+											<span class="post-date">2024年4月26日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10689.html">网红的流量饥渴是哪里来的</a>
+											<span class="post-date">2024年4月15日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10691.html">一增遮百丑 不增百丑来</a>
+											<span class="post-date">2024年4月12日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10693.html">一则关于游戏行业的小消息</a>
+											<span class="post-date">2024年3月29日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10696.html">聊一聊我眼里的科技颠覆感</a>
+											<span class="post-date">2024年2月20日</span>
+									</li>
+											<li>
+					<a href="http://weiwuhui.com/10698.html">Vision Pro的两个难题</a>
+											<span class="post-date">2024年2月19日</span>
+									</li>
+					</ul>
+		</div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="categories-6" class="widget widget_categories"><div class="widget-wrap"><h4 class="widget-title">分类目录</h4>		<ul>
+	<li class="cat-item cat-item-57"><a href="http://weiwuhui.com/category/mediaandcomm" >传媒与传播</a> (3)
+<ul class='children'>
+	<li class="cat-item cat-item-419"><a href="http://weiwuhui.com/category/mediaandcomm/postmedia" >后媒体时代</a> (2)
+</li>
+	<li class="cat-item cat-item-62"><a href="http://weiwuhui.com/category/mediaandcomm/newmediacritical" >新媒体批判</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-80"><a href="http://weiwuhui.com/category/printed" >媒体供稿</a> (2)
+</li>
+	<li class="cat-item cat-item-1556"><a href="http://weiwuhui.com/category/%e5%bd%b1%e8%a7%86%e4%b8%8e%e6%b8%b8%e6%88%8f" >影视与游戏</a> (5)
+</li>
+	<li class="cat-item cat-item-1554"><a href="http://weiwuhui.com/category/%e6%96%b9%e9%81%92%e8%81%8a%e5%8f%b2" >方遒聊史</a> (3)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://weiwuhui.com/category/social" >社会与文化</a> (13)
+</li>
+	<li class="cat-item cat-item-36"><a href="http://weiwuhui.com/category/management" >经营管理</a> (30)
+<ul class='children'>
+	<li class="cat-item cat-item-34"><a href="http://weiwuhui.com/category/management/newmedia" >TMT乱弹</a> (29)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://weiwuhui.com/category/essay" >网络随笔录</a> (12)
+</li>
+		</ul>
+</div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="rss-3" class="widget widget_rss"><div class="widget-wrap"><h4 class="widget-title"><a class="rsswidget" href="http://yongzhengwei.com/feed"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="http://weiwuhui.com/wp-includes/images/rss.png" alt="RSS" /></a> <a class="rsswidget" href="http://yongzhengwei.com/">老爸的Blog</a></h4><ul><li><a class='rsswidget' href='http://yongzhengwei.com/archives/34376'>探求互联网信息内容综合治理的新篇章</a></li><li><a class='rsswidget' href='http://yongzhengwei.com/archives/34379'>初读《网络内容法律治理导论》</a></li><li><a class='rsswidget' href='http://yongzhengwei.com/archives/34365'>对方师师2024年网络内容治理报告的评点</a></li><li><a class='rsswidget' href='http://yongzhengwei.com/archives/34371'>评说《网络暴力信息治理规定》</a></li><li><a class='rsswidget' href='http://yongzhengwei.com/archives/34334'>持续推进中国式网络空间治理研究</a></li></ul></div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="recent-comments-2" class="widget widget_recent_comments"><div class="widget-wrap"><h4 class="widget-title">近期评论</h4><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://www.wdpghys.com' rel='external nofollow' class='url'>dddddd</a></span>发表在《<a href="http://weiwuhui.com/10696.html#comment-436466">聊一聊我眼里的科技颠覆感</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.wdpghys.com' rel='external nofollow' class='url'>dddddd</a></span>发表在《<a href="http://weiwuhui.com/10693.html#comment-436465">一则关于游戏行业的小消息</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.wdpghys.com' rel='external nofollow' class='url'>dddddd</a></span>发表在《<a href="http://weiwuhui.com/10691.html#comment-436464">一增遮百丑 不增百丑来</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.wdpghys.com' rel='external nofollow' class='url'>dddddd</a></span>发表在《<a href="http://weiwuhui.com/10689.html#comment-436463">网红的流量饥渴是哪里来的</a>》</li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.wdpghys.com' rel='external nofollow' class='url'>dddddd</a></span>发表在《<a href="http://weiwuhui.com/10684.html#comment-436462">看呐 车展上的那对红男绿男</a>》</li></ul></div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="archives-2" class="widget widget_archive"><div class="widget-wrap"><h4 class="widget-title">文章归档</h4>		<label class="screen-reader-text" for="archives-dropdown-2">文章归档</label>
+		<select id="archives-dropdown-2" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">选择月份</option>
+				<option value='http://weiwuhui.com/date/2024/05'> 2024年5月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2024/04'> 2024年4月 &nbsp;(4)</option>
+	<option value='http://weiwuhui.com/date/2024/03'> 2024年3月 &nbsp;(1)</option>
+	<option value='http://weiwuhui.com/date/2024/02'> 2024年2月 &nbsp;(2)</option>
+	<option value='http://weiwuhui.com/date/2024/01'> 2024年1月 &nbsp;(5)</option>
+	<option value='http://weiwuhui.com/date/2023/12'> 2023年12月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2023/11'> 2023年11月 &nbsp;(2)</option>
+	<option value='http://weiwuhui.com/date/2023/10'> 2023年10月 &nbsp;(2)</option>
+	<option value='http://weiwuhui.com/date/2023/09'> 2023年9月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2023/06'> 2023年6月 &nbsp;(2)</option>
+	<option value='http://weiwuhui.com/date/2023/04'> 2023年4月 &nbsp;(1)</option>
+	<option value='http://weiwuhui.com/date/2023/03'> 2023年3月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2023/02'> 2023年2月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2023/01'> 2023年1月 &nbsp;(2)</option>
+	<option value='http://weiwuhui.com/date/2022/11'> 2022年11月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2022/10'> 2022年10月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2022/09'> 2022年9月 &nbsp;(3)</option>
+	<option value='http://weiwuhui.com/date/2022/08'> 2022年8月 &nbsp;(2)</option>
+	<option value='http://weiwuhui.com/date/2022/07'> 2022年7月 &nbsp;(1)</option>
+	<option value='http://weiwuhui.com/date/2022/06'> 2022年6月 &nbsp;(5)</option>
+	<option value='http://weiwuhui.com/date/2022/05'> 2022年5月 &nbsp;(4)</option>
+	<option value='http://weiwuhui.com/date/2022/04'> 2022年4月 &nbsp;(5)</option>
+	<option value='http://weiwuhui.com/date/2022/01'> 2022年1月 &nbsp;(1)</option>
+	<option value='http://weiwuhui.com/date/2018/11'> 2018年11月 &nbsp;(1)</option>
+	<option value='http://weiwuhui.com/date/2013/04'> 2013年4月 &nbsp;(1)</option>
+	<option value='http://weiwuhui.com/date/2011/04'> 2011年4月 &nbsp;(1)</option>
+
+		</select>
+		</div><!-- .widget-wrap --></section><!-- #widget-default-search --><section id="meta-3" class="widget widget_meta"><div class="widget-wrap"><h4 class="widget-title">功能</h4>			<ul>
+						<li><a href="http://weiwuhui.com/wp-login.php">登录</a></li>
+			<li><a href="http://weiwuhui.com/feed">文章<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://weiwuhui.com/comments/feed">评论<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://cn.wordpress.org/" title="基于WordPress，一个优美、先进的个人信息发布平台。">WordPress.org</a></li>			</ul>
+			</div><!-- .widget-wrap --></section><!-- #widget-default-search --></aside><!-- .sidebar sidebar-primary widget-area -->
+
+
+			</div><!-- .wrapper -->
+	    </div><!-- #content -->
+		            
+	<footer id="colophon" class="site-footer" role="contentinfo">
+    
+    	<div id="site-generator">
+    		<div class="wrapper">
+    			<div id="footer-content" class="copyright">Copyright &copy; 2025 <a href="http://weiwuhui.com/">扯氮集</a>. All Rights Reserved.  &#124; Catch Responsive&nbsp;by&nbsp;<a target="_blank" href="https://catchthemes.com/">Catch Themes</a></div>
+			</div><!-- .wrapper -->
+		</div><!-- #site-generator -->	</footer><!-- #colophon -->
+			</div><!-- #page -->
+		
+<a href="#masthead" id="scrollup" class="genericon"><span class="screen-reader-text">Scroll Up</span></a><nav id="mobile-header-left-nav" class="mobile-menu" role="navigation"><ul id="header-left-nav" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-8249"><a href="http://weiwuhui.com">首页</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8259"><a href="http://weiwuhui.com/resume">一个公用的简介</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8260"><a href="http://weiwuhui.com/logic">常见逻辑谬误</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8258"><a href="http://weiwuhui.com/comments">评论处理</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8262"><a href="http://weiwuhui.com/about">关于我</a></li>
+</ul></nav><!-- #mobile-header-left-nav -->
+<!-- Powered by WPtouch: 4.3.53 --><script type='text/javascript' src='http://weiwuhui.com/wp-content/themes/catch-responsive/js/navigation.min.js?ver=20120206'></script>
+<script type='text/javascript' src='http://weiwuhui.com/wp-content/themes/catch-responsive/js/skip-link-focus-fix.min.js?ver=20130115'></script>
+<script type='text/javascript' src='http://weiwuhui.com/wp-content/themes/catch-responsive/js/jquery.cycle/jquery.cycle2.min.js?ver=2.1.5'></script>
+<script type='text/javascript' src='http://weiwuhui.com/wp-content/themes/catch-responsive/js/catchresponsive-scrollup.min.js?ver=20072014'></script>
+<script type='text/javascript' src='http://weiwuhui.com/wp-includes/js/wp-embed.min.js?ver=5.0.19'></script>
+
+</body>
+</html>
+<!-- Dynamic page generated in 0.492 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2025-05-10 19:50:41 -->
+
+<!-- super cache -->

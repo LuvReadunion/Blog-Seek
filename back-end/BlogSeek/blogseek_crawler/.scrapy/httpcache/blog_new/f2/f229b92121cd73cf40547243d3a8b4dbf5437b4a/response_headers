@@ -1,0 +1,12 @@
+Date: Sat, 10 May 2025 12:00:50 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Accept-Encoding
+Vary: Accept-Encoding, Cookie
+Cache-Control: max-age=3, must-revalidate
+Wp-Super-Cache: Served supercache file from PHP
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gQrrn7EO3hCARgtIJ2YQo1dTmvgzoKJFuIKv54rKkUKALeEGCWLNRCvR7Gt4%2FbVzfHQQvLWXvT8N5M4nWCoMXyt1YcnmmIu7lZGpkp%2Bu6IfQbT3OyChgO%2FYhKwzFsw%3D%3D"}]}
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: br
+Cf-Ray: 93d9474acc2f20f3-HKG

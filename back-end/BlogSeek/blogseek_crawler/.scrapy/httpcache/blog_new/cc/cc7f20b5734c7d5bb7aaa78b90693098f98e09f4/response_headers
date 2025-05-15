@@ -1,0 +1,14 @@
+Date: Sat, 10 May 2025 10:34:29 GMT
+Content-Type: text/xml; charset=UTF-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Accept-Encoding, Cookie
+Cf-Edge-Cache: cache,platform=wordpress
+X-Robots-Tag: noindex, follow
+Cache-Control: max-age=14400
+Cf-Cache-Status: MISS
+Last-Modified: Sat, 10 May 2025 10:34:29 GMT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6xr3GHbrpg%2Fx9XcF8KZueZL5m2YaCR5%2BZWrkHrQpnFoWcpN6L4mQtoMcqkN0TUNMBKkRSnNMGE%2FIkMqTzPDfkaN97WShUDvgigE8XG9xpcGX0BCbpeR2AC05XiexRBQ%3D"}]}
+Content-Encoding: br
+Cf-Ray: 93d8c8cb4e6d8516-HKG
+Alt-Svc: h3=":443"; ma=86400

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["optional-peer-dep:__vite-optional-peer-dep:jiti:vite"],
+  "sourcesContent": ["throw new Error(`Could not resolve \"jiti\" imported by \"vite\". Is it installed?`)"],
+  "mappings": ";AAAA,MAAM,IAAI,MAAM,+DAA+D;",
+  "names": []
+}

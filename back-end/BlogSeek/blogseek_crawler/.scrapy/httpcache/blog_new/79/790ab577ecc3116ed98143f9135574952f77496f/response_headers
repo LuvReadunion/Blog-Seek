@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 392202
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="216-吃个炒饭"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sat, 10 May 2025 11:39:08 GMT
+Etag: W/"47bb28f2fb4692477445204a3ee53c81"
+Last-Modified: Mon, 05 May 2025 22:42:26 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: hkg1::th25w-1746877148759-027c10339ca6

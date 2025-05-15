@@ -1,0 +1,14 @@
+Date: Sat, 10 May 2025 10:34:26 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Location: https://coolshell.cn/sitemap.rss
+Vary: Accept-Encoding, Cookie
+Cf-Edge-Cache: cache,platform=wordpress
+X-Redirect-By: WordPress
+Cf-Cache-Status: BYPASS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hV6RP9DUc4RxOxks69x7jn8Za8Rs7vkkugefX%2BmuwHNoTvJ202ucObVElB9QAVnm1q8ehn0syw3qNYs5tQ424Dz6eMYyLFiuLSk1vGDzEUnKWnUEOTRSGzy6zikEC1o%3D"}]}
+Set-Cookie: NIoefG_=8vobqzDa%5BVh20L%2A%5D; Secure; Path=/; Max-Age=86400; Expires=Sun, 11 May 2025 10:34:26 GMT
+Set-Cookie: TQCiEUPXScKlq=eOzu4jorGy; Secure; Path=/; Max-Age=86400; Expires=Sun, 11 May 2025 10:34:26 GMT
+Cf-Ray: 93d8c8bbee7b8516-HKG
+Alt-Svc: h3=":443"; ma=86400

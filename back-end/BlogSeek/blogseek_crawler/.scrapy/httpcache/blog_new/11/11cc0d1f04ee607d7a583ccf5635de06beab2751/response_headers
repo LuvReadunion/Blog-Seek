@@ -1,0 +1,28 @@
+Content-Type: text/html; charset=utf-8
+Date: Sat, 10 May 2025 10:29:35 GMT
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+X-Statuspage-Version: ca48349287ea352e4b56754150b280af04bb2e6a
+Strict-Transport-Security: max-age=259200
+X-Statuspage-Skip-Logging: true
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=3, public
+Link: <https://dka575ofm4ao0.cloudfront.net/assets/register_subscription_form-589b657fec607087fc5c740c568270907310bc4f6aaa20256e70f01b103025ca.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/status_common-c1b99d73ee7ab0fea796bd170723c1daac1381095a7dd7501a38ce6f333d86b3.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/0.076d36a21dada6e9b8ca.css>; rel=preload; as=style; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/status/status_manifest-e5fd07250d5426b6c15214a184a78f72bd224c0f158f2ca1f35a3cf1ee9c1783.css>; rel=preload; as=style; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/jquery-3.5.1.min-729e416557a365062a8a20f0562f18aa171da57298005d392312670c706c68de.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/status_manifest-6a7ae3a8e2e1b1e1d9466495faa0851c3f5fff938743f6501c900aa2a8792e8c.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/common-4d053c18cbeef079deb0.chunk.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/globals-f39f1afbe40d8b149e0b.chunk.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/runtime-315523c15b4d55375eca.js>; rel=preload; as=script; nopush
+X-Pollinator-Metadata-Service: status-page-web-pages
+Etag: W/"3894931058a5dbde8c7b5d9f3d0b30e9"
+X-Runtime: 0.103869
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 25f0fa31e987435d9f87e954a66d35bf
+Atl-Request-Id: 25f0fa31-e987-435d-9f87-e954a66d35bf
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Content-Encoding: br
+Server: AtlassianEdge
+Vary: Accept,Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 78813a27d9baa0f850754660a4708f04.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HKG1-P2
+X-Amz-Cf-Id: jmiU7on-VDZnDf6kxpdsuftWa-CEGoATdH9r8Zvw5Tb_hcRUbo4T3w==

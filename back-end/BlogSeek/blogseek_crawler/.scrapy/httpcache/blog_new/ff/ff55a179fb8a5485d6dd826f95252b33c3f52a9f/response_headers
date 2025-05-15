@@ -1,0 +1,10 @@
+Cache-Control: max-age=600
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Sat, 10 May 2025 11:59:12 GMT
+Etag: W/"67f9df40-4ad5"
+Expires: Sat, 10 May 2025 12:09:12 GMT
+Last-Modified: Sat, 12 Apr 2025 03:34:24 GMT
+Server: nginx/1.23.1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding

@@ -1,0 +1,9 @@
+Alt-Svc: h3=":443"; ma=2592000
+Cache-Control: no-cache, max-age=0, no-store, must-revalidate, max-stale=0, post-check=0, pre-check=0
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Sat, 10 May 2025 12:00:27 GMT
+Etag: W/"5f5-3OjnZWpFSAt6+3Cn3Z4L5P41/Rw"
+Server: Caddy
+Vary: Accept-Encoding
+X-Powered-By: Express

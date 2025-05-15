@@ -1,0 +1,17 @@
+Date: Sat, 10 May 2025 10:39:58 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 93d8d0d5cf6e9590-HKG
+Server: cloudflare
+Content-Encoding: br
+Vary: Accept-Encoding
+Last-Modified: Fri, 09 May 2025 07:36:58 GMT
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=16070400
+Cf-Cache-Status: HIT
+Server-Timing: cfCacheStatus;desc="HIT"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=2476&min_rtt=1034&rtt_var=1351&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2840&recv_bytes=1118&delivery_rate=2800773&cwnd=157&unsent_bytes=0&cid=31ba7b44443173fd&ts=244&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=PfwqGZ%2FO9BTEGO0sX%2BbtjDF3vTo5ImzBLjJwiLzFkDote%2FVg%2FPouPWn7956sHiRTFxIyAdTFkNpLH3eroxC4%2FR3jtWawEemAqT9A1B6MyvAYuE6cIyBoYZEk86%2FpVaw3biY%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Speculation-Rules: "/cdn-cgi/speculation"

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Payment Required - Typlog</title>
+<meta name="generator" content="Typlog 3.1">
+<style>
+  body,h1{color:rgba(0,0,0,0.86);text-align:center;font-family:"Helvetica Neue",Aria,sans-serif;}
+  h1{margin:200px 0 80px;}a{color:rgba(0,0,0,0.98);}.logo{display:inline-block;margin-top:100px;width:80px;}
+  .logo img{max-width:100%;}.logo+h1{margin-top:100px;}
+</style>
+</head>
+<body>
+  <a class="logo" href="/"><img src="https://i.typlog.com/blog/8445734763_713121.png?x-oss-process=style/ss" alt="logo"></a>
+<h1>Payment Required</h1>
+  <p>The site owner need to update its subscription.</p>
+<a href="/" class="href">Back to Home</a>
+<p>Powered by <a href="https://typlog.com">Typlog</a>.</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Date: Sat, 10 May 2025 12:00:15 GMT
+Content-Type: application/rss+xml; charset=UTF-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Accept-Encoding, Cookie
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4rZbGmNWLErvQ3WC6V2GfksAmVAlmJhJvbGY8l2hIrcLyeHQ9wxwvBRGPgbkuWpr%2BnYvUAV1HWUDSgrUwPL8pvujO%2FuwB0ivdeuL4kzbCER9Rp%2Fax3DDhR6n29MUjS%2Bq7l6bRlA%3D"}]}
+Link: <https://www.kawabangga.com/wp-json/>; rel="https://api.w.org/"
+Cf-Cache-Status: DYNAMIC
+Etag: W/"bb8869a34647b41afc45e6ab36943486"
+Content-Encoding: br
+Cf-Ray: 93d946731ac71061-HKG
+Alt-Svc: h3=":443"; ma=86400

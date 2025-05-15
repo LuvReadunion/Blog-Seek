@@ -1,0 +1,4 @@
+Server: nginx
+Date: Sat, 10 May 2025 10:40:00 GMT
+Content-Type: text/html
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

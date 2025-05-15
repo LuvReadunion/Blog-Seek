@@ -1,0 +1,20 @@
+Content-Length: 0
+Content-Type: application/binary
+Set-Cookie: __Host-GAPS=1:GLD6VLLNZif-0CKp8vRhr2GdVsaRUw:o0mpWaa1Z-Quc3AW; Expires=Mon, 10-May-2027 11:40:43 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 10 May 2025 11:40:43 GMT
+Location: https://accounts.google.com/InteractiveLogin?continue=https://colab.research.google.com/drive/1bX345znvDZ30848xjRtpgtU8eypWwXrp?usp%3Dsharing&ec=GAZAqQM&passive=true&ifkv=ASKV5MhgPGkcK2bcQHK3xbl7EiFb-AWPa7VmWmp77-IWS1SVCfHjwxth4cdjjXGg3WZY8pwRaNsB
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Resource-Policy: cross-origin
+Content-Security-Policy: script-src 'report-sample' 'nonce-9X1iMZoiLU1t1ruqJ1j4YQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'unsafe-eval' blob: data: 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/AccountsSigninPassiveLoginHttp/cspreport/allowlist
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Cross-Origin-Opener-Policy: unsafe-none
+Server: ESF
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

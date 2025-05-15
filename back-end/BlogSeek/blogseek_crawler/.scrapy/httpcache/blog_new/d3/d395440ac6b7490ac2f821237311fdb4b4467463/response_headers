@@ -1,0 +1,15 @@
+Content-Type: text/html; charset=utf-8
+Date: Sat, 10 May 2025 10:34:29 GMT
+Strict-Transport-Security: max-age=31536000;
+Content-Encoding: gzip
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Cache: Error from cloudfront
+Via: 1.1 d9e0d7c355651c7ba4fe824f652b45fe.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HKG54-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: oXJ0VEvO-p4bFc9QBAGcrp5WtHpKDLSujWe2W2zcM04MifOLboJdZg==

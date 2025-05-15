@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 367275
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="future.html"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sat, 10 May 2025 11:39:17 GMT
+Etag: W/"9e9115701728de77b6cca3d18675960c"
+Last-Modified: Tue, 06 May 2025 05:38:01 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: hkg1::x4rns-1746877157042-6132fd9a8393

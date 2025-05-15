@@ -1,0 +1,13 @@
+Server: nginx
+Date: Sat, 10 May 2025 12:00:03 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Vary: accept, content-type, cookie
+X-Hacker: Want root?  Visit join.a8c.com/hacker and mention this header.
+Host-Header: WordPress.com
+Last-Modified: Sat, 10 May 2025 12:00:03 GMT
+Etag: W/"81174c1bec8890d3236ff95d199e6269"
+Content-Encoding: br
+X-Ac: 30.hkg _bur MISS
+Alt-Svc: h3=":443"; ma=86400

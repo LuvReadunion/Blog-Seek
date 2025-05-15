@@ -1,0 +1,19 @@
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+Location: https://docs.npmjs.com/cli/v11/commands/npm-deprecate/
+Access-Control-Allow-Origin: *
+Expires: Sat, 10 May 2025 10:44:32 GMT
+Cache-Control: max-age=600
+X-Proxy-Cache: MISS
+X-Github-Request-Id: 9DCE:3BBDC2:A0B68:B732B:681F2BB8
+Accept-Ranges: bytes
+Age: 0
+Date: Sat, 10 May 2025 10:34:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hkg17922-HKG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746873272.333689,VS0,VE264
+Vary: Accept-Encoding
+X-Fastly-Request-Id: 234b8694765d3a202fd71fb12224a3d4341b6a8f

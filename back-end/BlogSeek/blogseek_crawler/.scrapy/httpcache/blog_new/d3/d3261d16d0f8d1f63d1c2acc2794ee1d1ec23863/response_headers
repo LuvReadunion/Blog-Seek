@@ -1,0 +1,11 @@
+Content-Length: 54427
+Date: Sat, 10 May 2025 10:24:25 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Content-Location: atom.xml
+Vary: negotiate,Accept-Encoding
+Tcn: choice
+Last-Modified: Thu, 08 May 2025 06:51:03 GMT
+Etag: "1e5e3-6349a45ec83c0;6349a460b0840-gzip"
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Type: application/xml

@@ -1,0 +1,17 @@
+Date: Sat, 10 May 2025 12:00:49 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Accept-Encoding
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-Pingback: https://greatdk.com/xmlrpc.php
+Link: <https://greatdk.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://greatdk.com/?p=1855>; rel=shortlink
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LVGDvcxRVR1cl%2BwnosTK0Q6GuaBbPqgUUAf%2Bg%2Bb%2FHanOflK9Er3RagZV7%2BgUlHQdQl9oSSiJ0A6ZHqi7WWdWbur%2FIi%2FCfFaeDq3n4OuvKTcubqIonPXV79yn2Zeb4w%3D%3D"}]}
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: br
+Set-Cookie: PHPSESSID=phjfepugkp5lnr48dqvs45u125; Path=/
+Cf-Ray: 93d94746887d5333-HKG

@@ -1,0 +1,8 @@
+Server: nginx
+Date: Sat, 10 May 2025 12:00:16 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Last-Modified: Sun, 02 Mar 2025 05:38:31 GMT
+Etag: "a6cfdf50340ac6b3fe7543720a6b8713"
+X-Redirect-By: WordPress
+Location: https://linmi.cc/feed/atom
+Strict-Transport-Security: max-age=31536000; includeSubdomains;

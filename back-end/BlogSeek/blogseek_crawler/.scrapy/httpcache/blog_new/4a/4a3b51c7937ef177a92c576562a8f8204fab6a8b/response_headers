@@ -1,0 +1,16 @@
+Date: Sat, 10 May 2025 12:00:14 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 93d94664d889716d-HKG
+Server: cloudflare
+Content-Encoding: br
+X-Powered-By: PHP/8.3.19
+Link: <https://tumutanzi.com/wp-json/>; rel="https://api.w.org/"
+Vary: Accept-Encoding, Cookie
+Alt-Svc: h3=":443"; ma=86400
+X-Turbo-Charged-By: LiteSpeed
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=1084&min_rtt=1070&rtt_var=412&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2830&recv_bytes=1067&delivery_rate=2706542&cwnd=120&unsent_bytes=0&cid=598083984b923889&ts=1356&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yysJ8OidJeSpPgeEsE30LCjj%2Fk8qMMiuimDMn21unZ%2BQK8sczjJlrDwZYLLJ6GPOESewk93wVyPvpnz4MvYmjJwKZIxC%2BHTKfwMakBTgUFiLtuCUS5uoJmAwyvz2yYWR"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"

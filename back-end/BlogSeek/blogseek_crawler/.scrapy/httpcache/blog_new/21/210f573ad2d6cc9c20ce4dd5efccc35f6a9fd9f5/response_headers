@@ -1,0 +1,18 @@
+Date: Sat, 10 May 2025 10:34:43 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
+Cf-Ray: 93d8c9136d3b110b-HKG
+Cf-Edge-Cache: cache,platform=wordpress
+Vary: accept,content-type,Accept-Encoding,User-Agent
+Link: <https://1q43.blog/wp-json/>; rel="https://api.w.org/", <https://1q43.blog/wp-json/wp/v2/tags/143>; rel="alternate"; title="JSON"; type="application/json"
+Content-Encoding: br
+Cache-Control: max-age=600
+Expires: Sat, 10 May 2025 10:44:41 GMT
+Cf-Cache-Status: BYPASS
+Server-Timing: cfCacheStatus;desc="BYPASS"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=4202&min_rtt=903&rtt_var=3795&sent=45&recv=25&lost=0&retrans=1&sent_bytes=54085&recv_bytes=1494&delivery_rate=4641025&cwnd=174&unsent_bytes=0&cid=de712e304c3c9974&ts=9724&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=L9CCR6odIc67aytwFs%2BxxNRtdLKZ%2F08jr%2BKwyX2Vm6MW5Z4KX0fCtrIGQUrFY4%2BTCnmmjz%2FPWbH5MXjmlSeORv7LBdmPBxkk6RAzzPcqQf2pSIkeoNZBDMe4w3U%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Set-Cookie: pll_language=zh; SameSite=Lax; Secure; Path=/; Max-Age=31536000; Expires=Sun, 10 May 2026 10:34:43 GMT
+Alt-Svc: h3=":443"; ma=86400

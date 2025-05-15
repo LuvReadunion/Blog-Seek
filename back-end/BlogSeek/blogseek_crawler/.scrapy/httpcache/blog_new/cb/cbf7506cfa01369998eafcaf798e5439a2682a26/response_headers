@@ -1,0 +1,20 @@
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: https://support.github.com/request/landing
+Content-Security-Policy: default-src 'none'; font-src https://support-assets.githubassets.com; img-src https: data:; style-src 'self' https: 'unsafe-inline'; script-src https://support-assets.githubassets.com; connect-src 'self' wss://ws.support.github.com wss://support.github.com https://enterprise-bundles.github.com https://github.zendesk.com https://esbtoolsproduction.blob.core.windows.net https://support-assets.githubassets.com https://us.yextevents.com edge.fullstory.com rs.fullstory.com github.blog https://ps-resources.github.io https://marketing-forms-api.github.com
+Set-Cookie: return_to=qsCMmF6ypTbAOtb3H%2F53JExmJDSAdn8SQSve6AqDxAcf7CONnMpWryzvqifH7YD5yHWvXg06uvuDxKKMymWwUbCI34yybYjxDmkErFvDcVUObvvyysuiz%2BpG849dxD69kQLZIyDd3sZJFVuObR8rGuB7Ij7I%2BnGs3mJVc49Om2RE%2BrLsBVxUoNZmyptpPxd5R29OKLkIG86nxYLCOT7rhrpFXN4E%2F2ono4Fgc3D9u0S%2F46NJJz4Wn5RG8yMiZ%2B5xNgDMJVp2vJZlvgtefQ%3D%3D--uZcxfjM1zjRip2%2FH--H855Zv%2BzLDKRbT%2FMv%2F4sxg%3D%3D; path=/; SameSite=Lax; secure
+Set-Cookie: _support_session=d9H4AgDEhsVPD7qKGcj8OZHV207IjmGekou902z5WRerTNWvJ%2BrHBFhv%2FWQ6A13bqdLSwIScUXnMBpHWd3EXXzBNVPAhWkaAUuZkPnSPS5GySz0uxAfaeXbOkVnAddYn04v3aTVcROe8rc2O7SUTYMH7dW%2FBE2fl47gslFwLFZIJZbfV4lYOmip7Pw4s1qjH98Vrwzx7%2BeMRl28cAOPxnM3w5mJCL69PjCeNb03z1o%2BLxEvCCxT45kZSb4uwotqE8%2FWZfQ%3D%3D--whsbOY3WaMRzEUIC--WpWGduCPgl8Skb1gyoF4PQ%3D%3D; domain=support.github.com; path=/; secure; httponly; SameSite=Lax
+Set-Cookie: _show_support_cookie_banner=0;SameSite=Lax; Secure; Path=/
+Set-Cookie: _show_support_cookie_banner=0;SameSite=Lax; Secure; Path=/
+X-Runtime: 0.026555
+Accept-Ranges: bytes
+Date: Sat, 10 May 2025 11:39:57 GMT
+Vary: Accept-Language
+Strict-Transport-Security: max-age=31536000
+X-Fastly-Request-Id: 41cc64ea0456e49599f798f0127b82438578264e

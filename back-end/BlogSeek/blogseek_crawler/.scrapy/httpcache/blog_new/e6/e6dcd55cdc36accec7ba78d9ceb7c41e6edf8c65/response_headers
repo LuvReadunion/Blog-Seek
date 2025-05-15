@@ -1,0 +1,17 @@
+Date: Sat, 10 May 2025 11:59:12 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 93d944e21d211fb2-HKG
+Server: cloudflare
+Content-Encoding: br
+X-Powered-By: PHP/8.2.23
+Link: <https://happyxiao.com/wp-json/>; rel="https://api.w.org/"
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+Cf-Cache-Status: EXPIRED
+Last-Modified: Sat, 10 May 2025 11:59:11 GMT
+Server-Timing: cfCacheStatus;desc="EXPIRED"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=2849&min_rtt=2646&rtt_var=1400&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2831&recv_bytes=1067&delivery_rate=677110&cwnd=130&unsent_bytes=0&cid=7a6dc2b1c18550b4&ts=365&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Zi5Dex1kp8pn0fyoV5wyPvFJpaYtKHtc5AyDtYd5ljwFfQ%2FWkcDvZ1vNVFrOD6ll%2BuMsYWbsG%2BRUcLV9GHkRcj6f8ZjEklxCXtvnupfxu8ZNKbXt2Yd4JWtL2FWRSula"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
+Alt-Svc: h3=":443"; ma=86400

@@ -1,0 +1,26 @@
+Content-Length: 69234
+Content-Encoding: gzip
+Link: <https://assets.guim.co.uk/polyfill.io/v3/polyfill.min.js?rum=0&features=es6%2Ces7%2Ces2017%2Ces2018%2Ces2019%2Cdefault-3.6%2CHTMLPictureElement%2CIntersectionObserver%2CIntersectionObserverEntry%2CURLSearchParams%2Cfetch%2CNodeList.prototype.forEach%2Cnavigator.sendBeacon%2Cperformance.now%2CPromise.allSettled&flags=gated&callback=guardianPolyfilled&unknown=polyfill&cacheClear=1>; rel=prefetch,<https://assets.guim.co.uk/assets/frameworks.client.web.67d0c75d3e9ceb8409bc.js>; rel=prefetch,<https://assets.guim.co.uk/assets/index.client.web.cbb1e3d6b3d63441b6a8.js>; rel=prefetch,<https://assets.guim.co.uk/commercial/21004118668087337b7a/graun.standalone.commercial.js>; rel=prefetch,,<https://assets.guim.co.uk/>; rel=preconnect,<https://i.guim.co.uk>; rel=preconnect,<https://j.ophan.co.uk>; rel=preconnect,<https://ophan.theguardian.com>; rel=preconnect,<https://api.nextgen.guardianapps.co.uk>; rel=preconnect,<https://hits-secure.theguardian.com>; rel=preconnect,<https://interactive.guim.co.uk>; rel=preconnect,<https://phar.gu-web.net>; rel=preconnect,<https://static.theguardian.com>; rel=preconnect,<https://support.theguardian.com>; rel=preconnect
+X-Gu-Dotcomponents: true
+Content-Type: text/html; charset=UTF-8
+Etag: W/"hash735017064956160247"
+X-Gu-Frontend-Git-Commit-Id: 4520a663da491fa62e39cd5855389fe0e96797d5
+Onion-Location: https://www.guardian2zotagl6tmjucg3lrhxdk4dw3lhbqnkvvkywawy3oqfoprid.onion/artanddesign/2023/aug/30/the-london-art-student-whose-chinese-political-slogan-mural-caused-a-storm
+Accept-Ranges: bytes
+Date: Sat, 10 May 2025 10:40:00 GMT
+Set-Cookie: GU_mvt_id=457859; expires=Fri, 08 Aug 2025 10:40:00 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: GU_geo_country=US; path=/; Secure
+X-Timer: S1746873600.178575,VS0,VS0,VE411
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src 'self' https://assets.guim.co.uk https://pasteup.guim.co.uk https://interactive.guim.co.uk https://dashboard.ophan.co.uk data:; connect-src https: wss: blob:; child-src https: blob:; object-src 'none'; base-uri 'none'
+Referrer-Policy: no-referrer-when-downgrade
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=(), clipboard-read=()
+X-Gu-Edition: us
+Age: 0
+Cache-Control: max-age=60, stale-while-revalidate=6, stale-if-error=864000, private,no-transform
+Vary: Accept-Encoding,User-Agent
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

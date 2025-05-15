@@ -1,0 +1,17 @@
+Content-Length: 5090
+Accept-Ranges: bytes
+Age: 6832
+Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; hit
+Content-Encoding: br
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 10 May 2025 10:29:23 GMT
+Etag: "49d5f46e6b28c69bbdd42913d6ec3493-ssl-df"
+Feature-Policy: accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; display-capture 'none'; document-domain 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; speaker 'none'; sync-xhr 'none'; usb 'none'; vibrate 'none'; wake-lock 'none'; webauthn 'none'
+Server: Netlify
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Nf-Request-Id: 01JTWVW4WFEC7GNWZEGBG54KRC
+X-Xss-Protection: 1; mode=block

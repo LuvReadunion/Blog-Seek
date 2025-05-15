@@ -1,0 +1,17 @@
+Content-Length: 0
+Retry-After: 0
+Location: https://www.theguardian.com/politics/2007/apr/30/conservatives.uk1
+Accept-Ranges: bytes
+Date: Sat, 10 May 2025 10:40:00 GMT
+X-Timer: S1746873601.728454,VS0,VS0,VE0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src 'self' https://assets.guim.co.uk https://pasteup.guim.co.uk https://interactive.guim.co.uk https://dashboard.ophan.co.uk data:; connect-src https: wss: blob:; child-src https: blob:; object-src 'none'; base-uri 'none'
+Referrer-Policy: no-referrer-when-downgrade
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=(), clipboard-read=()
+Age: 0
+Cache-Control: no-transform
+Set-Cookie: GU_geo_country=US; path=/; Secure
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

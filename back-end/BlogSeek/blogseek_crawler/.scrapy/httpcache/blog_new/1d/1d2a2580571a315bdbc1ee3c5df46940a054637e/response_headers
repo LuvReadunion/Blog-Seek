@@ -1,0 +1,26 @@
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Set-Cookie: __Host-GAPS=1:9NRRDnPNKUU9oJN91qhnufrpBzEEoQ:GzVOf_Gid1PUUPI9; Expires=Mon, 10-May-2027 11:40:44 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+X-Auto-Login: realm=com.google&args=continue%3Dhttps://colab.research.google.com/drive/1bX345znvDZ30848xjRtpgtU8eypWwXrp?usp%253Dsharing
+X-Ua-Compatible: IE=edge
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 10 May 2025 11:40:44 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Resource-Policy: same-site
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Content-Security-Policy: script-src 'report-sample' 'nonce-iQSRgJj9taGznVKbAL-2tw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'unsafe-eval' blob: data: 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com https://support.google.com/inapp/ https://www.google.com/tools/feedback/ https://www.gstatic.com/inproduct_help/ https://www.gstatic.com/support/content/;report-uri /v3/signin/_/AccountsSignInUi/cspreport/allowlist
+Content-Security-Policy-Report-Only: script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js https://translate.google.com/translate_a/element.js https://www.google.com/recaptcha/api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.google.com/tools/feedback/help_api.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.google.com/tools/feedback/chat_load.js https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://www.gstatic.com/feedback/js/ghelp/ https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.googletagmanager.com/gtag/js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/destination https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.zh_CN.IPRzScvGq1Y.es5.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://translate.googleapis.com/_/translate_http/_/js/ https://www.gstatic.com/recaptcha/releases/;report-uri /v3/signin/_/AccountsSignInUi/cspreport/fine-allowlist
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwztIQgEABVB5cCuqIaQhbCikIYPqJdhnELKIlgaHwqXQxFcKofb8QLZVLg2BkAXSIAYJQoNTYQ4WRk2W_8_UEGJBgw1ODd0Dp_demOhVKYzjKsWjOiUYtj6FFd5MNAUL_1haQptPgy3hjC_6v4QIZ---hFfeaF1C4mA9hzBrb9-wxPrEOwxst-Sxx7_uPDo8M1qAgR_mCsiwK1KAh6_SBUR5eKGIEV4zFWHkeqiI6_Mi4hwaLCHM8lAJR6yZL2GSf07KaHMzWMY3W6Nl7LAxU8Y675oqiMUquOF4rgK9qgoDTyeryGpqeOXfQA3KwxqWOzWssrW7DplnXurQ8eJYA35fAwFOJRt4YmVfT7rzl-ka-Dh-dqunra59s8MmOb0O78GO7HJ6Jadt2-e1-xweSfZLslkranWiTpydEnVmt_gPCvCjew"
+Content-Encoding: gzip
+Server: ESF
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

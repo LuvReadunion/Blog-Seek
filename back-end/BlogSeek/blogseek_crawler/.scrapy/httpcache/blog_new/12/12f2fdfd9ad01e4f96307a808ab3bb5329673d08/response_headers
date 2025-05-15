@@ -1,0 +1,28 @@
+Content-Type: text/html
+X-Guploader-Uploadid: AAO2VwoAstrxi9SoS9Uv23ODi2Jrw_mjHZe9gdd8hn5vCcFSvZpSZ0r3LYpevI6w_oOGP6-4
+Cache-Control: public, max-age=3600
+Expires: Sat, 10 May 2025 11:34:28 GMT
+Last-Modified: Sat, 10 May 2025 00:59:44 GMT
+Etag: W/"55004b7cf620afa15d423c00d0aa61c4"
+X-Goog-Generation: 1746838784199309
+X-Goog-Metageneration: 1
+X-Goog-Stored-Content-Encoding: identity
+X-Goog-Stored-Content-Length: 158283
+X-Goog-Meta-Goog-Reserved-File-Mtime: 1746836740
+X-Goog-Hash: crc32c=U0aFyg==, md5=VQBLfPYgr6FdQjwA0KphxA==
+X-Goog-Storage-Class: STANDARD
+Accept-Ranges: none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Alt-Svc: clear
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000
+Content-Security-Policy: default-src 'self'; script-src 'report-sample' 'self' 'wasm-unsafe-eval' https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/js assets.codepen.io production-assets.codepen.io https://js.stripe.com 'sha256-EehWlTYp7Bqy57gDeQttaWKp0ukTTEUKGP44h8GVeik=' 'sha256-XNBp89FG76amD8BqrJzyflxOF9PaWPqPqvJfKZPCv7M='; script-src-elem 'report-sample' 'self' 'wasm-unsafe-eval' https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/js assets.codepen.io production-assets.codepen.io https://js.stripe.com 'sha256-EehWlTYp7Bqy57gDeQttaWKp0ukTTEUKGP44h8GVeik=' 'sha256-XNBp89FG76amD8BqrJzyflxOF9PaWPqPqvJfKZPCv7M='; style-src 'report-sample' 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; connect-src 'self' developer.allizom.org bcd.developer.allizom.org bcd.developer.mozilla.org updates.developer.allizom.org updates.developer.mozilla.org https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://observatory-api.mdn.allizom.net https://observatory-api.mdn.mozilla.net https://api.github.com/search/issues stats.g.doubleclick.net https://api.stripe.com; font-src 'self'; frame-src 'self' interactive-examples.mdn.mozilla.net interactive-examples.mdn.allizom.net mdn.github.io live-samples.mdn.mozilla.net live-samples.mdn.allizom.net *.mdnplay.dev *.mdnyalp.dev *.play.test.mdn.allizom.net https://v2.scrimba.com https://scrimba.com jsfiddle.net www.youtube-nocookie.com codepen.io survey.alchemer.com https://js.stripe.com; img-src 'self' data: *.githubusercontent.com *.googleusercontent.com *.gravatar.com mozillausercontent.com firefoxusercontent.com profile.stage.mozaws.net profile.accounts.firefox.com developer.mozilla.org mdn.dev interactive-examples.mdn.mozilla.net interactive-examples.mdn.allizom.net wikipedia.org upload.wikimedia.org https://mdn.github.io/shared-assets/ https://mdn.dev/ https://*.google-analytics.com https://*.googletagmanager.com www.gstatic.com; manifest-src 'self'; media-src 'self' archive.org videos.cdn.mozilla.net https://mdn.github.io/shared-assets/; child-src 'self'; worker-src 'self';
+X-Frame-Options: DENY
+Origin-Trial: AxVILwizhbMjxFeHOn1P3R8niO1RJY/smaK4B4d1rLzc1gTaxtXMSaTi+FoigYgCw40uFRDwFcEAeqDR+vVLOW4AAABfeyJvcmlnaW4iOiJodHRwczovL2RldmVsb3Blci5tb3ppbGxhLm9yZyIsImZlYXR1cmUiOiJQcml2YXRlQXR0cmlidXRpb25WMiIsImV4cGlyeSI6MTc0MjA3OTYwMH0=
+X-Cloud-Trace-Context: 1fbd34b6f8482e70672e75baabb08347
+Date: Sat, 10 May 2025 10:34:28 GMT
+Server: Google Frontend
+Via: 1.1 google
+Vary: Accept-Encoding
+Content-Encoding: br
+X-Cache: miss

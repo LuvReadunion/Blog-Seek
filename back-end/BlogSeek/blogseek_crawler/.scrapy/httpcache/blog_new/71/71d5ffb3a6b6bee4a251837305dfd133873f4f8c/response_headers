@@ -1,0 +1,12 @@
+Content-Length: 0
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 09 May 2025 02:54:49 GMT
+Content-Security-Policy: default-src 'none'; base-uri 'none'; img-src 'self' https:
+Location: /tauri/2.5.1/tauri/
+Cache-Control: stale-while-revalidate=86400
+X-Cache: Hit from cloudfront
+Via: 1.1 5b349d62daf165d04da9d3f5802bc61e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HKG62-C2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: WdRiizo96LXs3t_f4ulm3NX_Nb6BeKN2iHy-JWCQMd7_ko9vImPHuw==
+Age: 118155

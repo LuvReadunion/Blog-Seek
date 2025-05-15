@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="shortcut icon" href="https://img.alicdn.com/tfs/TB17UtINiLaK1RjSZFxXXamPFXa-606-643.png">
+<link rel="stylesheet" href="/umi.2e75b17d.css">
+<script src="https://g.alicdn.com/code/lib/react/17.0.1/umd/react.production.min.js"></script>
+<script src="https://g.alicdn.com/code/lib/react-dom/17.0.1/umd/react-dom.production.min.js"></script>
+<script src="/framework.c81a2f71.js"></script>
+<script src="/preload_helper.7794b207.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script src="/umi.57d09aeb.js"></script>
+</body>
+</html>

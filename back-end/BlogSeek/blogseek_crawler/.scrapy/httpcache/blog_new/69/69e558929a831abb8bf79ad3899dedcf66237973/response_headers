@@ -1,0 +1,21 @@
+Date: Sat, 10 May 2025 11:59:54 GMT
+Content-Type: text/html; charset=utf-8
+Server: cloudflare
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Cf-Ray: 93d945e9ad70f4fb-HKG
+Location: https://coveralls.io/github/hexojs/hexo-generator-feed
+Status: 301 Moved Permanently
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Referrer-Policy: strict-origin-when-cross-origin
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 366a362ee0a2059c63445f8629dd3988
+X-Download-Options: noopen
+X-Runtime: 0.005751
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=sFE7vFFJpWIMXTsmt%2FnkTg3HsCNRSCFtfxuV0mvHGNgKGCpyfRlKW6dTNHN78rIp%2FWvhCrnhwGB0xCrES%2B8637REUmSdOthw7XELgHXdOp9dlDMvtJ0io%2BwC56I5zQQ%3D"}],"group":"cf-nel","max_age":604800}
+Alt-Svc: h3=":443"; ma=86400
+Server-Timing: cfL4;desc="?proto=TCP&rtt=873&min_rtt=860&rtt_var=332&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2829&recv_bytes=1081&delivery_rate=3367441&cwnd=153&unsent_bytes=0&cid=cbbc332eb0cf6f9e&ts=258&x=0"

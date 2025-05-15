@@ -1,0 +1,17 @@
+Date: Sat, 10 May 2025 10:34:29 GMT
+Content-Type: text/xml;charset=UTF-8
+Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
+Cf-Ray: 93d8c8cf0b68dd6c-HKG
+Vary: Accept-Encoding
+Alt-Svc: h3=":443"; ma=86400
+Content-Encoding: gzip
+Last-Modified: Sat, 10 May 2025 08:35:07 GMT
+Cache-Control: max-age=16070400
+Cf-Cache-Status: HIT
+Server-Timing: cfCacheStatus;desc="HIT"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=10532&min_rtt=942&rtt_var=8480&sent=37&recv=25&lost=0&retrans=1&sent_bytes=39784&recv_bytes=2024&delivery_rate=348439&cwnd=145&unsent_bytes=0&cid=383aca4a0a9da523&ts=5377&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=0XUPfm7sIOyaWBVytBOMvarjICsA7BDoD3kLyfhffHlCgzDhEwWWqJQUloIQi7cuVS7yVsMTpYQVnRjsDeGKZojcwL0NyZd8B%2BaUQrEZGp9f8FKqcnfQ1PzuX90xZ8d5yB8%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff

@@ -1,0 +1,13 @@
+Content-Length: 0
+Date: Sat, 10 May 2025 12:00:14 GMT
+Location: /kafka
+Cf-Ray: 93d94665ef0684c4-HKG
+Cf-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+Cf-Placement: remote-EWR
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vFAsBhNz3W7PT5MkpNx4xPTtQAJTYNQ81jpuUqRPGqv13QagCVm4wSvcy9%2FkLKerRw3QcHmNl0niHXMrVxUk0ySEMrkVLDfmK0lvHTmwCovX5KWhUFNrPmwRii0ASopgjTdtGSXNz3Y3cysA9DIp"}],"group":"cf-nel","max_age":604800}
+X-Gitbook-Cache: skip
+X-Gitbook-Target: default
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400

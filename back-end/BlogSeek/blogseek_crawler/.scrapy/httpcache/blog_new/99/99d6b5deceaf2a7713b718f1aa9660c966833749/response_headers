@@ -1,0 +1,15 @@
+Server: nginx
+Date: Sat, 10 May 2025 11:28:48 GMT
+Content-Type: text/xml; charset=UTF-8
+Last-Modified: Fri, 09 May 2025 20:21:10 GMT
+Vary: Accept-Encoding
+Etag: W/"681e63b6-4b1e"
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=63072000
+Content-Security-Policy: frame-ancestors 'self'
+X-Xss-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization
+Permissions-Policy: geolocation=(self), microphone=()
+Content-Encoding: gzip

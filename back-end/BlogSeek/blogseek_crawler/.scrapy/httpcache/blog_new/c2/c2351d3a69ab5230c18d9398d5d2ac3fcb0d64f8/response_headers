@@ -1,0 +1,18 @@
+Content-Type: text/html; charset=utf-8
+Date: Sat, 10 May 2025 10:34:26 GMT
+Strict-Transport-Security: max-age=31536000;
+Content-Encoding: gzip
+Server: nginx
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Expires: Sat, 10 May 2025 10:34:26 GMT
+Cache-Control: max-age=0
+Pragma: no-cache
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Via: 1.1 d9e0d7c355651c7ba4fe824f652b45fe.cloudfront.net (CloudFront)
+Alt-Svc: h3=":443"; ma=86400
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: HKG54-P2
+X-Amz-Cf-Id: bE5f97jKBqiMhobzBk6JSschPuMaPUhTQ6Xbghw3k-Llb1w85tSSaA==

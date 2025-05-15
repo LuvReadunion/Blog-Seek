@@ -1,0 +1,20 @@
+Content-Length: 162
+Server: GitHub.com
+Content-Type: text/html
+X-Origin-Cache: HIT
+Location: https://docs.npmjs.com/cli/v11/using-npm/dependency-selectors/
+Access-Control-Allow-Origin: *
+Expires: Sat, 10 May 2025 10:44:34 GMT
+Cache-Control: max-age=600
+X-Proxy-Cache: MISS
+X-Github-Request-Id: 156E:3BBDC2:A0B79:B733B:681F2BB9
+Accept-Ranges: bytes
+Age: 0
+Date: Sat, 10 May 2025 10:34:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hkg17922-HKG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746873274.949357,VS0,VE259
+Vary: Accept-Encoding
+X-Fastly-Request-Id: a86c3e643e28fc957a2f6d7b8ec5ff8ec07e8831

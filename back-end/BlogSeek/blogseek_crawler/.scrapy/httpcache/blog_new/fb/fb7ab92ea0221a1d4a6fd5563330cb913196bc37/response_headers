@@ -1,0 +1,10 @@
+Date: Sat, 10 May 2025 10:40:19 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Security-Policy: upgrade-insecure-requests0
+Server: cloudflare
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OgkeTL1arnO52NBRJ%2BFrhHXKwhRPbB%2FvGW383H%2Fo9x9UfDZ4q8kbOH0JqOfe2UYL2XemQvG1RKWdSE18iAkVCuWJB9PzBDg7b9%2F0RTbn5Hn1Q4FeaOFX6WDTObonEQ%3D%3D"}]}
+Content-Encoding: br
+Cf-Ray: 93d8d15b3cf50eeb-HKG
+Alt-Svc: h3=":443"; ma=86400

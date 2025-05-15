@@ -1,0 +1,14 @@
+Date: Sat, 10 May 2025 11:59:13 GMT
+Content-Type: text/html; charset=UTF-8
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Age: 0
+Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; fwd=miss
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eRtcVH1ih0uD%2B3o%2FooaUutAQNdxGS7wPMnm64L76gsV0hgkveVoAZ%2BG8N7YdSePojD7w%2FHQkoS4h4Tn5pJYHPPv6JVeLFW3SpFoeam%2F2%2F29q4or%2BUA6pFy7SeDFpNMrTx%2Fs2"}]}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Nf-Request-Id: 01JTX10KRAT6G7Z8GCBBS4DBZF
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: br
+Cf-Ray: 93d944e94ffce692-HKG
+Alt-Svc: h3=":443"; ma=86400

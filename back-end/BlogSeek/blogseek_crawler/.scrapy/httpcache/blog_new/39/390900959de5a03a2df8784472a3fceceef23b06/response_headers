@@ -1,0 +1,20 @@
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: https://support.github.com/request/landing
+Content-Security-Policy: default-src 'none'; font-src https://support-assets.githubassets.com; img-src https: data:; style-src https://support-assets.githubassets.com 'unsafe-inline'; script-src https://support-assets.githubassets.com; connect-src 'self' wss://ws.support.github.com wss://support.github.com https://enterprise-bundles.github.com https://github.zendesk.com https://esbtoolsproduction.blob.core.windows.net https://support-assets.githubassets.com https://us.yextevents.com edge.fullstory.com rs.fullstory.com github.blog https://ps-resources.github.io https://marketing-forms-api.github.com
+Set-Cookie: return_to=oLAo7mgeqmv2mwIpflnD8RkEDZEmBP4NIIrWZgTesswHwTzuRyJCiy3aufsWhFT%2BUFq%2F%2BPrIeSFTVbGOEtGa7Ki%2FNZvtz02myTLCqIfiyQ3TFJo6IhJqLUEEDqTovBpcLZRJByig7KlyN0mAtACJINHWEdhqIpKpoLR4Wwg2hYOMxYy3gv2wv7U7IORuYR8YAqlPQEH0Jepf1awQOlzm5m1rYcu38xdpz1f94O%2FY20K%2FC0eP9%2FRRBgXSJi10fivIti3BRHCzMIlruNWXdmgRQGM7ndhu--JeArJWkU0W01YpM9--mdmh0V%2F0GqU8KqemabKdrg%3D%3D; path=/; SameSite=Lax; secure
+Set-Cookie: _support_session=G1PvkSbAn4QalRqKLyJG5VH7sc%2BJtEk17M7Kmm54G3Ip1xkw4fbauwje9oISP%2BarFRpXgGw%2FJfss1AiuiyZPI%2BF2LYmydNpfOXAqneFjQBNWGmvwNKlHWOmstOw%2FyjUF5e9zVXrAPAsErYI1ppC%2F%2BTHwVVTl4a9cI7koMB0mScClIAVVbvrGNRLvzJmW0mGv%2FfaBF3L4B0ynr1DD6Y1HbzyceAJa1k0iiS8jq%2B5COYu2Kk5f9axzYV2SI%2FEtELWkFIZic5ClG240qEyQ--S97b7mLAqoXmF9rz--QGvDogcaSGz6PRFrtKxcNw%3D%3D; domain=support.github.com; path=/; secure; httponly; SameSite=Lax
+Set-Cookie: _show_support_cookie_banner=0;SameSite=Lax; Secure; Path=/
+Set-Cookie: _show_support_cookie_banner=0;SameSite=Lax; Secure; Path=/
+X-Runtime: 0.043544
+Accept-Ranges: bytes
+Date: Sat, 10 May 2025 11:33:33 GMT
+Vary: Accept-Language
+Strict-Transport-Security: max-age=31536000
+X-Fastly-Request-Id: 4e5835231472a213e1398d69ff5a06b229e72a2f

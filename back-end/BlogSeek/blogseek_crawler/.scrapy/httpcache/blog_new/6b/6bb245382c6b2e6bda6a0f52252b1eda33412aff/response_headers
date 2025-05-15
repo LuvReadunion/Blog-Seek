@@ -1,0 +1,19 @@
+Date: Sat, 10 May 2025 10:34:32 GMT
+Content-Type: text/html
+Cf-Ray: 93d8c8d1cb9084a8-HKG
+Cf-Cache-Status: EXPIRED
+Cache-Control: public, max-age=14400
+Last-Modified: Sat, 10 May 2025 10:34:31 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: x-requested-with, x-spiferack, Accept-Encoding
+Content-Security-Policy: connect-src 'self' checkout.stripe.com https://checkout.stripe.com https://billing.stripe.com/session https://api.funcaptcha.com https://api.arkoselabs.com sentry.io api.github.com www.npmjs.com;default-src 'none';img-src * data: https://*.stripe.com;script-src 'self' data: 'unsafe-inline' https://checkout.stripe.com/checkout.js https://checkout.stripe.com https://js.stripe.com/v3 https://platform.twitter.com/widgets.js https://octocaptcha.com https://static-production.npmjs.com/;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://static-production.npmjs.com/;frame-src checkout.stripe.com https://checkout.stripe.com https://js.stripe.com/ https://octocaptcha.com;font-src https://fonts.gstatic.com https://static-production.npmjs.com/ ;media-src https://player.vimeo.com https://fpdl.vimeocdn.com https://gcs-vimeo.akamaized.net https://vod-progressive.akamaized.net
+Npm-Cost: 1
+Npm-Remaining: 99
+X-Content-Security-Policy: connect-src 'self' checkout.stripe.com https://checkout.stripe.com https://billing.stripe.com/session https://api.funcaptcha.com https://api.arkoselabs.com sentry.io api.github.com www.npmjs.com;default-src 'none';img-src * data: https://*.stripe.com;script-src 'self' data: 'unsafe-inline' https://checkout.stripe.com/checkout.js https://checkout.stripe.com https://js.stripe.com/v3 https://platform.twitter.com/widgets.js https://octocaptcha.com https://static-production.npmjs.com/;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://static-production.npmjs.com/;frame-src checkout.stripe.com https://checkout.stripe.com https://js.stripe.com/ https://octocaptcha.com;font-src https://fonts.gstatic.com https://static-production.npmjs.com/ ;media-src https://player.vimeo.com https://fpdl.vimeocdn.com https://gcs-vimeo.akamaized.net https://vod-progressive.akamaized.net
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Set-Cookie: __cf_bm=m6ZdGnJ.dTBAHVGBYY_gxYWFnNeKuQOWOTpRWjzmvtk-1746873272-1.0.1.1-vA8AdsJosUDBzFR3MNN32yfxH2rhOCLIg8Zo.JIZ1GeLf7VrwJslv3_tvGgo8UN9KccgZJiC2BZSxfi6ZHwYQUCIfsYLUKWG8pbNLvnhftM; path=/; expires=Sat, 10-May-25 11:04:32 GMT; domain=.npmjs.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=1922f46ddb8cab67ee2789f9bd3b1f9362ede70b-1746873272; path=/; domain=.npmjs.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Content-Encoding: br

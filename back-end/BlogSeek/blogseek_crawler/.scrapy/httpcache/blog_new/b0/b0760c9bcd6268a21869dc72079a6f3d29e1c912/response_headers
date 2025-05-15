@@ -1,0 +1,21 @@
+Content-Length: 291627
+Cache-Control: public, max-age=0, must-revalidate
+Content-Security-Policy: default-src 'none'; img-src data:; style-src 'unsafe-inline'
+Content-Type: image/gif
+Last-Modified: Fri, 09 May 2025 18:01:33 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+Server: github.com
+X-Github-Request-Id: 4C53:76BE1:915C3:1B4B54:681F3AE0
+Accept-Ranges: bytes
+Age: 0
+Date: Sat, 10 May 2025 11:39:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hkg17933-HKG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746877154.106253,VS0,VE838
+X-Fastly-Request-Id: 7e766d49b50800e0a58ded5c4225f8ebbb3e8aba
+Timing-Allow-Origin: https://github.com

@@ -1,0 +1,19 @@
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: https://support.github.com/request/landing
+Content-Security-Policy: default-src 'none'; font-src https://support-assets.githubassets.com; img-src https: data:; style-src 'self' https: 'unsafe-inline'; script-src https://support-assets.githubassets.com; connect-src 'self' wss://ws.support.github.com wss://support.github.com https://enterprise-bundles.github.com https://github.zendesk.com https://esbtoolsproduction.blob.core.windows.net https://support-assets.githubassets.com https://us.yextevents.com edge.fullstory.com rs.fullstory.com github.blog https://ps-resources.github.io https://marketing-forms-api.github.com
+Set-Cookie: _support_session=ex5vPIRYRnb0BtGUqaruUtfISHbZcs0rYgBxtmJVUpdQZkHhHTgR6hLgIqveqXMRBM7oBmwlUEzmdydPb%2FC0tRD%2BR3oKjkGdKkuWCEhAOesk34%2FLMViRekvcD7lkUdhZ39QTvwj%2B2D8LTenDxw9MNMXkNbNyTogq2EPpxVCXtQODMc6U5n%2FtDC4y6dAjBQxqPmJXPn1C%2F7pak33Yzlw3xQDOxmFeDyMzvkZ%2FUN18b3or6XzOe9WSvPDXFb%2FB%2FkAwTbN6C%2Fnp80829dNuKxjaxoUeCI63PnMavi31YDViVKAIGXWrkmB%2Fe7uzdvxOcSoqr%2BBJaC%2BW25SAuQoGxB4Zn0b%2BUdA4vxWEsMTjY86AEd%2BJ0KRgyepKhDw3X0BnIBIMDU%2Bh4w%3D%3D--zmLk8UZA7WMYD1Tv--yaZ9CdN8sqvR2Vq42XPC0A%3D%3D; domain=support.github.com; path=/; secure; httponly; SameSite=Lax
+Set-Cookie: _show_support_cookie_banner=0;SameSite=Lax; Secure; Path=/
+Set-Cookie: _show_support_cookie_banner=0;SameSite=Lax; Secure; Path=/
+X-Runtime: 0.025972
+Accept-Ranges: bytes
+Date: Sat, 10 May 2025 10:29:35 GMT
+Vary: Accept-Language
+Strict-Transport-Security: max-age=31536000
+X-Fastly-Request-Id: b5815297ddeb7e562e2e91a2915c21ed0ae55b97

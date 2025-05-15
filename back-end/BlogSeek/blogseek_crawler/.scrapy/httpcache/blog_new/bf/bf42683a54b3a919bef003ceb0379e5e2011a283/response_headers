@@ -1,0 +1,14 @@
+Date: Sat, 10 May 2025 12:00:48 GMT
+Content-Type: application/rss+xml; charset=UTF-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nyiSiTLRxQADsc42mCI%2BWtSZZS2O0VP4Cs1NF%2BQFT0etpHrJv9TqjTESCc3ZYASdJYkTdcZGrohEJls3NyUTkdfgvRTCekIpCbdyWLC1bgse%2BQMkRk0Rqp9wvuFRqQ%3D%3D"}]}
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Wp-Super-Cache: Served legacy cache file
+Cf-Cache-Status: DYNAMIC
+Etag: W/"202fb1883dda34b229ad54d2ab67d245"
+Content-Encoding: br
+Cf-Ray: 93d9473c384120f3-HKG

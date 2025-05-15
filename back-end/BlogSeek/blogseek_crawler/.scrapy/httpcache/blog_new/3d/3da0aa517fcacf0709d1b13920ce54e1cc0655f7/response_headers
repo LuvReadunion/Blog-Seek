@@ -1,0 +1,7 @@
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html
+Date: Sat, 10 May 2025 12:00:15 GMT
+Location: https://macin.org/
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Id: hkg1::stgpv-1746878415253-6708f61693af

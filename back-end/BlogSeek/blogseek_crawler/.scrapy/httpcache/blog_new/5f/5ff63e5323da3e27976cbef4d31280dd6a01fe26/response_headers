@@ -1,0 +1,18 @@
+Date: Sat, 10 May 2025 12:00:14 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+Speculation-Rules: "/cdn-cgi/speculation"
+Cf-Ray: 93d946641d2504ea-HKG
+Location: https://stephenleng.com/cn/why-we-fight/
+Expires: Sat, 10 May 2025 13:00:13 GMT
+Cache-Control: max-age=16070400
+X-Redirect-By: redirection
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: EXPIRED
+Server-Timing: cfCacheStatus;desc="EXPIRED"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=1215&min_rtt=920&rtt_var=935&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2841&recv_bytes=1082&delivery_rate=882120&cwnd=95&unsent_bytes=0&cid=3f7cfdc37db71e79&ts=854&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6h5AI8l8eStMWajDDpJll4%2F5hW7DtrZ%2BgrSpcKDk%2BKrRB5XLG2Fnc4px3wHUr1eDYmah5Xg353BmE4Rdt3rvO0NLA8S0YsL76p62I7rFbcFo7hOHzlPYnziNEX8zMU7VWLs%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff

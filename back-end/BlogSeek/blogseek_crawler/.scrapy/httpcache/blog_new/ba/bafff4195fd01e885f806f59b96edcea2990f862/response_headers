@@ -1,0 +1,21 @@
+Date: Sat, 10 May 2025 10:39:58 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Ray: 93d8d0d5382485a0-HKG
+Server: cloudflare
+Content-Encoding: br
+X-Powered-By: PHP/8.2.23
+X-Pingback: https://happyxiao.com/xmlrpc.php
+Link: <https://happyxiao.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://happyxiao.com/wp-json/wp/v2/posts/3752>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://happyxiao.com/?p=3752>; rel=shortlink
+Link: <https://happyxiao.com/?p=3752>; title="ActivityPub (JSON)"; rel="alternate"; type="application/activity+json"
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+Cf-Cache-Status: MISS
+Last-Modified: Sat, 10 May 2025 10:39:58 GMT
+Server-Timing: cfCacheStatus;desc="MISS"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=1277&min_rtt=847&rtt_var=1179&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2831&recv_bytes=1026&delivery_rate=674743&cwnd=92&unsent_bytes=0&cid=e55347d1aee31896&ts=310&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=DKZ8ryMZEOPi%2BaMgpltehcFZKIqlTCXbkAbA2Pw90rrVOwmPNnuKG%2BghTKsYovJx%2BAjyzQnGH7Xeaz1swTXu94YAbsLluel32fbjXwfZWrT5Hq36Kii0trfa6XRC3vxJ"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
+Alt-Svc: h3=":443"; ma=86400

@@ -1,0 +1,11 @@
+Content-Length: 9190
+Server: nginx/1.18.0
+Date: Sat, 10 May 2025 12:00:17 GMT
+Content-Type: text/html; charset=utf-8
+Set-Cookie: stel_ssid=bb5503ff732d7f0c64_7189134512247877509; expires=Sun, 11 May 2025 12:00:17 GMT; path=/; samesite=None; secure; HttpOnly
+Pragma: no-cache
+Cache-Control: no-store
+X-Frame-Options: ALLOW-FROM https://web.telegram.org
+Content-Security-Policy: frame-ancestors https://web.telegram.org
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=35768000

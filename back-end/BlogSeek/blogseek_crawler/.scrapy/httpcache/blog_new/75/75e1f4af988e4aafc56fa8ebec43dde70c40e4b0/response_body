@@ -1,0 +1,1536 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux 专题 on chinese</title>
+    <link>https://www.xiexianbin.cn/linux/index.html</link>
+    <description>Recent content in Linux 专题 on chinese</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Apr 2014 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.xiexianbin.cn/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VNC 专题</title>
+      <link>https://www.xiexianbin.cn/linux/vnc/index.html</link>
+      <pubDate>Sat, 07 Nov 2020 12:49:51 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/vnc/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;VNC(Virtual Network Computing)&lt;/code&gt; 为一种使用远程帧缓冲(RFB)协议的屏幕画面分享及远程操作软件，它将键盘和鼠标事件从一台计算机传输到另一台计算机，实现转发图形屏幕。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;其他软件&#34;&gt;其他软件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shellhub-io&#34;&gt;ShellHub&lt;/a&gt; 支持对任何Linux设备的无缝远程访问，用于边缘和云计算的集中式SSH&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>搭建私有 Ngrok 内网穿透服务</title>
+      <link>https://www.xiexianbin.cn/linux/reverse-proxy/2018-08-01-ngrok/index.html</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/reverse-proxy/2018-08-01-ngrok/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Ngrok 是一个反向代理，可以将本地的 web 或 tcp 服务通过公共端口和外部建立一个安全通道，这样就可以通过外网直接访问本地对应的服务，在进行微信公众号等测试开发的时候非常有用&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Haproxy 部署和配置</title>
+      <link>https://www.xiexianbin.cn/linux/haproxy/2017-05-27-haproxy-configs/index.html</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/haproxy/2017-05-27-haproxy-configs/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文主要介绍  haproxy 安装部署和详细的参数配置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;haproxy介绍&#34;&gt;Haproxy介绍&lt;/h2&gt;
+&lt;h3 id=&#34;简介&#34;&gt;简介&lt;/h3&gt;
+&lt;p&gt;HAProxy是一款提供高可用性、负载均衡以及基于TCP（第四层）和HTTP（第七层）应用的代理软件，HAProxy是完全免费的、借助HAProxy可以快速并且可靠的提供基于TCP和HTTP应用的代理解决方案。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux kernel 专题</title>
+      <link>https://www.xiexianbin.cn/linux/kernel/index.html</link>
+      <pubDate>Sun, 18 Oct 2015 11:38:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/kernel/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux kernel 介绍&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;d-bus&#34;&gt;D-Bus&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;D-Bus&lt;/code&gt; 最初由 &lt;code&gt;freedesktop.org&lt;/code&gt; 为 &lt;code&gt;Linux&lt;/code&gt; 而开发的 &lt;code&gt;进程之间通信IPC&lt;/code&gt; 和 &lt;code&gt;远程控制RPC&lt;/code&gt;，用一个统一的协议取代当时的 &lt;code&gt;进程通信&lt;/code&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;D-Bus&lt;/code&gt; 也被设计成允许系统级进程（例如打印机、硬件驱动程序服务）和普通进程之间的通信。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;D-Bus&lt;/code&gt; 采用二进制消息传递，所以&lt;code&gt;非常快&lt;/code&gt;、&lt;code&gt;开销小&lt;/code&gt;，特别适合同一台主机通信&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kworker&#34;&gt;kworker&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;kworker（Linux Kernel Worker）&lt;/code&gt;是内核 &lt;code&gt;3.x&lt;/code&gt; 引入的工作线程&lt;code&gt;占位符&lt;/code&gt;进程，它实际上执行内核的大部分工作，如中断、计时器、I/O等，CPU 中 &lt;code&gt;system时间&lt;/code&gt; 大部分由此产生。在系统中，一般会出现多个 &lt;code&gt;kworker&lt;/code&gt; 进程，&lt;code&gt;kworker&lt;/code&gt; 进程有时会占用大量的 &lt;code&gt;io&lt;/code&gt; 或 &lt;code&gt;cpu&lt;/code&gt;，格式：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用 Linux RPM 下载地址和 RPM 下载方法</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2015-01-03-linux-packages-download/index.html</link>
+      <pubDate>Sat, 03 Jan 2015 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2015-01-03-linux-packages-download/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;玩 Linux 经常找不到 RPM 的下载地址，本文汇总常见 RPM 下载地址。本文也提供 RPM 包缓存方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;常用地址&#34;&gt;常用地址&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cbs.centos.org/koji/&#34;&gt;http://cbs.centos.org/koji/&lt;/a&gt;                       # 针对 CentOS 官方发布的 rpm 包，可找到相应的 srpm&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vault.centos.org/&#34;&gt;http://vault.centos.org/&lt;/a&gt;                          # 针对不同的系统版本，可找到相应的 srpm&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://copr.fedorainfracloud.org/coprs/&#34;&gt;https://copr.fedorainfracloud.org/coprs/&lt;/a&gt;          # 由于 CentOS 和 Fedora 属于同系列 Linux&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://koji.fedoraproject.org&#34;&gt;https://koji.fedoraproject.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rpmfind.net/&#34;&gt;http://rpmfind.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pkgs.org/&#34;&gt;https://pkgs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rpm.pbone.net/&#34;&gt;http://rpm.pbone.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.archlinux.org/packages/&#34;&gt;https://www.archlinux.org/packages/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://packagecloud.io/&#34;&gt;https://packagecloud.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bintray.com/&#34;&gt;https://bintray.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rpm.livna.org/&#34;&gt;http://rpm.livna.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kde-redhat.sourceforge.net/&#34;&gt;http://kde-redhat.sourceforge.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://build.opensuse.org/search&#34;&gt;https://build.opensuse.org/search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装包下载&#34;&gt;安装包下载&lt;/h2&gt;
+&lt;h3 id=&#34;yum-downloadonly&#34;&gt;yum-downloadonly&lt;/h3&gt;
+&lt;p&gt;需要先安装，执行命令&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 系统调优</title>
+      <link>https://www.xiexianbin.cn/linux/optimize/index.html</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/optimize/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux 系统调优&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;开启ip转发&#34;&gt;开启IP转发&lt;/h2&gt;
+&lt;h3 id=&#34;临时方法&#34;&gt;临时方法&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;echo &amp;#34;1&amp;#34;&amp;gt;/proc/sys/net/ipv4/ip_forward
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;永久方法&#34;&gt;永久方法&lt;/h3&gt;
+&lt;p&gt;修改/etc/sysctl.conf：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;net.ipv4.ip_forward= 1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;生效&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sysctl -p
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;或设置iptables规则&#34;&gt;或设置iptables规则&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;iptables -F   //清除所有的iptables规则
+iptables -P INPUT ACCEPT  //允许接收
+iptables -P FORWARD ACCEPT    //允许发送数据包
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;系统增强&#34;&gt;系统增强&lt;/h2&gt;
+&lt;h3 id=&#34;tmout&#34;&gt;TMOUT&lt;/h3&gt;
+&lt;p&gt;Linux ssh 空闲一段时间后自动断开可以在&lt;code&gt;/etc/profile&lt;/code&gt;中设置 &lt;code&gt;TMOUT&lt;/code&gt;：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/ubuntu/index.html</link>
+      <pubDate>Wed, 22 Jan 2014 20:32:26 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/ubuntu/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Ubuntu 使用介绍&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;基础知识&#34;&gt;基础知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;版本
+&lt;ul&gt;
+&lt;li&gt;从 2004 年 10 月，每 6 个月发一个新版，命名格式为：&lt;code&gt;Y.MM&lt;/code&gt; 即 &lt;code&gt;年.月&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;普通版本 18 个月支持&lt;/li&gt;
+&lt;li&gt;长期支持板 &lt;code&gt;LTS（Long Term Support）&lt;/code&gt; 5 年支持，双年的 04 月发布的为长期支持版，如 &lt;code&gt;22.04&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;22.04&lt;/code&gt; 升级到 &lt;code&gt;24.04&lt;/code&gt; 命令：&lt;code&gt;sudo do-release-upgrade -d&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cdimage.ubuntu.com/releases/&#34;&gt;iso 下载地址&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;包括制作基础 docker 镜像的 tar 包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud-images.ubuntu.com/&#34;&gt;cloud-images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ubuntu 默认的 &lt;code&gt;sh&lt;/code&gt; 是 &lt;code&gt;dash&lt;/code&gt;，切换为 &lt;code&gt;bash&lt;/code&gt; 命令：&lt;code&gt;sudo dpkg-reconfigure dash&lt;/code&gt; 输入 &lt;code&gt;no&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;默认 dash 解析 bash if 语法报错：&lt;code&gt;[: XXXX: unexpected operator&lt;/code&gt;，需要使用 dash 语法，如 bash 的 &lt;code&gt;==&lt;/code&gt; 使用 &lt;code&gt;=&lt;/code&gt; 替代&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/etc/localtime&lt;/code&gt; 时区文件，源文件在 &lt;code&gt;/usr/share/zoneinfo&lt;/code&gt; 目录下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;版本&#34;&gt;版本&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.5 LTS
+Release:	20.04
+Codename:	focal
+
+$ cat /etc/issue
+Ubuntu 20.04.5 LTS \n \l
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;machine-id&#34;&gt;machine-id&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.debian.org/MachineId&#34;&gt;参考&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux Network 专题</title>
+      <link>https://www.xiexianbin.cn/linux/network/index.html</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/network/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux Network 基础知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;Linux 虚拟网络设备包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tap/tun&lt;/li&gt;
+&lt;li&gt;Bridge&lt;/li&gt;
+&lt;li&gt;veth-pair&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;tap/tun&lt;/code&gt;、&lt;code&gt;veth-pair&lt;/code&gt; 网络设备，功能类似与一个管道，只有两端，数据从一端进，从另一端出
+&lt;code&gt;Bridge&lt;/code&gt; 功能类似于交换机，数据可以从多个端口&lt;code&gt;进&lt;/code&gt;和&lt;code&gt;出&lt;/code&gt;，和物理交换机功能类型：具有mac地址学习、stp、fdb等&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>搭建私有 FRP 内网穿透服务</title>
+      <link>https://www.xiexianbin.cn/linux/reverse-proxy/frp/index.html</link>
+      <pubDate>Sun, 05 Dec 2021 17:51:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/reverse-proxy/frp/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;frp&lt;/code&gt; 是一个快速反向代理服务，实现暴露NAT或防火墙后的内网服务到互联网。支持 &lt;code&gt;TCP&lt;/code&gt;、&lt;code&gt;UDP&lt;/code&gt;、&lt;code&gt;HTTP&lt;/code&gt;、&lt;code&gt;HTTPS&lt;/code&gt;、&lt;code&gt;P2P&lt;/code&gt; 协议，请求可以通过域名转发到内网服务。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trafficserver 配置与使用</title>
+      <link>https://www.xiexianbin.cn/linux/cdn/apache-trafficserver/index.html</link>
+      <pubDate>Sat, 06 Mar 2021 15:35:28 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/cdn/apache-trafficserver/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Apache Traffic Serve（ATS或TS)&lt;/code&gt; 加速互联网访问，提高网站性能，并提供前所未有的web托管能力。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;部署模式&#34;&gt;部署模式&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;正向代理&lt;/li&gt;
+&lt;li&gt;反向代理&lt;/li&gt;
+&lt;li&gt;多级缓存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;进程&#34;&gt;进程&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;traffic_server&lt;/code&gt;进程是ats的服务进程，负责代理缓存的事务处理。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;traffic_manager&lt;/code&gt;进程是ats的管理进程，负责启动、监控、配置等等，会监护traffic_server进程。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;traffic_cop&lt;/code&gt;进程是&lt;code&gt;traffic_server&lt;/code&gt;和&lt;code&gt;traffic_manager&lt;/code&gt;进程的监护者，发现异常会重启&lt;code&gt;traffic_server&lt;/code&gt;和&lt;code&gt;traffic_manager&lt;/code&gt;进程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;h3 id=&#34;系统优化&#34;&gt;系统优化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;修改系统文件最大打开数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat &amp;lt;&amp;lt; &amp;#39;EOT&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.d/nofile.conf
+* soft nofile 655350
+* hard nofile 655350
+EOT
+cat &amp;lt;&amp;lt;EOF&amp;gt;&amp;gt;/etc/rc.local
+#open files
+ulimit -HSn 655350
+#stack size
+ulimit -s 655350
+EOF
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;centosredhat-安装&#34;&gt;CentOS/Redhat 安装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ci.trafficserver.apache.org/RPMS/&#34;&gt;https://ci.trafficserver.apache.org/RPMS/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hnakamur/apache-traffic-server-7-rpm&#34;&gt;https://github.com/hnakamur/apache-traffic-server-7-rpm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hnakamur/trafficserver8-rpm&#34;&gt;https://github.com/hnakamur/trafficserver8-rpm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ci.trafficserver.apache.org/&#34;&gt;https://ci.trafficserver.apache.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install trafficserver -y
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ubuntu-安装&#34;&gt;Ubuntu 安装&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt install trafficserver -y
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;源码安装&#34;&gt;源码安装&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+rpm -Uvh epel-release*.rpm
+
+yum install pkgconfig automake autoconf wget curl tar openssl openssl-devel pcre-devel tcl tcl-devel gcc gcc-c++ expat-devel libcap-devel hwloc ncurses-devel libcurl-devel perl perl-libxml-perl perl-ExtUtils-MakeMaker perl-Digest-SHA bzip2 yaml-cpp  yaml-cpp-devel luajit-devel luajit -y
+
+wget https://www.apache.org/dyn/closer.cgi/trafficserver/trafficserver-9.0.0.tar.bz2
+tar -vxjf trafficserver-9.0.0.tar.bz2
+cd trafficserver-9.0.0/
+
+groupadd ats
+useradd -g ats ats
+
+yum install centos-release-scl -y
+yum install devtoolset-8 -y
+scl enable devtoolset-8 bash
+gcc --version
+
+./configure \
+  --enable-layout=Gentoo \
+  --prefix=/ \
+  --with-user=ats --with-group=ats \
+  --enable-example-plugins \
+  --enable-experimental-plugins \
+  --with-luajit=/usr
+make -j $(nproc)
+make install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;常用命令：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Haproxy 实现多域名证书 HTTPS</title>
+      <link>https://www.xiexianbin.cn/linux/haproxy/2017-05-02-haproxy-ssl/index.html</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/haproxy/2017-05-02-haproxy-ssl/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;使用Nginx实现多域名证书HTTPS，通过重新编译Nginx实现TLS SNI Support打开，那么使用Haproxy如何实现呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;要求&#34;&gt;要求&lt;/h2&gt;
+&lt;p&gt;Haproxy必须要1.5以上的版本&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux rpmbuild 使用介绍及 OpenStack rpm 打包示例</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2015-08-04-linux-rpmbuild/index.html</link>
+      <pubDate>Tue, 04 Aug 2015 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2015-08-04-linux-rpmbuild/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux rpmbuild 使用介绍。CentOS 采用 RPM 管理安装的包，开发 OpenStack 后，需要将 python 代码包装成完整的包，共安装，本文介绍 OpenStack RPM 制作方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安装基础环境&#34;&gt;安装基础环境&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install rpm-build make gcc -y
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;使用说明&#34;&gt;使用说明&lt;/h2&gt;
+&lt;h3 id=&#34;初始化打包目录&#34;&gt;初始化打包目录&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ rpmdev-setuptree
+$ tree rpmbuild/
+rpmbuild/
+├── BUILD     //打包过程中的工作目录
+├── RPMS      //存放生成的二进制包
+├── SOURCES   //打包资源，源码补丁文件
+├── SPECS     //spec文档
+└── SRPMS     //存放生成的源码包
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;注意：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 常用命令</title>
+      <link>https://www.xiexianbin.cn/linux/commands/index.html</link>
+      <pubDate>Fri, 02 Mar 2012 18:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/commands/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux 常用命令&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;命令&#34;&gt;命令&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;more
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;less
+/keyword可以把keyword对应的行找出。
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tail -行数 ./file
+head -函数 ./file
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;把多个文件的内容拼接起来显示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat path1 path2 path3
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;useradd
+userdel
+usermod
+
+groupadd
+groupdel
+groupmod
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;用户的家目录：用户使用的 shell 环境&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Haproxy 开日日志方法</title>
+      <link>https://www.xiexianbin.cn/linux/haproxy/2017-05-26-haproxy-logs/index.html</link>
+      <pubDate>Fri, 26 May 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/haproxy/2017-05-26-haproxy-logs/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Haproxy作为web服务器，记录访问日志是十分必要的。下面介绍如何将Haproxy的日志模块打开，并将日志发送到syslog中&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;haproxy-开日日志方法&#34;&gt;haproxy 开日日志方法&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;注：考虑性能等因素，建议使用在测试环境。&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RPM SPEC常用路径以及宏变量</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2016-02-10-rpm-spec-var/index.html</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2016-02-10-rpm-spec-var/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Redhat/CentOS 采用 RPM 格式的安装文件包，在制作RPM时，SPEC文件中有很多路径、宏变量等，下面详细介绍它们的用法和作用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;valid-rpm-macros&#34;&gt;Valid RPM Macros&lt;/h2&gt;
+&lt;p&gt;Here are the definitions for some common specfile macros as they are defined on Fedora Core 11 (rpm-4.7.0-1.fc11). For definitions of more macros, examine the output of &amp;ldquo;rpm &amp;ndash;showrc &amp;ldquo;. To see the expanded definition of a macro use the command rpm &amp;ndash;eval &amp;ldquo;%{macro}&amp;rdquo; . Note that neither command will take into account macros defined inside specfiles, but both will take into account macros defined in your ~/.rpmmacros file and macros defined on the command line.
+Keep in mind that some of these macros may evaluate differently on older Fedora or EPEL releases.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 搭建本地 YUM 源</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2014-04-12-centos-yum-repo/index.html</link>
+      <pubDate>Sat, 12 Apr 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2014-04-12-centos-yum-repo/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux/CentOS 搭建本地 YUM 源&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安装createrepo&#34;&gt;安装createrepo&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install createrepo
+or
+rpm -ivh http://mirror.centos.org/centos/7/os/x86_64/Packages/createrepo-0.9.9-23.el7.noarch.rpm
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;挂载-iso&#34;&gt;挂载 ISO&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[root@xiexianbin_cn yum.repos.d]# mount /dev/cdrom /mnt/disk
+mount: /dev/sr0 is write-protected, mounting read-only
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或将iso挂载：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mount -o loop *.iso /mnt/disk
+mount -t iso9660 loop *.iso /mnt/disk
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;配置yum源：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[root@xiexianbin_cn yum.repos.d]# vi CentOS-dvd.repo
+[centos-dvd]
+name=CentOS7
+baseurl=file:///mnt/disk #这个是mount的指定目录
+enabled=1
+gpgcheck=0
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;启动脚本&#34;&gt;启动脚本&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;kill -9 `ps -ef | grep 8080 | grep -v grep | awk &amp;#39;{print $2}&amp;#39;`
+createrepo -u http://ip:8080  -d .
+# python -m SimpleHTTPServer 8080 &amp;gt;&amp;gt; yum.log &amp;amp;
+python3 -m http.server 8080 &amp;gt;&amp;gt; yum.log &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenStack rpm-packaging 介绍使用</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2017-03-25-openstack-rpm-packaging/index.html</link>
+      <pubDate>Sat, 25 Mar 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2017-03-25-openstack-rpm-packaging/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;RPM Packaging for OpenStack is an cross-distribution and cross-vendor effort to create common templates for building OpenStack packages for RPM based Linux and OpenStack distributions. The project was started with the goal of unifying the independent packaging efforts of RDO and SUSE, but is really open for anyone who wants to contribute RPM packaging spec files for any distribution.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;RPM Packaging for OpenStack is an cross-distribution and cross-vendor effort to create common templates for building OpenStack packages for RPM based Linux and OpenStack distributions. The project was started with the goal of unifying the independent packaging efforts of RDO and SUSE, but is really open for anyone who wants to contribute RPM packaging spec files for any distribution.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CentOS 基于mock构建RPM包</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2017-12-16-rpm-mock/index.html</link>
+      <pubDate>Sat, 16 Dec 2017 20:32:13 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2017-12-16-rpm-mock/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;mock&lt;/code&gt;支持根据不同的配置文件跨操作系统隔离OS环境，&lt;code&gt;mock&lt;/code&gt;最常用的方式是制作&lt;code&gt;RPM&lt;/code&gt;包，共构造环境的能力看，与Docker很类似。本文介绍基于&lt;code&gt;mock&lt;/code&gt;和&lt;code&gt;rpm-build&lt;/code&gt;沟通&lt;code&gt;RPM&lt;/code&gt;打包环境。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用Coprs构建并发布RPM包</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2021-03-06-use-coprs-build-rpm/index.html</link>
+      <pubDate>Sat, 06 Mar 2021 00:57:19 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2021-03-06-use-coprs-build-rpm/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux 制作&lt;code&gt;RPM&lt;/code&gt;包一直是不好解决的问题，本文介绍一种基于&lt;code&gt;docker&lt;/code&gt;、&lt;code&gt;Coprs&lt;/code&gt;构建并发布RPM包的方法，并提供在线的rpm下载地址。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docker 用来制作rpm的打包环境&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://copr.fedorainfracloud.org/&#34;&gt;Copr&lt;/a&gt; 存放RPM包，制品仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;目录结构&#34;&gt;目录结构&lt;/h2&gt;
+&lt;p&gt;本文以 &lt;a href=&#34;https://github.com/xiexianbin/tengine-rpm&#34;&gt;https://github.com/xiexianbin/tengine-rpm&lt;/a&gt; 为例，代码目录结构如下：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruby1.9.3 rpm安装包制作</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2015-10-18-ruby-rpm-1-9-3/index.html</link>
+      <pubDate>Sun, 18 Oct 2015 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2015-10-18-ruby-rpm-1-9-3/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在CentOS6.5中安装jekyll是提示要使用Ruby 1.9.3以上版本，当当前没有办法找到该版本的RPM安装包，只好自己动手编译一个了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruby2.3.1 rpm安装包制作</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2016-10-22-ruby-rpm-2-3-1/index.html</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2016-10-22-ruby-rpm-2-3-1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在CentOS7中安装jekyll是提示要使用Ruby 2.0.0以上版本，当当前没有办法找到该版本的RPM安装包，只好自己动手编译一个了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;编译方法&#34;&gt;编译方法&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;yum install -y rpm-build rpmdevtools readline-devel ncurses-devel gdbm-devel tcl-devel openssl-devel db4-devel byacc libyaml-devel libffi-devel make glibc-devel gcc
+rpmdev-setuptree
+cd ~/rpmbuild/SOURCES
+RUBY_VER=ruby-2.3.1
+wget http://ftp.ruby-lang.org/pub/ruby/2.3/${RUBY_VER}.tar.gz
+cd ~/rpmbuild/SPECS
+wget https://raw.github.com/xiexianbin/ruby-rpm/master/ruby2.3.x.spec
+rpmbuild -bb ruby2.3.1.spec
+ARCH=`uname -m`
+KERNEL_REL=`uname -r`
+KERNEL_TMP=${KERNEL_REL%.$ARCH}
+DISTRIB=${KERNEL_TMP##*.}
+yum localinstall ~/rpmbuild/RPMS/${ARCH}/${RUBY_VER}${RUBY_SUBVER}-1.${DISTRIB}.${ARCH}.rpm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;下载地址&#34;&gt;下载地址&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1o8JETui&#34;&gt;https://pan.baidu.com/s/1o8JETui&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ruby2.4.x rpm安装包制作</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2018-01-02-ruby-rpm-2-4-x/index.html</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2018-01-02-ruby-rpm-2-4-x/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在CentOS7中安装jekyll是提示要使用 Ruby 2.4.3 以上版本，当当前没有办法找到该版本的RPM安装包，只好自己动手编译一个了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;编译方法&#34;&gt;编译方法&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;yum install -y rpm-build rpmdevtools readline-devel ncurses-devel gdbm-devel tcl-devel openssl-devel db4-devel byacc libyaml-devel libffi-devel make glibc-devel gcc checksec cmake  autoconf git multilib-rpm-config systemtap-sdt-devel
+rpmdev-setuptree
+rpmbuild -ba ruby.spec --nocheck --define=&amp;quot;dist .el7&amp;quot;
+ARCH=`uname -m`
+KERNEL_REL=`uname -r`
+KERNEL_TMP=${KERNEL_REL%.$ARCH}
+DISTRIB=${KERNEL_TMP##*.}
+yum localinstall ~/rpmbuild/RPMS/${ARCH}/${RUBY_VER}${RUBY_SUBVER}-1.${DISTRIB}.${ARCH}.rpm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;下载地址&#34;&gt;下载地址&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://pan.baidu.com/s/1qZ97ht6&#34;&gt;https://pan.baidu.com/s/1qZ97ht6&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Haproxy rpm 制作方法</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2017-05-28-haproxy-rpm/index.html</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2017-05-28-haproxy-rpm/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;haproxy 是常用的代理软件，本文重点介绍如何制作 haproxy rpm 安装包&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;p&gt;由于 haproxy 1.7.8 依赖于 lua 5.3 以上的版本，但 Centos 7.2 当前 lua 的版本是 5.1.4，且由于rpm-*.rpm 包依赖 5.1.4，故lua无法升级。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决执行yum报Segmentation fault错误问题</title>
+      <link>https://www.xiexianbin.cn/linux/rpm/2018-05-01-yum-segmentation-fault/index.html</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/rpm/2018-05-01-yum-segmentation-fault/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在一次安装python rpm后，在执行yum相关命令，均包&lt;code&gt;Segmentation fault&lt;/code&gt;错误，本文解决该问题&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;错误命令&#34;&gt;错误命令&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[root@xiexianbin_cn ~]# yum list all
+Segmentation fault
+[root@xiexianbin_cn ~]# yum
+Segmentation fault
+[root@xiexianbin_cn ~]# yum clean all
+Segmentation fault
+[root@xiexianbin_cn ~]# yum update
+Segmentation fault
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;问题分析&#34;&gt;问题分析&lt;/h2&gt;
+&lt;p&gt;该问题是由于&lt;code&gt;import yum&lt;/code&gt;异常导致的，根本原因就是由于python包被替换导致。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>lxc 容器使用介绍</title>
+      <link>https://www.xiexianbin.cn/linux/lxc/index.html</link>
+      <pubDate>Sat, 26 Apr 2025 21:13:49 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/lxc/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;LXC（Linux Containers, Linux 容器）&lt;/code&gt;是一种基于 Linux 内核的轻量级虚拟化技术，允许在单一主机上运行多个相互隔离的 Linux 系统环境（容器）。它通过 Linux 内核的 cgroups（控制组）和 namespaces（命名空间）技术实现资源隔离与管理，提供类似虚拟机的体验，但无需完整操作系统，因此更高效。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux /etc/resolv.conf 配置文件详解</title>
+      <link>https://www.xiexianbin.cn/linux/etc/resolv.conf/index.html</link>
+      <pubDate>Sun, 02 Mar 2025 10:18:22 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/etc/resolv.conf/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在 Linux 系统中，&lt;code&gt;/etc/resolv.conf&lt;/code&gt; 是 DNS 解析的核心配置文件，用于定义系统如何通过&lt;a href=&#34;https://www.xiexianbin.cn/domains/dns/&#34;&gt;域名解析服务器（DNS）&lt;/a&gt;将域名转换为 IP 地址。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;文件结构&#34;&gt;文件结构&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;/etc/resolv.conf&lt;/code&gt; 是一个纯文本文件，包含以下主要配置项（每行一个指令）：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CGROUPS 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/cgroups/index.html</link>
+      <pubDate>Sun, 05 May 2024 14:23:51 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/cgroups/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;cgroups - Linux control groups&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;from&#34;&gt;From&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt install groff -y
+OUT_DIR=/tmp/
+
+for i in `find /usr/share/man/ -name &amp;#39;*.gz&amp;#39;`; do
+    dname=`dirname $i`
+    mkdir -p $OUT_DIR/$dname
+    zcat $i | groff -mandoc -Thtml &amp;gt; $OUT_DIR/$i.html
+done
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;zcat /usr/share/man/man7/cgroups.7.gz | groff -mandoc -Thtml &amp;gt; cgroups.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;man cgroups&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;p&gt;控制组（通常被称为 cgroups）是 Linux 内核的一项功能，它允许将进程组织到分级组中，然后限制和监控其对各类资源的使用。内核的 cgroup 接口通过一个名为 cgroupfs 的伪文件系统提供。分组在核心 cgroup 内核代码中实现，而资源跟踪和限制则在一组按资源类型划分的子系统（内存、CPU 等）中实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux cpufreq 配置CPU频率</title>
+      <link>https://www.xiexianbin.cn/linux/cpu/cpufreq/index.html</link>
+      <pubDate>Sun, 25 Feb 2024 18:45:32 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/cpu/cpufreq/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;cpufreq&lt;/code&gt;用来控制 CPU 的频率，工具为 &lt;code&gt;cpufrequtils&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt-get install cpufrequtils
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;相关bin：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;/usr/bin/cpufreq-aperf&lt;/li&gt;
+&lt;li&gt;/usr/bin/cpufreq-info&lt;/li&gt;
+&lt;li&gt;/usr/bin/cpufreq-set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;h3 id=&#34;查看-cpu-频率&#34;&gt;查看 CPU 频率&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cpufreq-info
+
+# 或
+cat /proc/cpuinfo
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;更改-cpu-频率控制策略&#34;&gt;更改 CPU 频率控制策略&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;help&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;div class=&#34;card mb-3&#34;&gt;
+  &lt;div class=&#34;card-header&#34; id=&#34;heading&#34; data-bs-toggle=&#34;collapse&#34; data-bs-target=&#34;#cpufreq-set---help&#34; aria-expanded=&#34;true&#34; aria-controls=&#34;cpufreq-set --help&#34;&gt;
+    &lt;h5 class=&#34;mb-0 mt-0&#34;&gt;
+      &lt;span&gt;cpufreq-set --help&lt;/span&gt;
+      &lt;span class=&#34;float-end&#34;&gt;...&lt;/span&gt;
+    &lt;/h5&gt;
+  &lt;/div&gt;
+
+  &lt;div id=&#34;cpufreq-set---help&#34; class=&#34;collapse&#34;&gt;
+    &lt;div class=&#34;card card-body pb-0 pt-0&#34;&gt;
+      &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cpufreq-set --help
+cpufrequtils 008: cpufreq-set (C) Dominik Brodowski 2004-2009
+Report errors and bugs to cpufreq@vger.kernel.org, please.
+Usage: cpufreq-set [options]
+Options:
+  -c CPU, --cpu CPU        number of CPU where cpufreq settings shall be modified
+  -d FREQ, --min FREQ      new minimum CPU frequency the governor may select
+  -u FREQ, --max FREQ      new maximum CPU frequency the governor may select
+  -g GOV, --governor GOV   new cpufreq governor
+  -f FREQ, --freq FREQ     specific frequency to be set. Requires userspace
+                           governor to be available and loaded
+  -r, --related            Switches all hardware-related CPUs
+  -h, --help               Prints out this screen
+
+Notes:
+1. Omitting the -c or --cpu argument is equivalent to setting it to zero
+2. The -f FREQ, --freq FREQ parameter cannot be combined with any other parameter
+   except the -c CPU, --cpu CPU parameter
+3. FREQuencies can be passed in Hz, kHz (default), MHz, GHz, or THz
+   by postfixing the value with the wanted unit name, without any space
+   (FREQuency in kHz =^ Hz * 0.001 =^ MHz * 1000 =^ GHz * 1000000).
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;说明：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ARM 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/arm/index.html</link>
+      <pubDate>Fri, 06 Oct 2023 19:15:27 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/arm/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;ARM(Advanced RISC Machine, 高级精简指令集机器)架构&lt;/code&gt;，之前称为&lt;code&gt;艾康精简指令集机器（Acorn RISC Machine）&lt;/code&gt;，是一个&lt;code&gt;精简指令集（RISC）&lt;/code&gt;处理器架构家族，其广泛地使用在许多嵌入式系统设计。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FreeIPA 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/auth/freeipa/index.html</link>
+      <pubDate>Sun, 20 Aug 2023 22:17:19 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/auth/freeipa/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;FreeIPA 是一个运行在 &lt;code&gt;Linux/Unix&lt;/code&gt; 环境的、开源的身份管理系统，它提供集中式帐户管理和身份验证，与 &lt;code&gt;Windows Active Directory&lt;/code&gt; 或 &lt;code&gt;LDAP&lt;/code&gt; 的功能类似&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;FreeIPA 功能如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;身份（Identity）&lt;/code&gt;：通过 CLI、Web UI 或 RPC 访问，从一个中心位置管理领域内的 Linux 用户和客户端主机。为所有系统、服务和应用程序启用单点登录身份验证。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;策略（Policy）&lt;/code&gt;：为身份定义 Kerberos 身份验证和授权策略。控制 DNS、SUDO、SELinux 或 autofs 等服务。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;信任（Trusts）&lt;/code&gt;：与其他身份管理系统（如 Microsoft Active Directory）建立互信关系。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenEuler 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/openeuler/index.html</link>
+      <pubDate>Sat, 19 Dec 2020 22:01:52 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/openeuler/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;openEuler是一款华为开源操作系统，openEuler内核源于Linux，支持鲲鹏处理器。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;repo&#34;&gt;repo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://repo.openeuler.org/&#34;&gt;https://repo.openeuler.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cat &amp;lt;&amp;lt; EOF &amp;gt;&amp;gt; openEuler_x86_64.repo
+[basic]
+name=basic
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/OS/x86_64/
+enabled=1
+gpgcheck=0
+
+[extras]
+name=extras
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/extras/x86_64/
+enabled=0
+gpgcheck=0
+
+[everything]
+name=everything
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/everything/x86_64/
+enabled=1
+gpgcheck=0
+
+[update]
+name=update
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/update/x86_64/
+enabled=1
+gpgcheck=0
+
+[EPOL]
+name=EPOL
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/EPOL/x86_64/
+enabled=1
+gpgcheck=0
+
+[debuginfo]
+name=debuginfo
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/debuginfo/x86_64/
+enabled=0
+gpgcheck=0
+
+[source]
+name=source
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/source/
+enabled=1
+gpgcheck=0
+
+[virtual_machine_img]
+name=virtual_machine_img
+baseurl=http://repo.openeuler.org/openEuler-20.03-LTS/virtual_machine_img/x86_64/
+enabled=0
+gpgcheck=0
+EOF
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum clean all &amp;amp;&amp;amp; yum makecache
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deepin 15.11 升级到 Deepin V20</title>
+      <link>https://www.xiexianbin.cn/linux/deepin/2020-05-01-upgrade-deepin-15.11-to-v20/index.html</link>
+      <pubDate>Fri, 01 May 2020 18:15:10 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/deepin/2020-05-01-upgrade-deepin-15.11-to-v20/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Deepin 15.11 升级到 Deepin V20 方法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;切换更新源&#34;&gt;切换更新源&lt;/h2&gt;
+&lt;p&gt;更新 &lt;code&gt;/etc/apt/sources.list&lt;/code&gt; 为&lt;code&gt;Deepin V20&lt;/code&gt;的源：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;## Generated by deepin-installer
+deb [by-hash=force] http://community-packages.deepin.com/deepin/ apricot main contrib non-free
+#deb-src http://community-packages.deepin.com/deepin/ apricot main contrib non-free
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;升级&#34;&gt;升级&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get clean &amp;amp;&amp;amp; sudo apt-get upgrade -y &amp;amp;&amp;amp; sudo apt-get dist-upgrade -y
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux Systemd 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/systemd/index.html</link>
+      <pubDate>Sat, 16 Nov 2019 21:42:55 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/systemd/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;systemd&lt;/code&gt; 是 &lt;code&gt;Linux&lt;/code&gt; 系统的一种 &lt;code&gt;中央化系统及设置管理程序（init）&lt;/code&gt;，包括有&lt;code&gt;守护进程&lt;/code&gt;、&lt;code&gt;程序库&lt;/code&gt;以及&lt;code&gt;应用软件&lt;/code&gt;组成。目标是解决系统服务间的依赖关系，并依此实现系统初始化时服务的并行启动，同时达到降低系统的开销。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 基础知识</title>
+      <link>https://www.xiexianbin.cn/linux/basic/index.html</link>
+      <pubDate>Sun, 15 Sep 2019 11:38:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/basic/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux 基础知识汇总，介绍 Linux 的基础知识&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;linux-基础知识&#34;&gt;Linux 基础知识&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一般情况下，每个 Unix/Linux 命令运行时都会打开三个文件：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;标准输入文件(stdin)&lt;/code&gt;：stdin 的文件描述符为 &lt;code&gt;0&lt;/code&gt;，Unix 程序默认从 stdin 读取数据&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;标准输出文件(stdout)&lt;/code&gt;：stdout 的文件描述符为 &lt;code&gt;1&lt;/code&gt;，Unix 程序默认向 stdout 输出数据&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;标准错误文件(stderr)&lt;/code&gt;：stderr 的文件描述符为 &lt;code&gt;2&lt;/code&gt;，Unix 程序会向 stderr 流中写入错误信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linux 设备分为三类：
+&lt;ul&gt;
+&lt;li&gt;字符设备，如键盘、鼠标等&lt;/li&gt;
+&lt;li&gt;块设备，如硬盘、光驱、软驱等&lt;/li&gt;
+&lt;li&gt;网络设备，如以太网卡&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;查看架构&#34;&gt;查看架构&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt install coreutils
+
+# Linux
+$ arch
+x86_64
+$ getconf LONG_BIT
+64
+
+# Mac
+$ arch
+i386
+$ getconf LONG_BIT
+64
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;文件权限&#34;&gt;文件权限&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;ls -lh&lt;/code&gt; 可以查看文件权限&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deepin 系统设置自动代理</title>
+      <link>https://www.xiexianbin.cn/linux/deepin/2019-01-15-deepin-proxy/index.html</link>
+      <pubDate>Tue, 15 Jan 2019 18:15:10 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/deepin/2019-01-15-deepin-proxy/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Deepin 系统设置自动代理&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;genpac&#34;&gt;genpac&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install python3-pip
+sudo pip3 install genpac
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;生成pac文件：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;genpac --pac-compress --pac-proxy &amp;#39;SOCKS5 127.0.0.1:1081&amp;#39; --format pac  -o ~/pac.js
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;1081为代理端口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;设置系统代理&#34;&gt;设置系统代理&lt;/h2&gt;
+&lt;p&gt;在Deepin系统的 设置&amp;ndash;网络&amp;ndash;系统代理&amp;ndash;自动 填入pac文件位置：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux LDAP 服务部署</title>
+      <link>https://www.xiexianbin.cn/linux/auth/linux-ldap/index.html</link>
+      <pubDate>Sun, 08 Jul 2018 13:42:16 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/auth/linux-ldap/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;LDAP（Lightweight Directory Access Protocol）&lt;/code&gt;轻量目录访问协议，他是基于 &lt;code&gt;目录访问协议 X.500&lt;/code&gt; 的DAP发展过来的，Linux 程序名称为 &lt;code&gt;slapd(stand-alone LDAP daemon)&lt;/code&gt;。与LDAP一样提供类似的目录服务软件还有 &lt;code&gt;ApacheDS&lt;/code&gt;、&lt;code&gt;Active Directory&lt;/code&gt;、&lt;code&gt;Red Hat Directory Service&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>util-linux 工具介绍</title>
+      <link>https://www.xiexianbin.cn/linux/util-linux/index.html</link>
+      <pubDate>Tue, 01 May 2018 13:58:20 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/util-linux/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;util-linux&lt;/code&gt;软件包包含许多重要的实用程序，其中大部分主要用于系统维护&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;util-linux&lt;/code&gt; 软件包中包含的一些更重要的实用程序，包括&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看内核信息&lt;/li&gt;
+&lt;li&gt;创建新文件系统&lt;/li&gt;
+&lt;li&gt;查看块设备信息&lt;/li&gt;
+&lt;li&gt;实时时钟接口等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt install util-linux
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;相关软件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ dpkg -L util-linux | grep bin
+/usr/bin
+/usr/bin/addpart
+/usr/bin/choom
+/usr/bin/chrt
+/usr/bin/delpart
+/usr/bin/dmesg
+/usr/bin/fallocate
+/usr/bin/findmnt
+/usr/bin/flock
+/usr/bin/getopt
+/usr/bin/hardlink
+/usr/bin/ionice
+/usr/bin/ipcmk
+/usr/bin/ipcrm
+/usr/bin/ipcs
+/usr/bin/last
+/usr/bin/lsblk
+/usr/bin/lscpu
+/usr/bin/lsipc
+/usr/bin/lslocks
+/usr/bin/lslogins
+/usr/bin/lsmem
+/usr/bin/lsns
+/usr/bin/mcookie
+/usr/bin/mesg
+/usr/bin/more
+/usr/bin/mountpoint
+/usr/bin/namei
+/usr/bin/nsenter
+/usr/bin/partx
+/usr/bin/prlimit
+/usr/bin/rename.ul
+/usr/bin/resizepart
+/usr/bin/rev
+/usr/bin/setarch
+/usr/bin/setpriv
+/usr/bin/setsid
+/usr/bin/setterm
+/usr/bin/su
+/usr/bin/taskset
+/usr/bin/uclampset
+/usr/bin/unshare
+/usr/bin/utmpdump
+/usr/bin/wdctl
+/usr/bin/whereis
+/usr/sbin
+/usr/sbin/agetty
+/usr/sbin/blkdiscard
+/usr/sbin/blkid
+/usr/sbin/blkzone
+/usr/sbin/blockdev
+/usr/sbin/chcpu
+/usr/sbin/chmem
+/usr/sbin/ctrlaltdel
+/usr/sbin/findfs
+/usr/sbin/fsck
+/usr/sbin/fsck.cramfs
+/usr/sbin/fsck.minix
+/usr/sbin/fsfreeze
+/usr/sbin/fstrim
+/usr/sbin/isosize
+/usr/sbin/ldattach
+/usr/sbin/mkfs
+/usr/sbin/mkfs.bfs
+/usr/sbin/mkfs.cramfs
+/usr/sbin/mkfs.minix
+/usr/sbin/mkswap
+/usr/sbin/pivot_root
+/usr/sbin/readprofile
+/usr/sbin/rtcwake
+/usr/sbin/runuser
+/usr/sbin/sulogin
+/usr/sbin/swaplabel
+/usr/sbin/switch_root
+/usr/sbin/wipefs
+/usr/sbin/zramctl
+/usr/bin/i386
+/usr/bin/lastb
+/usr/bin/linux32
+/usr/bin/linux64
+/usr/bin/x86_64
+/usr/sbin/getty
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决logrotate的copytruncate参数导致打开的文件产生空洞</title>
+      <link>https://www.xiexianbin.cn/linux/logrotate/2018-04-04-logrotate-copytruncate-file-document-empty/index.html</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/logrotate/2018-04-04-logrotate-copytruncate-file-document-empty/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Java -jar 启动服务时，采用 &amp;gt; 重定向日志文件，采用 logrotate的copytruncate参数归档日志文件，产生几十M的文件空洞。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;java -jar&lt;/code&gt; 日志文件保存时候使用 &lt;code&gt;&amp;gt;&lt;/code&gt; 将其保存，对文件进行清除和日志切割(&lt;code&gt;logrotate&lt;/code&gt;)时，容易出现文件空洞。需要使用 &lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt; 可以避免该问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OpenSSL 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/openssl/index.html</link>
+      <pubDate>Wed, 15 Feb 2017 14:21:50 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/openssl/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;OpenSSL 是一个加密工具包，用于执行 &lt;code&gt;Secure Sockets Layer (SSL, 安全套接字层)&lt;/code&gt; 和 &lt;code&gt;Transport Layer Security (TLS, 传输层安全)&lt;/code&gt; 网络协议及其所需的相关加密标准。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;用途（更多参考 &lt;code&gt;man openssl&lt;/code&gt;）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建和管理私钥、公钥和参数&lt;/li&gt;
+&lt;li&gt;公钥加密操作&lt;/li&gt;
+&lt;li&gt;创建 X.509 证书、CSR 和 CRL&lt;/li&gt;
+&lt;li&gt;计算报文摘要和报文验证码&lt;/li&gt;
+&lt;li&gt;使用密码进行加密和解密&lt;/li&gt;
+&lt;li&gt;SSL/TLS 客户端和服务器测试，参考&lt;a href=&#34;https://www.xiexianbin.cn/http/ssl/&#34;&gt;SSL/TLS 原理详解&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;处理 S/MIME 签名或加密邮件&lt;/li&gt;
+&lt;li&gt;时间戳请求、生成和验证&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;h3 id=&#34;源码安装&#34;&gt;源码安装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;源码下载: &lt;a href=&#34;https://www.openssl.org/source/&#34;&gt;https://www.openssl.org/source/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;编译&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tar zxvf openssl-1.0.2l.tar.gz
+mkdir /usr/local/openssl12
+cd openssl-1.0.2l/
+./config --prefix=/usr/local/openssl12/
+make &amp;amp;&amp;amp; make install
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ubuntu&#34;&gt;ubuntu&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt install openssl
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;help&#34;&gt;help&lt;/h2&gt;
+&lt;!-- prettier-ignore-start --&gt;
+
+
+
+&lt;div class=&#34;card mb-3&#34;&gt;
+  &lt;div class=&#34;card-header&#34; id=&#34;heading&#34; data-bs-toggle=&#34;collapse&#34; data-bs-target=&#34;#openssl---help&#34; aria-expanded=&#34;true&#34; aria-controls=&#34;openssl --help&#34;&gt;
+    &lt;h5 class=&#34;mb-0 mt-0&#34;&gt;
+      &lt;span&gt;openssl --help&lt;/span&gt;
+      &lt;span class=&#34;float-end&#34;&gt;...&lt;/span&gt;
+    &lt;/h5&gt;
+  &lt;/div&gt;
+
+  &lt;div id=&#34;openssl---help&#34; class=&#34;collapse&#34;&gt;
+    &lt;div class=&#34;card card-body pb-0 pt-0&#34;&gt;
+      &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ openssl version
+OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+$ openssl --help
+help:
+
+Standard commands
+asn1parse         ca                ciphers           cmp
+cms               crl               crl2pkcs7         dgst
+dhparam           dsa               dsaparam          ec
+ecparam           enc               engine            errstr
+fipsinstall       gendsa            genpkey           genrsa
+help              info              kdf               list
+mac               nseq              ocsp              passwd
+pkcs12            pkcs7             pkcs8             pkey
+pkeyparam         pkeyutl           prime             rand
+rehash            req               rsa               rsautl
+s_client          s_server          s_time            sess_id
+smime             speed             spkac             srp
+storeutl          ts                verify            version
+x509
+
+Message Digest commands (see the `dgst&amp;#39; command for more details)
+blake2b512        blake2s256        md4               md5
+rmd160            sha1              sha224            sha256
+sha3-224          sha3-256          sha3-384          sha3-512
+sha384            sha512            sha512-224        sha512-256
+shake128          shake256          sm3
+
+Cipher commands (see the `enc&amp;#39; command for more details)
+aes-128-cbc       aes-128-ecb       aes-192-cbc       aes-192-ecb
+aes-256-cbc       aes-256-ecb       aria-128-cbc      aria-128-cfb
+aria-128-cfb1     aria-128-cfb8     aria-128-ctr      aria-128-ecb
+aria-128-ofb      aria-192-cbc      aria-192-cfb      aria-192-cfb1
+aria-192-cfb8     aria-192-ctr      aria-192-ecb      aria-192-ofb
+aria-256-cbc      aria-256-cfb      aria-256-cfb1     aria-256-cfb8
+aria-256-ctr      aria-256-ecb      aria-256-ofb      base64
+bf                bf-cbc            bf-cfb            bf-ecb
+bf-ofb            camellia-128-cbc  camellia-128-ecb  camellia-192-cbc
+camellia-192-ecb  camellia-256-cbc  camellia-256-ecb  cast
+cast-cbc          cast5-cbc         cast5-cfb         cast5-ecb
+cast5-ofb         des               des-cbc           des-cfb
+des-ecb           des-ede           des-ede-cbc       des-ede-cfb
+des-ede-ofb       des-ede3          des-ede3-cbc      des-ede3-cfb
+des-ede3-ofb      des-ofb           des3              desx
+rc2               rc2-40-cbc        rc2-64-cbc        rc2-cbc
+rc2-cfb           rc2-ecb           rc2-ofb           rc4
+rc4-40            seed              seed-cbc          seed-cfb
+seed-ecb          seed-ofb          sm4-cbc           sm4-cfb
+sm4-ctr           sm4-ecb           sm4-ofb
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- prettier-ignore-end --&gt;
+&lt;h2 id=&#34;使用示例&#34;&gt;使用示例&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;openssl s_client -connect google.com:443
+
+openssl speed -evp aes-256-gcm
+
+openssl base64 -A &amp;lt; &amp;#34;/root/ca.crt&amp;#34;
+base64 | tr -d &amp;#39;\n&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;rsa&#34;&gt;rsa&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;openssl rsa&lt;/code&gt; RSA 对称密钥的处理工具&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;openssl pkey&lt;/code&gt; 通用非对称密钥处理工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;openssl rsa  [-in filename] [-passin arg] [-passout arg] [-out filename] [-des|-des3|-idea] [-text] [-noout] [-pubin] [-pubout] [-check]
+
+openssl pkey [-in filename] [-passin arg] [-passout arg] [-out filename] [-cipher]          [-text] [-noout] [-pubin] [-pubout]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;说明：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SSH 使用介绍</title>
+      <link>https://www.xiexianbin.cn/linux/ssh/index.html</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/ssh/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文详细介绍&lt;code&gt;SSH(Secure Shell Protocol)&lt;/code&gt;相关知识，如如何在一台服务器中，生成 ssh-key，并为不同地址配置不同 ssh key，该方法适合为不同 git client 配置不同 key。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>国内 Linux 开源镜像站点汇总</title>
+      <link>https://www.xiexianbin.cn/linux/2016-12-09-china-open-source-mirrors/index.html</link>
+      <pubDate>Fri, 09 Dec 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/2016-12-09-china-open-source-mirrors/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;国内 Linux 开源镜像站点汇总。汇总一些中国企业、教育站源，包含操作系统、常用软件、开发工具等，供大家使用，欢迎纠错。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;站点版&#34;&gt;站点版&lt;/h2&gt;
+&lt;h3 id=&#34;企业站&#34;&gt;企业站&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;阿里云：http://mirrors.aliyun.com/&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Centos 7 配置阿里云 yum 源一键配置脚本：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>经典的「服务器最多65536个连接」误解</title>
+      <link>https://www.xiexianbin.cn/linux/faq/2016-06-08-mistake-for-more-than-65536-socket/index.html</link>
+      <pubDate>Wed, 08 Jun 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/faq/2016-06-08-mistake-for-more-than-65536-socket/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;因为TCP端口号是16位无符号整数，最大65535，所以一台服务器最多支持65536个TCP socket连接。一个非常经典的误解! 即使是有多年网络编程经验的人, 也会持有这个错误结论。要戳破这个错误结论，可以从理论和实践两方面来。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>操作系统</title>
+      <link>https://www.xiexianbin.cn/linux/2016-03-06-os-info/index.html</link>
+      <pubDate>Sun, 06 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/2016-03-06-os-info/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;简单介绍操作系统。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;操作系统是人造学科&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;没有对错，只有好坏&lt;/li&gt;
+&lt;li&gt;是对人类活动的观察&lt;/li&gt;
+&lt;li&gt;人有主观能动性，不同的人理解各不相同，多数人认同的抽象就称为了标准，即少数服从多数。&lt;/li&gt;
+&lt;li&gt;符合人的直觉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;程序是如何运行的&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux日志归档功能 logrotate</title>
+      <link>https://www.xiexianbin.cn/linux/logrotate/2015-10-16-linux-logrotate/index.html</link>
+      <pubDate>Fri, 16 Oct 2015 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/logrotate/2015-10-16-linux-logrotate/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在 Centos6.5 中，基本上所有服务都会把日志打印到日志文件，而随着时间的推移，日志文件会越来越大，直到占用所有的硬盘空间。而 logrotate 就是一个提供定时归档日志的功能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 文件传输工具集</title>
+      <link>https://www.xiexianbin.cn/linux/file-transfer/index.html</link>
+      <pubDate>Tue, 11 Nov 2014 22:18:03 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/file-transfer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux 文件传输工具集&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;ol&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-transfer/lsyncd/&#34; target=&#34;_blank&#34;&gt;lsyncd 文件实时同步&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-transfer/rsync/&#34; target=&#34;_blank&#34;&gt;rsync 远程数据同步&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-transfer/zsync/&#34; target=&#34;_blank&#34;&gt;zsync 仅下载更新部分的工具&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>文件压缩专题</title>
+      <link>https://www.xiexianbin.cn/linux/file-compress/index.html</link>
+      <pubDate>Tue, 11 Nov 2014 16:25:28 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/file-compress/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;常见的文件压缩&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Compressor name&lt;/th&gt;
+          &lt;th&gt;Ratio&lt;/th&gt;
+          &lt;th&gt;Compression&lt;/th&gt;
+          &lt;th&gt;Decompress.&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;zstd 1.5.6 -1&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2.887&lt;/td&gt;
+          &lt;td&gt;510 MB/s&lt;/td&gt;
+          &lt;td&gt;1580 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[zlib] 1.2.11 -1&lt;/td&gt;
+          &lt;td&gt;2.743&lt;/td&gt;
+          &lt;td&gt;95 MB/s&lt;/td&gt;
+          &lt;td&gt;400 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;brotli 1.0.9 -0&lt;/td&gt;
+          &lt;td&gt;2.702&lt;/td&gt;
+          &lt;td&gt;395 MB/s&lt;/td&gt;
+          &lt;td&gt;430 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;zstd 1.5.6 &amp;ndash;fast=1&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2.437&lt;/td&gt;
+          &lt;td&gt;545 MB/s&lt;/td&gt;
+          &lt;td&gt;1890 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;zstd 1.5.6 &amp;ndash;fast=3&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2.239&lt;/td&gt;
+          &lt;td&gt;650 MB/s&lt;/td&gt;
+          &lt;td&gt;2000 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;quicklz 1.5.0 -1&lt;/td&gt;
+          &lt;td&gt;2.238&lt;/td&gt;
+          &lt;td&gt;525 MB/s&lt;/td&gt;
+          &lt;td&gt;750 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;lzo1x 2.10 -1&lt;/td&gt;
+          &lt;td&gt;2.106&lt;/td&gt;
+          &lt;td&gt;650 MB/s&lt;/td&gt;
+          &lt;td&gt;825 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;[lz4] 1.9.4&lt;/td&gt;
+          &lt;td&gt;2.101&lt;/td&gt;
+          &lt;td&gt;700 MB/s&lt;/td&gt;
+          &lt;td&gt;4000 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;lzf 3.6 -1&lt;/td&gt;
+          &lt;td&gt;2.077&lt;/td&gt;
+          &lt;td&gt;420 MB/s&lt;/td&gt;
+          &lt;td&gt;830 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;snappy 1.1.9&lt;/td&gt;
+          &lt;td&gt;2.073&lt;/td&gt;
+          &lt;td&gt;530 MB/s&lt;/td&gt;
+          &lt;td&gt;1660 MB/s&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;上表&lt;a href=&#34;https://github.com/facebook/zstd?tab=readme-ov-file#benchmarks&#34;&gt;参考&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;结论
+&lt;ul&gt;
+&lt;li&gt;压缩比：&lt;code&gt;zstd&lt;/code&gt; &amp;gt; &lt;code&gt;LZ4&lt;/code&gt; &amp;gt; &lt;code&gt;GZIP&lt;/code&gt; &amp;gt; &lt;code&gt;Snappy&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;吞吐量：&lt;code&gt;LZ4&lt;/code&gt; &amp;gt; &lt;code&gt;zstd&lt;/code&gt; &amp;gt; &lt;code&gt;Snappy&lt;/code&gt; &amp;gt; &lt;code&gt;GZIP&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/gzip/&#34;&gt;gzip&lt;/a&gt; 是基于 &lt;a href=&#34;https://en.wikipedia.org/wiki/DEFLATE&#34;&gt;DEFLATE&lt;/a&gt; 的算法，它是 &lt;a href=&#34;https://en.wikipedia.org/wiki/LZ77_and_LZ78&#34;&gt;LZ77&lt;/a&gt; 和 &lt;a href=&#34;https://en.wikipedia.org/wiki/Huffman_coding&#34;&gt;Huffman&lt;/a&gt; 编码 的结合&lt;/li&gt;
+&lt;li&gt;Pigz 是 gzip 的并行实现的缩写，主要思想是利用多核处理器，将输入分成 128 KB 的块，每个块都被并行压缩
+&lt;ul&gt;
+&lt;li&gt;Pigz 的作者 Mark Adler，同时也是 Info-ZIP 的 zip 和 unzip、GNU 的 gzip 和 zlib 压缩库的共创作者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/lz4/&#34;&gt;LZ4&lt;/a&gt; 是一种无损压缩算法，每核提供大于 500MB/s 的压缩速度（大于0.15 Bytes/cycle）
+&lt;ul&gt;
+&lt;li&gt;LZ4 的特点是解码速度极快，每核速度为多 GB/s（约1 Bytes/cycle）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;(/linux/file-compress/brotli/)&#34;&gt;Brotli&lt;/a&gt;: A General-Purpose Data Compressor 是 Google 于 2013 年底推出的开源通用数据压缩器，现已在大多数知名浏览器和 Web 服务器中采用
+&lt;ul&gt;
+&lt;li&gt;2013-2016 年完成规范，旨在进一步提高压缩比，它在优化网站速度上有大量应用&lt;/li&gt;
+&lt;li&gt;brotli 比 gzip 快 30%，压缩结果大小差不太多，阿里云 CDN 支持 brotli 压缩算法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/zstd/&#34;&gt;Zstd&lt;/a&gt; 全称叫 Zstandard，是一个提供高压缩比的快速压缩算法，主要实现的编程语言为 C，是 Facebook 的 Yann Collet 于2016年发布的，Zstd 采用了有限状态熵（Finite State Entropy，缩写为FSE）编码器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zlib.net/pigz/&#34;&gt;pigz&lt;/a&gt; 现代 gzip 的并行实现，多处理器、多核机器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/brotli/&#34; target=&#34;_blank&#34;&gt;brotli 压缩算法介绍&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/gzip/&#34; target=&#34;_blank&#34;&gt;gzip / gunzip 压缩解压工具&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/lz4/&#34; target=&#34;_blank&#34;&gt;lz4 快速压缩工具&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/snappy/&#34; target=&#34;_blank&#34;&gt;Snappy 快速压缩工具&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/tar/&#34; target=&#34;_blank&#34;&gt;tar 文件压缩解压工具&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/xz/&#34; target=&#34;_blank&#34;&gt;xz 文件压缩解压工具&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/zip-7/&#34; target=&#34;_blank&#34;&gt;7z 压缩和解压&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.xiexianbin.cn/linux/file-compress/zstd/&#34; target=&#34;_blank&#34;&gt;zstd 速度快、性能好的压缩工具&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 常用软件</title>
+      <link>https://www.xiexianbin.cn/linux/softwares/index.html</link>
+      <pubDate>Tue, 11 Nov 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/softwares/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux 常用软件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;说明&#34;&gt;说明&lt;/h2&gt;
+&lt;p&gt;Linux 系统常用软件。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shell 常用命令</title>
+      <link>https://www.xiexianbin.cn/linux/shell/index.html</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/shell/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;记录我常用的 shell 命令。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Xshell&lt;/li&gt;
+&lt;li&gt;MobaXterm&lt;/li&gt;
+&lt;li&gt;SmarTTY&lt;/li&gt;
+&lt;li&gt;ZOC&lt;/li&gt;
+&lt;li&gt;FileZilla&lt;/li&gt;
+&lt;li&gt;KiTTY&lt;/li&gt;
+&lt;li&gt;Bitvise SSH 客户端&lt;/li&gt;
+&lt;li&gt;mRemoteNG&lt;/li&gt;
+&lt;li&gt;WinSCP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;基础&#34;&gt;基础&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;获取当前 Sell 脚本的目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;DIR=&amp;#34;$( cd &amp;#34;$( dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34; )&amp;#34; &amp;amp;&amp;amp; pwd )&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;获取 pid 、ppid 相关，&lt;a href=&#34;https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Bash-Variables&#34;&gt;参考&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;pid: &lt;code&gt;$BASHPID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;ppid: &lt;code&gt;$$&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;${BASH_SOURCE[0]}&lt;/code&gt; 获取当前脚本的路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;文件描述符&#34;&gt;文件描述符&lt;/h3&gt;
+&lt;p&gt;Shell 中描述符一共有 12 个&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux Disk 专题</title>
+      <link>https://www.xiexianbin.cn/linux/disk/index.html</link>
+      <pubDate>Fri, 09 May 2014 21:33:05 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/disk/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Linux Disk 专题&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;磁盘详情&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt install -y smartmontools
+smartctl -i /dev/sdi
+smartctl --json -i /dev/sdi
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;容量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;df -B1
+df -B1GiB
+df -B1GB
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;区分是机械盘还是 SSD/NVME&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;根据是否可以转判断。如上是机械盘为 &lt;code&gt;1&lt;/code&gt;，否则为 &lt;code&gt;0&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ cat /sys/block/sdi/queue/rotational
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;分区&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ blkid /dev/vda1
+/dev/vda1: UUID=&amp;#34;eb448abb-3012-4d8d-bcde-94434d586a31&amp;#34; TYPE=&amp;#34;ext4&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;NVME 设备&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;NVME(Non-Volatile Memory Express)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux Netfilter 专题</title>
+      <link>https://www.xiexianbin.cn/linux/netfilter/index.html</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/netfilter/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Netfilter&lt;/code&gt; 是 &lt;code&gt;Linux&lt;/code&gt; 操作系统核心层（内核）内部的一个数据包处理模块。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;功能&#34;&gt;功能&lt;/h2&gt;
+&lt;p&gt;Netfilter 是 Linux 内核中一个对数据 包进行控制、修改和过滤（manipulation and filtering）的框架。它在内核协议 栈中设置了若干 hook 点，以此对数据包进行拦截、过滤或其他处理。Netfilter 与 1998 年开始开发，2000 年合并到 2.4.x 内 核主线版本&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CentOS 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/centos/index.html</link>
+      <pubDate>Sat, 05 Apr 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/centos/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;简单介绍centos 7的常用工具、文件系统管理、文本处理、终端、用户、组、权限、网络配置、进程管理、KVM、软件、定时任务、日志、分区、LVM、kernel管理、apache配置、systemd、boot过程、kickstart、selinux、firewall、performance command、performance tunning、bonding。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>top 命令的参数理解</title>
+      <link>https://www.xiexianbin.cn/linux/top/index.html</link>
+      <pubDate>Sat, 05 Apr 2014 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/top/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;经常在 &lt;code&gt;Linux&lt;/code&gt; 系统中使用 &lt;code&gt;top&lt;/code&gt; 命令查看系统系统各种资源的占用数据，有些参数实在疑惑，故写此博客汇总写。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;top命令窗口&#34;&gt;top命令窗口&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;top - 15:57:32 up 165 days, 20:29,  1 user,  load average: 0.00, 0.01, 0.05
+Tasks:  76 total,   1 running,  75 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1014836 total,   130316 free,   160796 used,   723724 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   691668 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+14514 root      10 -10  130348  12556   7468 S  0.7  1.2 273:21.86 AliYunDun
+    1 root      20   0  191048   3740   2252 S  0.0  0.4  20:36.16 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.06 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   2:03.52 ksoftirqd/0
+    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+    7 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0
+    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh
+    9 root      20   0       0      0      0 S  0.0  0.0  23:14.34 rcu_sched
+   10 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 lru-add-drain
+   11 root      rt   0       0      0      0 S  0.0  0.0   0:50.62 watchdog/0
+   13 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs
+   14 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns
+   15 root      20   0       0      0      0 S  0.0  0.0   0:03.50 khungtaskd
+   16 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback
+   17 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd
+   18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   19 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+   20 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;第一行
+&lt;ul&gt;
+&lt;li&gt;top - 15:57:32 up 165 days, 20:29 : 系统已经运行的时间，也可以用 &lt;code&gt;uptime&lt;/code&gt; 查看&lt;/li&gt;
+&lt;li&gt;1 user : 当前登录用户&lt;/li&gt;
+&lt;li&gt;load average: 0.00, 0.01, 0.05 : 分别表示系统1分钟平均负载、5分钟平均负载、15分钟平均负载&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第二行 Tasks 表示系统运行的整体进程数量和状态信息
+&lt;ul&gt;
+&lt;li&gt;total 表示系统现在一共有多少个用户进程&lt;/li&gt;
+&lt;li&gt;running 表示正在处于running状态的进程&lt;/li&gt;
+&lt;li&gt;sleeping 表示正处于sleeping状态的进程&lt;/li&gt;
+&lt;li&gt;stopped 表示正处于stopped状态的进程&lt;/li&gt;
+&lt;li&gt;zombie 表示僵尸进程的格式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第三行 %Cpu(s) 表示的是总体CPU使用情况
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;us, user&lt;/code&gt; 表示用户态的CPU时间比例&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sy, system&lt;/code&gt; 表示内核态的CPU时间比例，间接表示内核消耗在&lt;code&gt;硬件服务&lt;/code&gt;和&lt;code&gt;软件中断&lt;/code&gt;上的时间&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ni, nice&lt;/code&gt; 表示运行低优先级进程的CPU时间比例&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;id, idle&lt;/code&gt; 表示空闲CPU时间比例&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;wa, iowait&lt;/code&gt; 表示处于IO等待的CPU时间比例&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hi, hard interrupt&lt;/code&gt; 表示处理硬中断的CPU时间比例&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;si, soft interrupt&lt;/code&gt; 表示处理软中断的CPU时间比例&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;st, steal time&lt;/code&gt; 表示当前系统运行在虚拟机中的时候，被其他虚拟机占用的CPU时间比例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;第四行 Mem 内存情况，单位为 KiB&lt;/li&gt;
+&lt;li&gt;第五行 Swap 内存情况，单位为 KiB&lt;/li&gt;
+&lt;li&gt;第六行个别参数：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PID&lt;/code&gt; 进程ID&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;USER&lt;/code&gt; 进程所有者的用户名，例如root&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PR&lt;/code&gt; 进程调度优先级&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;NI&lt;/code&gt; 进程nice值（优先级），越小的值代表越高的优先级，参考使用&lt;a href=&#34;https://www.xiexianbin.cn/linux/commands/nice/&#34;&gt;nice 修改程序的优先级&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;VIRT(virtual memory usage)&lt;/code&gt;进程使用的虚拟内存&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RES(resident memory usage)&lt;/code&gt;进程使用的物理内存（不包括共享内存）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SHR(shared memory)&lt;/code&gt;进程使用的共享内存&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;S&lt;/code&gt; 表示进程的运行状态，Z 表示该进程是僵尸进程&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CPU&lt;/code&gt; 进程使用的CPU占比&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MEM&lt;/code&gt; 进程使用的内存占比&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TIME&lt;/code&gt; 进程启动后到现在所用的全部CPU时间&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;COMMAND&lt;/code&gt; 进程的启动命令（默认只显示二进制，top -c能够显示命令行和启动参数）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;DATA&lt;/code&gt;：数据占用的内存。如果top没有显示，按f键可以显示出来。这一块是真正的该程序要求的数据空间，是真正在运行中要使用的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;因此，DATA的含义比较确定，甚至可以用程序读取的数据量计算出来；SHR是一个潜在的可能会被共享的数字，如果只开一个程序，也没有别人共同使用它；VIRT里面的可能性更多，比如它可能计算了被许多X的库所共享的内存；RES应该是比较准确的，但不含有交换出去的空间；但基本可以说RES是程序当前使用的内存量。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VPN 介绍</title>
+      <link>https://www.xiexianbin.cn/linux/vpn/index.html</link>
+      <pubDate>Tue, 04 Mar 2014 17:38:10 +0800</pubDate>
+      
+      <guid>https://www.xiexianbin.cn/linux/vpn/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;VPN(Virtual private network), 虚拟专用网&lt;/code&gt; 将专用网络延伸到公共网络上，使用户能够在共享或公共网络上发送和接收数据&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
+&lt;ol&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&#34;https://www.xiexianbin.cn/linux/vpn/wireguard&#34; target=&#34;_blank&#34;&gt;WireGuard VPN 安装和使用&lt;/a&gt;
+    &lt;/li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;扩展&#34;&gt;扩展&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.jumpserver.org/zh/master/admin-guide/quick_start/&#34;&gt;Jumpserver 快速入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/snail007/goproxy&#34;&gt;snail007/goproxy&lt;/a&gt; 是 golang 实现的高性能 http,https,websocket,tcp,socks5 代理服务器,支持内网穿透,链式代理,通讯加密,智能 HTTP,SOCKS5 代理,黑白名单,限速,限流量,限连接数,跨平台,KCP 支持,认证 API&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

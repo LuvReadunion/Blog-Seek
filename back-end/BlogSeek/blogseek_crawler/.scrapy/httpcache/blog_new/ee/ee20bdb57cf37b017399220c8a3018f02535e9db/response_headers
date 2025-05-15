@@ -1,0 +1,13 @@
+Server: nginx
+Date: Sat, 10 May 2025 12:00:00 GMT
+Content-Type: application/atom+xml; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+X-Hacker: Want root?  Visit join.a8c.com/hacker and mention this header.
+Host-Header: WordPress.com
+Vary: accept, content-type, cookie
+Last-Modified: Sat, 10 May 2025 12:00:00 GMT
+Etag: "4c1eae5fc6804ece706454caaa6f4dbc"
+X-Redirect-By: WordPress
+Location: https://onojyun.com/2025/04/28/feed/atom/
+X-Ac: 32.hkg _bur MISS
+Alt-Svc: h3=":443"; ma=86400

@@ -1,0 +1,14 @@
+Server: nginx
+Date: Sat, 10 May 2025 11:59:13 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Vary: accept, content-type, cookie
+X-Hacker: Want root?  Visit join.a8c.com/hacker and mention this header.
+Host-Header: WordPress.com
+X-Pingback: https://onojyun.com/xmlrpc.php
+Link: <https://wp.me/pdm4Nd-3X3>; rel=shortlink
+Link: <https://onojyun.com/?p=15193>; title="ActivityPub (JSON)"; rel="alternate"; type="application/activity+json"
+Content-Encoding: br
+X-Ac: 22.hkg _bur MISS
+Alt-Svc: h3=":443"; ma=86400

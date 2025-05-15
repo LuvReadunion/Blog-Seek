@@ -1,0 +1,10 @@
+Content-Length: 261
+Location: https://www.google.com/ads/preferences/html/blocked-cookies.html
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Sat, 10 May 2025 10:34:34 GMT
+Server: content-ads-prefmgr
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

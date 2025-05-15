@@ -1,0 +1,26 @@
+Content-Length: 26327
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'
+Content-Type: image/jpeg
+Etag: "6356ba0631a2109931a803faddcb28e7ab3267731b23725c70183c52510aa780"
+Last-Modified: Sat, 04 Mar 2023 18:20:44 GMT
+Strict-Transport-Security: max-age=31557600
+Timing-Allow-Origin: https://github.com
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Github-Tenant: 
+X-Xss-Protection: 1; mode=block
+X-Github-Request-Id: 271E:39ADC6:1FC60:7C86E:681EA39D
+Accept-Ranges: bytes
+Date: Sat, 10 May 2025 11:29:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hkg17930-HKG
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Timer: S1746876586.018158,VS0,VE0
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-Id: 70dc82711cb5b063eee4819a26a8d5a92dbeee58
+Expires: Sat, 10 May 2025 11:34:46 GMT
+Source-Age: 38156
+Vary: Authorization,Accept-Encoding

@@ -1,0 +1,21 @@
+Date: Sat, 10 May 2025 10:29:38 GMT
+Content-Type: text/html; charset=utf-8
+Server: cloudflare
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Cf-Ray: 93d8c1ac3d1f043b-HKG
+Location: https://coveralls.io/github/hexojs/hexo-server
+Status: 301 Moved Permanently
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Referrer-Policy: strict-origin-when-cross-origin
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 1b52253fe2d640e0fb0129cc41758d47
+X-Download-Options: noopen
+X-Runtime: 0.005789
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=5xixxWI2qZvaK2pdS1EMavdqHyC%2FYXV82VJAH4c6a3oS34qG%2FSxfdjqHCOBdlqpHKTX4MhHQPm728T%2B2dmTmp3jTC7XQgO8Edx4fhS%2Fbk7LrG%2Fz1VX66eO9DsCOl%2Fs8%3D"}],"group":"cf-nel","max_age":604800}
+Alt-Svc: h3=":443"; ma=86400
+Server-Timing: cfL4;desc="?proto=TCP&rtt=967&min_rtt=960&rtt_var=365&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2828&recv_bytes=1065&delivery_rate=3016666&cwnd=104&unsent_bytes=0&cid=d0ef58cd593d004c&ts=962&x=0"

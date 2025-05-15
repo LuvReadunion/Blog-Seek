@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="zh-Hans"
+	>
+	<title type="text">Linmi</title>
+	<subtitle type="text">探索未知，沉淀新知，迭代认知。</subtitle>
+
+	<updated>2022-12-05T13:22:28Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://linmi.cc" />
+	<id>https://linmi.cc/feed/atom</id>
+	<link rel="self" type="application/atom+xml" href="https://linmi.cc/feed/atom" />
+
+	<generator uri="https://wordpress.org/" version="6.5.5">WordPress</generator>
+<icon>https://linmi.cc/wp-content/uploads/2020/04/cropped-2020040208350644-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[二十七，混沌中重建秩序]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/63964.html" />
+
+		<id>https://linmi.cc/?p=63964</id>
+		<updated>2022-12-05T13:22:28Z</updated>
+		<published>2022-12-05T13:01:47Z</published>
+		<category scheme="https://linmi.cc" term="个人总结" /><category scheme="https://linmi.cc" term="年终总结" /><category scheme="https://linmi.cc" term="生日总结" />
+		<summary type="html"><![CDATA[去年的总结没有拿出来说，今年反而开窍了一些，重新梳理自己，来聊聊这一年我的所遇所得。不过今年就不拉出来流水账来说，总结一些我的意识成长以及我的生活体验与好物，也对大家也有一些参考价值。]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/63964.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/63964.html/feed/atom" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Notion</name>
+							<uri>https://notion.so</uri>
+						</author>
+
+		<title type="html"><![CDATA[Notion AI 来了～]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/61068.html" />
+
+		<id>https://linmi.cc/?p=61068</id>
+		<updated>2022-11-16T18:02:32Z</updated>
+		<published>2022-11-16T15:30:49Z</published>
+		<category scheme="https://linmi.cc" term="Notion" /><category scheme="https://linmi.cc" term="Notion AI" /><category scheme="https://linmi.cc" term="Notion 写作" />
+		<summary type="html"><![CDATA[我在 Notion 的旧金山办公室给你写了这封信，在那里我们有一幅计算机先驱道格-恩格尔巴特的画像。1962年，他在其论文《增强人类智力一个概念框架】-- 它们可以成为有能力帮助我们解决问题的机器，而不是房间大小的计算器和打字机。 他的想法（以及他同时代人的想法）是我们建立Notion的一个重要原因。 今天，我们在这个方向上又迈出了一步。 我们推出了 Notion AI 的 alpha 版本，将人工智能的力量直接带入你的 Notion 空间。 我们的使命是使软件工具制作无处不在，而Notion AI将帮助实现这一目]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/61068.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/61068.html/feed/atom" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[实体图书扫描导入 Notion 实践 · 豆瓣评分版]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/42154.html" />
+
+		<id>https://linmi.cc/?p=42154</id>
+		<updated>2022-03-27T13:56:22Z</updated>
+		<published>2022-03-27T10:50:48Z</published>
+		<category scheme="https://linmi.cc" term="Notion" /><category scheme="https://linmi.cc" term="ISBN" /><category scheme="https://linmi.cc" term="Notion API" /><category scheme="https://linmi.cc" term="快捷指令" /><category scheme="https://linmi.cc" term="捷径" /><category scheme="https://linmi.cc" term="豆瓣图书" />
+		<summary type="html"><![CDATA[上周做了一个有意思的玩具，用于录入我现有的实体书籍到 Notion 里面，方便我进行管理。]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/42154.html#comments" thr:count="50" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/42154.html/feed/atom" thr:count="50" />
+			<thr:total>50</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[聊聊 Notion 个人管理体系搭建 ｜Linmi Weekly #3]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/40702.html" />
+
+		<id>https://linmi.cc/?p=40702</id>
+		<updated>2022-03-22T16:42:53Z</updated>
+		<published>2022-02-20T18:12:55Z</published>
+		<category scheme="https://linmi.cc" term="周报" /><category scheme="https://linmi.cc" term="打字练习" />
+		<summary type="html"><![CDATA[Hi～我是 Linmi，很兴奋我能坚持到第三期，前两期的输出收到大家的正向反馈真的让人开心。过年期间的停更也让我有充足的时间去思考一些事情，主要是内容输出的持续性和大家通过我的内容收益如何。希望大家有看到什么问题也可以评论和我反馈，非常感谢。]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/40702.html#comments" thr:count="45" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/40702.html/feed/atom" thr:count="45" />
+			<thr:total>45</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[助力思考决策的 20 种思维方式 &#124; Linmi Weekly #2]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/39769.html" />
+
+		<id>https://linmi.cc/?p=39769</id>
+		<updated>2022-03-26T10:28:35Z</updated>
+		<published>2022-01-20T05:07:51Z</published>
+		<category scheme="https://linmi.cc" term="周报" /><category scheme="https://linmi.cc" term="冰山模型" /><category scheme="https://linmi.cc" term="决策树" /><category scheme="https://linmi.cc" term="艾森豪威尔矩阵" />
+		<summary type="html"><![CDATA[Hi～我是 Linmi，这是第二期啦，很高兴我能坚持下来输出第二期，不积硅步，无以至千里。 本周其实出了一些小意外，本来新知模块有一个章节介绍我读完《清华产品管理课》的一些记录，发布前，我回想起少楠之前收到过相关内容的律师函，决定删除这个章节。如果想看的话，社群也许是一条出路。 坏消息说完说说好消息，本周关于模块安排上，本周新增了两个模块，分别是产品与交流。 考虑到大家都是因为 Notion 认识我，但是 Notion 每次的更新都比较小，我开了一个模块用于介绍 Notion 更新的进展。还有刚推出的一些新产品，可]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/39769.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/39769.html/feed/atom" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[学习从 CEO 视角看问题｜Linmi Weekly #1]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/39227.html" />
+
+		<id>https://linmi.cc/?p=39227</id>
+		<updated>2022-03-22T16:44:09Z</updated>
+		<published>2022-01-12T12:47:17Z</published>
+		<category scheme="https://linmi.cc" term="周报" /><category scheme="https://linmi.cc" term="CEO" /><category scheme="https://linmi.cc" term="Weekly" /><category scheme="https://linmi.cc" term="优先级" /><category scheme="https://linmi.cc" term="身份证" />
+		<summary type="html"><![CDATA[我的第一份 Newsletter，请查收。]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/39227.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/39227.html/feed/atom" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Notion 工程师带你从底层理解数据库]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/21897.html" />
+
+		<id>https://linmi.cc/?p=21897</id>
+		<updated>2021-03-05T17:57:05Z</updated>
+		<published>2021-01-16T17:11:25Z</published>
+		<category scheme="https://linmi.cc" term="Notion" /><category scheme="https://linmi.cc" term="数据库" /><category scheme="https://linmi.cc" term="科普" /><category scheme="https://linmi.cc" term="翻译" />
+		<summary type="html"><![CDATA[本文是 Notion 工程师 Chet 通过一个警局内警察信息管理的案例，揭开数据库的由来与使用。文章中有说到一句话：大多数人并不具备数据库和信息架构的技术素养。这句话其实已经说明了为什么现在各种数据库表格类产品雷声大、雨点小，最终选择面向 B 端求生存。]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/21897.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/21897.html/feed/atom" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[如何彻底删除 Chrome 来提速 Mac]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/21818.html" />
+
+		<id>https://linmi.cc/?p=21818</id>
+		<updated>2021-01-12T23:53:47Z</updated>
+		<published>2021-01-12T23:53:46Z</published>
+		<category scheme="https://linmi.cc" term="效率工具" /><category scheme="https://linmi.cc" term="Chrome" /><category scheme="https://linmi.cc" term="Google" /><category scheme="https://linmi.cc" term="Keystone" /><category scheme="https://linmi.cc" term="MacOS" /><category scheme="https://linmi.cc" term="翻译" />
+		<summary type="html"><![CDATA[本篇文章为译文，翻译自：Chrome is Bad，做了一些简单的改编，提取了一些有效信息。 原因 有时候打开「活动监视器」，会发现 Mac Window Server（系统进程）中有大量异常的 CPU 使用率情况存在。究其原因，是因为 Google Chrome 会在 Mac 上安装了一个名为 Keystone 的更新程序，即使Chrome 没有运行，它也会让整个 Mac 运行缓慢。删除 Chrome 和 Keystone 可以解决这个问题。了解很多详情看：Deleted Chrome &#38; Keyston]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/21818.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/21818.html/feed/atom" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Notion 2.10：期待已久的 Timeline 终于来了]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/19748.html" />
+
+		<id>https://linmi.cc/?p=19748</id>
+		<updated>2022-03-22T17:26:23Z</updated>
+		<published>2020-11-12T02:52:49Z</published>
+		<category scheme="https://linmi.cc" term="Notion" /><category scheme="https://linmi.cc" term="Notion Timeline" />
+		<summary type="html"><![CDATA[去年的 8 月，Notion 在 Twitter 上发了一条关于 Timeline 即将要到来的推，时隔一年之久，Timeline 模式终于来了。 不过我已经提前体验了两周，整体对比之前的 Timeline 模式，功能完备，有的都有。按照周期管理的任务，使用 Timeline 再合适不过。话不多说，直接看 Notion 2.10 更新了什么。 更新一：Timeline 模式 说 Timeline 估计不好理解，换个名词甘特图，就清晰明白了。 甘特图是条状图的一种流行类型，显示项目、进度以及其他与时间相关的系统进展的]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/19748.html#comments" thr:count="28" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/19748.html/feed/atom" thr:count="28" />
+			<thr:total>28</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Linmi</name>
+							<uri>https://linmi.cc/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Notion 2.9：反向链接与行内页面?️]]></title>
+		<link rel="alternate" type="text/html" href="https://linmi.cc/18024.html" />
+
+		<id>https://linmi.cc/?p=18024</id>
+		<updated>2022-03-22T17:26:31Z</updated>
+		<published>2020-09-17T22:40:44Z</published>
+		<category scheme="https://linmi.cc" term="Notion" /><category scheme="https://linmi.cc" term="反向链接" />
+		<summary type="html"><![CDATA[本月初，作为 Notion Pro，我先行拿到了反向链接（backlink）的测试权限，在最近使用过程中，的确在一些重协作的场景上带来不一样的体验。 关于 Notion 添加反向链接，Notion 中文社区的 Power User 成员?羅蔔多克 &#160;RobDock 在群里聊到的一个点让我很是印象深刻。 Notion 的使用拓扑逻辑应该是，将中心化和去中心化结合，中心化着重体现在目录分类里，方便检索，查找，主要体现内容的条理性。去中心化则主要应用在 backlink 上面，针对的是 page 内文本对 其他]]></summary>
+
+		
+					<link rel="replies" type="text/html" href="https://linmi.cc/18024.html#comments" thr:count="20" />
+			<link rel="replies" type="application/atom+xml" href="https://linmi.cc/18024.html/feed/atom" thr:count="20" />
+			<thr:total>20</thr:total>
+			</entry>
+	</feed>

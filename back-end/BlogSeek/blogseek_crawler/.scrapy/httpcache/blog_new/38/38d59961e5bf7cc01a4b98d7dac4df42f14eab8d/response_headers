@@ -1,0 +1,9 @@
+Content-Length: 14200
+Date: Sat, 10 May 2025 12:00:16 GMT
+Server: Apache/2.4.62 (Debian)
+Vary: Accept-Encoding,Cookie,User-Agent
+X-Pingback: https://blog.save-web.org/xmlrpc.php
+Link: <https://blog.save-web.org/wp-json/>; rel="https://api.w.org/", <https://blog.save-web.org/wp-json/wp/v2/posts/196>; rel="alternate"; title="JSON"; type="application/json", <https://blog.save-web.org/?p=196>; rel=shortlink
+Strict-Transport-Security: max-age=63072000
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8

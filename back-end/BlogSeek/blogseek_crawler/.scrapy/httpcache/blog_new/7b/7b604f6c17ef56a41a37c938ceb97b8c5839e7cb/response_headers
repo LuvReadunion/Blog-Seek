@@ -1,0 +1,15 @@
+Content-Length: 22633
+Accept-Ranges: bytes
+Age: 13417
+Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; hit
+Content-Encoding: br
+Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; img-src self data: http: https:; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ; script-src-elem 'self' 'unsafe-inline'; worker-src 'self' data:; frame-src 'self' https://app.netlify.com https://www.youtube-nocookie.com; frame-ancestors 'none'; connect-src 'self' https://api.github.com/repos/tauri-apps/tauri-docs/pulls;
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 10 May 2025 11:41:13 GMT
+Etag: "acde1399e8e2db1f6948fa70df2beed9-ssl-df"
+Server: Netlify
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Nf-Request-Id: 01JTWZZMXNS1ST2BTMPPH3CDK6

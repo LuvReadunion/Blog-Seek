@@ -1,0 +1,38 @@
+Content-Length: 0
+Server: daiquiri/5
+Content-Type: text/html; charset=UTF-8
+X-Apple-Jingle-Correlation-Key: JC3FWAEMRLCVCBFWDXFKULTDGY
+X-Apple-Request-Uuid: 48b65b00-8c8a-c551-04b6-1dcaaa2e6336
+X-Apple-Translated-Wo-Url: /WebObjects/MZStore.woa/wa/viewSoftware?ls=1&mt=12&at=1000lv4R&ct=iPic_me&id=1101244278&cc=cn&urlDesc=
+Apple-Tk: false
+X-B3-Spanid: 049a247aac5fb1c4
+X-Apple-Aka-Ttl: Generated Sat May 10 05:00:46 PDT 2025, Expires Sat May 10 05:00:46 PDT 2025, TTL 0s, cache-maxage=0s
+X-Apple-Lokamai-No-Cache: true
+X-Apple-Lokamai-No-Cache: true
+B3: 48b65b008c8ac55104b61dcaaa2e6336-049a247aac5fb1c4
+X-B3-Traceid: 48b65b008c8ac55104b61dcaaa2e6336
+X-Webobjects-Loadaverage: 0
+Last-Modified: Sat, 10 May 2025 12:00:46 GMT
+Apple-Seq: 0.0
+Apple-Originating-System: MZStore
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Apple-Orig-Url: https://itunes.apple.com/cn/app/id1101244278?ls=1&mt=12&at=1000lv4R&ct=iPic_me
+X-Apple-Application-Site: ST11
+Apple-Timing-App: 4 ms
+Location: https://apps.apple.com/cn/app/id1101244278?mt=12
+X-Apple-Application-Instance: 2500887
+X-Responding-Instance: MZStore:2500887:::
+X-Daiquiri-Instance: daiquiri:41896014:st47p00it-qujn12071501:7987:25RELEASE50:daiquiri-amp-store-l7shared-int-001-st
+X-Daiquiri-Instance: daiquiri:42282005:st53p00it-qujn14050102:7987:25RELEASE50:daiquiri-amp-store-l7shared-ext-001-st
+Expires: Sat, 10 May 2025 12:00:46 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 10 May 2025 12:00:46 GMT
+X-Cache: TCP_MISS from a104-84-150-46.deploy.akamaitechnologies.com (AkamaiGHost/22.1.1.1-c4fce450b4824ba2e51e32b4cbf189c7) (-)
+X-True-Cache-Key: /L/itunes.apple.com/cn/app/id1101244278?at=1000lv4R&ct=iPic_me&ls=1&mt=12Browser vcd=2897
+Set-Cookie: ls=1; version="1"; max-age=10; expires=Sat, 10-May-2025 12:00:56 GMT; path=/; domain=.apple.com
+X-Cache-Remote: TCP_MISS from a23-32-240-184.deploy.akamaitechnologies.com (AkamaiGHost/22.1.1.1-c4fce450b4824ba2e51e32b4cbf189c7) (-)
+Vary: X-Apple-Store-Front, Cookie
+Vary: X-Apple-Store-Front, Cookie
+X-Apple-Partner: origin.0
