@@ -1,48 +1,114 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+body {
+  font-family: 'Inter', sans-serif;
 }
-
-a,
-
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+.logo {
+  content: url('@/assets/BlogSeek.svg');
+  display: flex;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
 }
-
-/* 主色调 */
-.yellow {
-  text-decoration: none;
-  color: rgb(255, 214, 30);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
+@media (prefers-color-scheme: dark) {
+  .logo {
+    content: url('@/assets/BlogSeek_white.svg');
     display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
   }
 }
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--color-heading);
+}
+.subtitle {
+  margin-left: 20px;
+  font-size: 20px;
+  color: var(--color-text);
+} 
+.text {
+  color: var(--color-text)
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height:auto ;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: var(--color-background-light);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
-.greetings {
-  margin-left: 2%;
+.form-container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  place-items: center;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: var(--color-background-light);
+  color: var(--color-background-light);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.login-regis-buttons { 
+  margin-top: 10px;
+  font-size: 17px;
+  color: var(--color-heading);
+}
+.radio-buttons {
+  color: var(--color-text);
+}
+
+.ant-form-item-label > label {
+  color: var(--vt-c-gray);
+}
+
+.ant-input,
+.ant-input-password {
+  background-color: var(--color-background-light);
+  color: var(--color-text);
+}
+.ant-input::placeholder,
+.ant-input-password::placeholder {
+  color: var( --vt-c-gray);
+}
+
+.ant-input:focus,
+.ant-input-password:focus {
+  border-color: var(--vt-c-divider);
+  box-shadow: none;
+}
+
+.ant-btn-primary {
+  background-color: var(--color-heading);
+  border-color: var(--color-heading);
+  color: var(--color-background);
+  height: 50px;
+  font-size: 20px;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: var(--vt-c-theme-light);
+  border-color: var(--vt-c-theme-light);
+}
+
+.result-item {
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.result-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+.result-item:hover .ant-card-meta-title {
+  color: var(--vt-c-theme-light);
 }

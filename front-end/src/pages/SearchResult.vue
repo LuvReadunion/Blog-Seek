@@ -24,7 +24,7 @@
   <div v-if="true" >
     <a-row gutter="[16,16]">
       <a-col :span="24" v-for="item in results" :key="item.id">
-        <a-card class = "result-item">
+        <a-card class = "result-item" @click="goToBlog(item.url)">
           <template #cover>
             <span><img alt="封面" :src="item.cover" class = "cover" style="width: 250px;"/></span>
           </template>
@@ -43,7 +43,7 @@
               <a-avatar :src="item.avatar" />
               <span class="author-name">{{ item.author }}</span>
             </div>
-            <div class = "article_info"  @click="goToBlog(item.url)">
+            <div class = "article_info">
               <a-card-meta
                 :title="item.title"
                 :description="item.description"
@@ -64,10 +64,9 @@
 
 <script setup>
 import { onMounted, ref } from 'vue';
-import { onBeforeRouteUpdate, useRoute } from 'vue-router';
+import { useRoute } from 'vue-router';
 import axios from 'axios';
-import { goToHome, goToLogin, goToRegister, goToSearch, goToBlog} from '@/utils/routers';
-import request from '@/utils/request';
+import { goToHome, goToLogin, goToRegister, goToBlog} from '@/utils/routers';
 import { message } from 'ant-design-vue';
 import { SearchOutlined, LoginOutlined, UserAddOutlined } from '@ant-design/icons-vue';
 import { StarOutlined, StarFilled } from '@ant-design/icons-vue';
@@ -89,27 +88,20 @@ onMounted(() => {
   fetchResults();
 });
 
-onBeforeRouteUpdate((to, from, next) => {
-  keyword.value = to.query.keyword || '';
-  fetchResults();
-  next();
-});
-
 async function fetchResults() {
   try {
-    const response = await request.get('/blogs/search/', {
+    const response = await axios.get('/api/blogs/search/', {
       params: { query: keyword.value },
     });
-    console.log(response)
     results.value = response.data.map(item => ({
       id: item.id,
       title: item.title,
-      description: `作者：${item.author}，标签：${item.tags.join(', ')}`,
+      description: item.tags.join(', '),  // 用 tags 做简介占位
       url: item.url,
       author: item.author,
       avatar: `https://i.pravatar.cc/150?u=${item.author}`, // 用作者生成头像
       cover: 'https://via.placeholder.com/150',  // 如果后端提供封面图可以替换掉
-      isFavorite: false,  // 默认未收藏
+      isFavorite: false,  // 前端本地先管理收藏
     }));
   } catch (error) {
     message.error('搜索失败，请稍后重试');

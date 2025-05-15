@@ -1,7 +1,9 @@
-import './assets/main.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/es/style';
+import './assets/main.css';
 
-import { createApp } from 'vue'
-import App_home from './App.vue'
 
-//目前只挂载单个App
-createApp(App_home).mount('#app')
+createApp(App).use(router).use(Antd).mount('#app');
