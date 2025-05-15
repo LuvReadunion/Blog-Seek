@@ -1,0 +1,31 @@
+# 全局忽略
+
+# Node 项目（前端）
+front-end/node_modules/
+front-end/dist/
+front-end/.vite/
+front-end/.env.local
+front-end/.output/
+front-end/.cache/
+
+# Django 项目（后端）
+back-end/__pycache__/
+back-end/*.pyc
+back-end/*.pyo
+back-end/*.pyd
+back-end/.mypy_cache/
+back-end/db.sqlite3
+back-end/media/
+back-end/staticfiles/
+back-end/.env
+
+# 编辑器配置
+*.log
+*.swp
+.DS_Store
+.idea/
+.vscode/
+
+# 系统/临时
+Thumbs.db
+.env
