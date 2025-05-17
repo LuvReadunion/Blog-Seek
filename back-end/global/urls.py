@@ -16,11 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from BlogSeek.views import show_search # TZH
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('BlogSeek.urls')), # TZH
-    path('search/', show_search),   # TZH
 ]

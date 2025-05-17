@@ -1,131 +1,49 @@
-from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
-import numpy as np
-import faiss
-import json
+from .faiss_searcher import faiss_searcher
 from .models import Blog
-from sentence_transformers import SentenceTransformer
 from rest_framework import viewsets
+from rest_framework.decorators import action
+from rest_framework.response import Response
 from .serializer import BlogSerializer
-from django.core.cache import cache
-import hashlib
 
-# TZH 序列化 Json 文件
 class BlogViewSet(viewsets.ModelViewSet):
-    queryset = Blog.objects.all()
+    """
+    增删改查 接口：
+      GET    /api/blogs/         
+      POST   /api/blogs/            → create
+      GET    /api/blogs/blog_id/    → retrieve
+      PUT    /api/blogs/blog_id/    → update
+      PATCH  /api/blogs/blog_id/    → partial_update
+      DELETE /api/blogs/blog_id/    → destroy
+    搜索接口：
+      GET /api/blogs/search/?query=关键词
+    """
+    queryset = Blog.objects.all().order_by('id')
     serializer_class = BlogSerializer
 
-# TZH 定义 Faiss 类，实现数据查找
-class FaissSearch():
-    def __init__(self):
-        self.model = None
-        self.index = None
-        self.id_map = {}
+    # TZH detail=False 表示不需要传入主键
+    # TZH methods=['get'] 表示只支持 GET 请求
+    @action(detail=False, methods=['get'])
+    def search(self, request):
+        """
+        GET /api/blogs/search/?query=关键词
+        返回：最多6条最相近的博客列表
+        """
+        q = request.query_params.get('query', '').strip()
+        if not q:
+            return Response({'detail': '请提供 query 参数'}, status=400)
 
-    def Initialize(self):
-        # TZH 初始化将文本转成向量的模型
-        self.model = SentenceTransformer('BAAI/bge-large-zh')
+        # TZH 执行检索，返回 Blog ID 列表
+        ids = faiss_searcher.Search(q)
 
-        # TZH 从数据库获取所有数据
-        blogs = Blog.objects.all()
+        # TZH 批量拉取博客数据
+        blogs = list(Blog.objects.filter(id__in=ids))
 
-        titles = []
-        for blog in blogs:
-            titles.append(blog.title)
+        # TZH 将博客 ID 映射到博客对象
+        blog_map = {b.id: b for b in blogs}
 
-        # TZH 将文本转化成向量
-        embed_vectors = self.model.encode(titles)   # Shape(num_contents, dim=384)
-        embed_vectors = np.array(embed_vectors).astype('float32')
+        # TZH 根据检索结果的 ID 顺序排列博客对象
+        ordered = [blog_map[i] for i in ids if i in blog_map]
 
-        # TZH 构建 Faiss 索引
-        dim = embed_vectors.shape[1]
-        self.index = faiss.IndexFlatL2(dim)
-        self.index.add(embed_vectors)
-
-        # TZH 创建 Faiss 索引到数据库索引映射
-        self.id_map = {}
-        for i, blog in enumerate(blogs):
-            self.id_map[i] = blog.id
-
-faiss_searcher = FaissSearch()
-faiss_searcher.Initialize()
-
-# def show_home(request):
-#     response_text = (
-#         '''
-#         Visit link:
-#         \thttp://127.0.0.1:8000/search/?query='anything you want to search'
-#         \t(e.g: http://127.0.0.1:8000/search/?query=I like sunny day)
-#         you can view faiss result
-#         ---------------------------------------------------
-#         I want to pass cet-6 pray for me
-#         '''
-#     )
-
-#     # TZH 为了避免 HttpResponse 不显示换行和空格
-#     return HttpResponse(response_text, content_type='text/plain')
-
-temp = {}
-
-def get_search(request):
-    # # Get query from URL
-    # query_text = request.GET.get('query', 'I love IU')
-
-    if request.method == "POST":
-        # TZH 处理 POST 请求
-        data = json.loads(request.body)
-        query_text = data.get('keyword')
-    else:
-        # TZH 处理 GET 请求
-        query_text = request.GET.get('query')
-        
-    query_embed_vector = faiss_searcher.model.encode([query_text])
-    query_embed_vector = np.array(query_embed_vector).astype('float32')
-
-    # TZH 返回最接近的 K 个向量索引和距离
-    k = 6
-    distances, indices = faiss_searcher.index.search(query_embed_vector, k)
-
-    # TZH 将 Faiss 索引映射为数据库索引
-    results = []
-    for i in range(k):
-        blog_id = faiss_searcher.id_map[indices[0][i]]
-        closest_blog = Blog.objects.get(id=blog_id)
-        result = {
-            "title": closest_blog.title,
-            "url": closest_blog.url,
-        }
-        results.append(result)
-
-    # blog_id = faiss_searcher.id_map[indices[0][0]]
-    # closest_blog = Blog.objects.get(id=blog_id)
-
-    # response_data = {
-    #     'title': closest_blog.title,
-    #     'url': closest_blog.url,
-    # }
-
-    # 打印存储的数据
-    # print(f"Storing to session: {response_data}, Type: {type(response_data)}")
-
-    # request.session['search_result'] = response_data 
-
-    response_msg = {
-        'msg': 'Visit at http://localhost:8000/api/BlogSeek/answer' 
-    }
-
-    # temp['title'] = response_data['title']
-    # temp['url'] = response_data['url']
-    temp['results'] = results
-
-    return JsonResponse(response_msg)
-
-def show_search(request):
-    # result = request.session.get('search_result')
-    print(f"Showing data: {temp}, Type: {type(temp)}")
-
-    # print(f"Retrieved from session: {result}, Type: {type(result)}")
-    return JsonResponse(temp)
-    #return JsonResponse(res)
-
-
+        # TZH 序列化并返回
+        serializer = BlogSerializer(ordered, many=True)
+        return Response(serializer.data)
