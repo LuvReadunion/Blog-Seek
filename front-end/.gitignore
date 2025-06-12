@@ -14,6 +14,9 @@ dist-ssr
 coverage
 *.local
 
+.vite
+deps/
+
 /cypress/videos/
 /cypress/screenshots/
 
@@ -30,3 +33,6 @@ coverage
 *.tsbuildinfo
 
 nohup.out
+
+dist/
+desktop/

@@ -1,58 +1,72 @@
 <template>
-  <a-layout-header class="header">
-    <div class="logo" @click="goToHome()"></div>
+  <AppHeader/>
+  <div class = "search-box">
+    <div style="display: flex; margin-top: 2px;">
+      <a-input-search
+        v-model:value="keyword" 
+        placeholder="输入关键词搜索..."
+        enter-button="Search"
+        size="large"
+        @input="onInput"
+        @paste="onPaste"
+        @search="searchAndUpdate(keyword)"
+      />
+    </div>
+    
+  </div>
 
-    <span style="display: flex; margin-top: 16px;  ">
-      <a-input-search v-model:value = "keyword" placeholder="输入关键词搜索..." 
-      enterButton ="Search" size = "large" @search="goToSearch(keyword, searchType)"/>
-    </span>
-      <a-radio-group v-model:value="searchType" style = "margin-top: 20px; ">
-        <a-radio value = "blog" class = "radio-buttons">搜索博客</a-radio>
-        <a-radio value = "user" class = "radio-buttons">搜索用户</a-radio>
-      </a-radio-group>
-
-    <div class="auth-buttons">
-        <a-button class="login-regis-buttons" type="link" @click="goToLogin">
-          <LoginOutlined /> 登录
-        </a-button>
-        <a-button class="login-regis-buttons" type="link" @click="goToRegister">
-          <UserAddOutlined /> 注册
-        </a-button>
-      </div>
-  </a-layout-header>
 
   <div v-if="true" >
     <a-row gutter="[16,16]">
-      <a-col :span="24" v-for="item in results" :key="item.id">
-        <a-card class = "result-item" @click="goToBlog(item.url)">
-          <template #cover>
-            <span><img alt="封面" :src="item.cover" class = "cover" style="width: 250px;"/></span>
-          </template>
+      <a-col ::sm="24" :md="24" :lg="24" :xl="12" :xxl="12"
+         v-for= "item in results" :key="item.id">
+        <!-- :style="{ backgroundImage: `linear-gradient(to left, rgba(241, 255, 241, 0.35), rgba(248, 248, 255, 0.95) 60%), linear-gradient(to bottom, rgba(255, 255, 0, 0.1), rgba(0, 0, 255, 0.1)), url(${item.cover})`, 'background-size': 'cover' }" -->
+        <div class="blog-card"  >
+            <div class = "blog-content">
+              <!-- 左侧主内容区域 -->
+              <div class="left-content">
+                <!-- 作者信息，已作废
+                <div class="author-info">
+                  <a-avatar :src="item.avatar" />
+                  <span class="author-name">{{ item.author }}</span>
+                  <div class="author-name">用户名</div>
+                </div> -->
+                
+                <div class = "blog-title" @click="goToBlog(item.url)">{{ item.title }}</div>
+              
+                <div class = "blog-url">{{ item.url }}</div>
+                <!-- <div class = "blog-desc">这是一段描述这是一段描述这是一段描述这是一段描述这是一段描述</div> -->
+                <div class = "blog-desc">{{ item.description }}</div>
+              
 
-          <template #extra>
-            <a-button type="collect"
-              :type="item.isFavorite ? 'danger' : 'default'"
-              @click="toggleFavorite(item)"
-              size="large"
-              :icon="item.isFavorite ? h(StarFilled) : h(StarOutlined)"
-              :style="{ color: item.isFavorite ? '#fadb14' : '#aaa' }"
-            />
-          </template>
-          <span >
-            <div class="author-info">
-              <a-avatar :src="item.avatar" />
-              <span class="author-name">{{ item.author }}</span>
+                <div class="tags-box">
+                  <span
+                    v-for="(tag, index) in (item.tags || []).slice(0, 6)"
+                    :key="index"
+                    class="tag"
+                  >
+                    {{ tag }}
+                  </span>
+                </div>
+              </div>
+
+              <!-- 右侧收藏区域 -->
+              <div class = "right-content">
+                <div class="sidebar">
+                  <a-button type="collect"
+                    :type="item.isFavorite ? 'danger' : 'default'"
+                    @click="toggleFavorite(item)"
+                    size="large"
+                    :icon="item.isFavorite ? h(StarFilled) : h(StarOutlined)"
+                    :style="{ color: item.isFavorite ? '#fadb14' : '#aaa' }"
+                  />
+                  <div class="date">{{item.date}}</div>
+                </div>
+              </div>
+              
             </div>
-            <div class = "article_info">
-              <a-card-meta
-                :title="item.title"
-                :description="item.description"
-              />
-            </div>
-            
-          </span>
-          
-        </a-card>
+
+          </div>
       </a-col>
     </a-row>
   </div>
@@ -65,87 +79,129 @@
 <script setup>
 import { onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
-import axios from 'axios';
-import { goToHome, goToLogin, goToRegister, goToBlog} from '@/utils/routers';
+import request from '@/utils/request';
+import { goToBlog, goToSearch } from '@/utils/routers';
 import { message } from 'ant-design-vue';
-import { SearchOutlined, LoginOutlined, UserAddOutlined } from '@ant-design/icons-vue';
 import { StarOutlined, StarFilled } from '@ant-design/icons-vue';
 import { h } from 'vue';
-
+import AppHeader from '@/components/AppHeader.vue';
 
 const route = useRoute();
 const keyword = ref('');
-const searchType = ref('');
 const results = ref([]);
+const defaultCover = new URL('@/assets/default-cover.jpg', import.meta.url).href;
+
+const followedBlogIds = ref(new Set()) // 存储已收藏博客ID集合
+const MAX_LENGTH = 100
+
+/** 计算字符长度（中英文都算 1 个） */
+function getCharLength(str) {
+  return Array.from(str).length
+}
+
+// 限制输入并弹窗提示
+function onInput(e) {
+  const val = e.target.value
+  if (getCharLength(val) > MAX_LENGTH) {
+    const truncated = Array.from(val).slice(0, MAX_LENGTH).join('')
+    e.target.value = truncated
+    keyword.value = truncated
+    message.error(`最多输入 ${MAX_LENGTH} 个字符`)
+  }
+}
+/** 粘贴时也限制长度 */
+function onPaste(e) {
+  const pasteText = e.clipboardData.getData('text')
+  const combined = keyword.value + pasteText
+
+  if (getCharLength(combined) > MAX_LENGTH) {
+    e.preventDefault() // 阻止粘贴
+    message.error(`粘贴内容过长，最多输入 ${MAX_LENGTH} 个字符`)
+  }
+}
+
 
 onMounted(() => {
   keyword.value = route.query.keyword || 'default';
-  searchType.value = route.query.type || 'blog';
   if (!keyword.value) {
     message.warning('未提供搜索关键词，将加载默认数据');
   }
   console.log('组件挂载完成，可以操作 DOM 了');
   fetchResults();
+  fetchFollowedBlogs()
 });
+
+//Luv add
+function searchAndUpdate(keyword) {
+  goToSearch(keyword);  //查询
+  fetchResults(); //获取结果以刷新
+}
+
+async function fetchFollowedBlogs() {
+  try {
+    const res = await request.get('/api/users/followed_blogs/')
+    followedBlogIds.value = new Set(res.data.map(blog => blog.id))
+  } catch (error) {
+    console.error('获取收藏博客失败', error)
+  }
+}
 
 async function fetchResults() {
   try {
-    const response = await axios.get('/api/blogs/search/', {
+    const response = await request.get('/api/blogs/search/', {
       params: { query: keyword.value },
     });
     results.value = response.data.map(item => ({
       id: item.id,
       title: item.title,
-      description: item.tags.join(', '),  // 用 tags 做简介占位
+      description: item.description,
+      date: item.date,
+      tags: item.tags, 
       url: item.url,
       author: item.author,
-      avatar: `https://i.pravatar.cc/150?u=${item.author}`, // 用作者生成头像
-      cover: 'https://via.placeholder.com/150',  // 如果后端提供封面图可以替换掉
-      isFavorite: false,  // 前端本地先管理收藏
+      isFavorite: followedBlogIds.value.has(item.id),
     }));
+
   } catch (error) {
-    message.error('搜索失败，请稍后重试');
-    console.error(error);
+    console.error('搜索请求失败：', error);
   }
 }
 
-function toggleFavorite(item) {
-  item.isFavorite = !item.isFavorite;
-  message.success(item.isFavorite ? '已收藏' : '已取消收藏');
+async function toggleFavorite(item) {
+  try {
+    const blogId = item.id
+    if (!item.isFavorite) {
+      await request.post('/api/users/follow/', { blog_id: blogId })
+      item.isFavorite = true
+      followedBlogIds.value.add(blogId)
+      message.success('已收藏')
+    } else {
+      await request.post('/api/users/unfollow/', { blog_id: blogId })
+      item.isFavorite = false
+      followedBlogIds.value.delete(blogId)
+      message.success('已取消收藏')
+    }
+  } catch (error) {
+    message.error('操作失败，请重试')
+    console.error('收藏/取消失败:', error)
+  }
 }
+
+function setDefaultCover(event) {
+  event.target.src = defaultCover;
+}
+
 </script>
 
 <style>
-.cover {
-  max-height: 200px;
-}
-.result-item {
+.search-box {
   display: flex;
-  margin: 20px;
-  height: auto;
+  gap: 16px;
+  margin: 12px 12px 8px 0px;
+  padding: 20px;
+  width: 100%;
   background-color: var(--color-background-light);
-}
-.author-info  {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  color: var(--color-text);
-  font-size: 20px;
-}
-
-.author-info .author-name {
-  margin-left: 10px;
-}
-.article_info .ant-card-meta-title {
-  font-size: 25px;
-  font-weight: bold;
-  color: var(--color-text);
-}
-.article_info .ant-card-meta-description {
-  font-size: 15px;
-  color: var(--color-text);
-}
-.blog-link {
-  margin-top: 10px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 </style>

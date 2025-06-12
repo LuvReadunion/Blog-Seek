@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     'BlogSeek.apps.BlogseekConfig',
     'corsheaders',  # Luv
     'rest_framework', # TZH
+    'rest_framework.authtoken', # TZH
 ]
+
+AUTH_USER_MODEL = 'BlogSeek.User'
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',    # Luv
@@ -134,4 +137,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Luv 支持跨域配置开始
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True 
+
 

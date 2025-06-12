@@ -1,4 +1,5 @@
 # 全局忽略
+RUN_README
 
 # Node 项目（前端）
 front-end/node_modules/
@@ -18,6 +19,10 @@ back-end/db.sqlite3
 back-end/media/
 back-end/staticfiles/
 back-end/.env
+back-end/blogseek_crawler/
+back-end/django_env/
+back-end/BlogSeek/migrations/
+__pycache__
 
 # 编辑器配置
 *.log
@@ -29,3 +34,7 @@ back-end/.env
 # 系统/临时
 Thumbs.db
 .env
+
+# nohup
+nohop*
+nohup*

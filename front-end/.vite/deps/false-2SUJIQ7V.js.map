@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../node_modules/vite/misc/false.js"],
-  "sourcesContent": ["export default false\n"],
-  "mappings": ";;;AAAA,IAAO,gBAAQ;",
-  "names": []
-}

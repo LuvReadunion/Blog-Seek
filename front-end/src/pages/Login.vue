@@ -30,14 +30,16 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import axios from 'axios'
+import request from '@/utils/request'
 import { message } from 'ant-design-vue'
-import BlogSeekIcon from '@/assets/BlogSeek.svg';
-import { goToRegister, goToHome } from '@/utils/routers.js';
+import BlogSeekIcon from '@/assets/BlogSeek.svg'
+import { goToRegister, goToHome, goToUser } from '@/utils/routers.js'
+import { useUserStore } from '@/stores/user'
 
 const router = useRouter()
 const form = ref({ username: '', password: '' })
 const loading = ref(false)
+const userStore = useUserStore()
 
 const onSubmit = async () => {
   if (!form.value.username || !form.value.password) {
@@ -46,14 +48,43 @@ const onSubmit = async () => {
   }
   loading.value = true
   try {
-    await axios.post('/api/login', form.value)
+    const response = await request.post('/api/login/', {
+      username: form.value.username,
+      password: form.value.password
+    })
+    const token = response.data.token
+    
+    // 使用 username 查找用户ID（先 list 用户列表）
+    const userListRes = await request.get('/api/users/')
+    console.log(userListRes)
+    
+    const matchedUser = userListRes.data.find(
+      user => user.username === form.value.username
+    )
+    
+
+    if (!matchedUser) throw new Error('用户不存在')
+
+    const userId = matchedUser.id
+
+    // 用 ID 获取用户信息（需 token）
+    const userRes = await request.get(`/api/users/${userId}/`)
+
+
+    userStore.login(token,{
+      id: userRes.data.id,
+      username: userRes.data.username,
+      bio: userRes.data.bio,
+    })
+
     message.success('登录成功')
     router.push('/')
   } catch (error) {
-    message.error('登录失败：' + (error.response?.data?.message || '请重试'))
+    message.error('登录失败：' + (error))
   } finally {
     loading.value = false
   }
+
 }
 
 </script>

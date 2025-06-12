@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["optional-peer-dep:__vite-optional-peer-dep:tsx/cjs/api:vite"],
-  "sourcesContent": ["throw new Error(`Could not resolve \"tsx/cjs/api\" imported by \"vite\". Is it installed?`)"],
-  "mappings": ";AAAA,MAAM,IAAI,MAAM,sEAAsE;",
-  "names": []
-}

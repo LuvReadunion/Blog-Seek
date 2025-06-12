@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../node_modules/rollup/dist/es/rollup.js"],
-  "sourcesContent": ["/*\n  @license\n\tRollup.js v4.40.0\n\tSat, 12 Apr 2025 08:39:04 GMT - commit 1f2d579ccd4b39f223fed14ac7d031a6c848cd80\n\n\thttps://github.com/rollup/rollup\n\n\tReleased under the MIT License.\n*/\nexport { version as VERSION, defineConfig, rollup, watch } from './shared/node-entry.js';\nimport './shared/parseAst.js';\nimport '../native.js';\nimport 'node:path';\nimport 'path';\nimport 'node:process';\nimport 'node:perf_hooks';\nimport 'node:fs/promises';\n"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;AAWA,oBAAO;AACP,uBAAO;AACP,kBAAO;AACP,0BAAO;AACP,6BAAO;AACP,sBAAO;",
-  "names": []
-}

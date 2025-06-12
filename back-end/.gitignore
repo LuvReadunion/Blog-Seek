@@ -1,6 +1,0 @@
-django_env
-
-*.sqlite3
-nohup*
-*out
-__pycache__

@@ -1,6 +1,9 @@
 @import './base.css';
 
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   font-family: 'Inter', sans-serif;
 }
 .logo {
@@ -32,16 +35,6 @@ body {
 .text {
   color: var(--color-text)
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  height:auto ;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background-color: var(--color-background-light);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
 
 .form-container {
   text-align: center;
@@ -57,26 +50,24 @@ body {
 }
 
 .login-regis-buttons { 
-  margin-top: 10px;
   font-size: 17px;
   color: var(--color-heading);
 }
-.radio-buttons {
-  color: var(--color-text);
-}
+
 
 .ant-form-item-label > label {
   color: var(--vt-c-gray);
 }
 
 .ant-input,
-.ant-input-password {
+.ant-input-password,
+.ant-input-search {
   background-color: var(--color-background-light);
   color: var(--color-text);
 }
 .ant-input::placeholder,
 .ant-input-password::placeholder {
-  color: var( --vt-c-gray);
+  color: var(--vt-c-gray);
 }
 
 .ant-input:focus,
@@ -85,10 +76,12 @@ body {
   box-shadow: none;
 }
 
+
+
 .ant-btn-primary {
-  background-color: var(--color-heading);
-  border-color: var(--color-heading);
-  color: var(--color-background);
+  /*background-color: var(--luv-btn-color); /*var(--color-heading);*/
+  /*border-color: var(--luv-btn-color-border); /*var(--color-heading);*/
+  color: #ffffffce; /*var(--color-background);*/
   height: 50px;
   font-size: 20px;
 }
@@ -96,19 +89,132 @@ body {
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
   background-color: var(--vt-c-theme-light);
-  border-color: var(--vt-c-theme-light);
+  /*border-color: var(--luv-btn-color-border);*/
 }
 
-.result-item {
-  cursor: pointer;
+/* .cover-wrapper {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+} */
+
+.blog-card{
+  display: flex;
+  margin: 10px;
+  padding: 15px;
+  min-width: 0;
+  max-width: 95%;
+  width: 100%;
+  height: 90%;
+  border-radius: 12px;
+  /* Luv */
+  /*
+  background-image:
+    linear-gradient(to left, rgba(241, 255, 241, 0.35), rgba(248, 248, 255, 0.95) 60%),
+    linear-gradient(to bottom, rgba(255, 255, 0, 0.1), rgba(0, 0, 255, 0.1)),
+    url("banner.jpg");
+  background-color: rgba(251, 255, 183, 0.674);
+  */
+  background-color: var(--color-background-light);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.result-item:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transform: scale(1.03);
+.blog-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transform: scale(1.02);
 }
 
-.result-item:hover .ant-card-meta-title {
-  color: var(--vt-c-theme-light);
+.blog-card:hover .ant-card-meta-title {
+  color: var(--color-focus-text); /*var(--vt-c-theme-light);*/
+}
+
+.blog-desc,.blog-title {
+  width:100%;
+  min-width: 0;
+  word-break: break-all;   /* 可折断任何字符*/
+  white-space: nowrap;       /* 不换行 */
+  overflow: hidden;          /* 超出隐藏 */
+  text-overflow: ellipsis;   /* 用省略号代替超出部分 */
+}
+.blog-desc {
+  font-size: 18px;
+}
+.blog-url {
+  font-size: 12px;
+}
+.blog-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.date {
+  color: var(--color-text);
+  font-size: 15px;
+  margin: 4px;
+}
+.tag {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: var(--vt-c-text-gray);
+  padding: 2px 6px;
+  margin: 3px 3px 10px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+.tags-box {
+  display: flex;
+  margin: 10px  0px;
+}
+
+
+.blog-content{
+  display: flex;
+  align-items: center;  /* 垂直居中 */
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  margin-left: 20px;
+}
+.left-content {
+  flex: 0 1 70%;
+  min-width: 0;
+  overflow: hidden;
+  
+}
+.right-content {
+  flex: 1 1 30%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* .author-info  {
+  display: flex;
+  align-items: center;
+  color: var(--color-text);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.author-info .author-name  {
+  margin-left: 10px;
+} */
+
+
+.sidebar {
+  width:100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
 }

@@ -1,18 +1,6 @@
 <template>
   <!-- 顶部栏 -->
-  <a-layout-header class="header">
-    <div class="logo" @click="goToHome()">
-      <img :src="BlogSeekIcon" alt="BlogSeek Logo" class="logo-icon" @click="goToHome"/>
-    </div>
-    <div class="auth-buttons">
-        <a-button class="login-regis-buttons" type="link" @click="goToLogin">
-          <LoginOutlined /> 登录
-        </a-button>
-        <a-button class="login-regis-buttons" type="link" @click="goToRegister">
-          <UserAddOutlined /> 注册
-        </a-button>
-      </div>
-  </a-layout-header>
+  <AppHeader/>
 
   <!-- 页面内容区 -->
   <a-layout-content class = "searchBox " >
@@ -20,19 +8,15 @@
     <span class="subtitle">博采众长</span>
     <div style="display: flex; margin-top: 16px;  ">
       <a-input-search v-model:value = "keyword" placeholder="输入关键词搜索..." 
-      enterButton ="Search" size = "large" @search="goToSearch(keyword, searchType)"/>
+      enterButton ="Search" size = "large" @search="goToSearch(keyword)"/>
     </div>
 
-      <a-radio-group v-model:value="searchType" style = "margin-top: 20px; ">
-        <a-radio value = "blog" class = "radio-buttons">搜索博客</a-radio>
-        <a-radio value = "user" class = "radio-buttons">搜索用户</a-radio>
-      </a-radio-group>
   </a-layout-content>
 </template>
 
 <script setup>
-  import BlogSeekIcon from '@/assets/BlogSeek.svg';
-  import { goToLogin, goToRegister, goToHome, goToSearch } from '@/utils/routers.js';
+  import AppHeader from '@/components/AppHeader.vue';
+  import { goToSearch } from '@/utils/routers.js';
   import { SearchOutlined, LoginOutlined, UserAddOutlined } from '@ant-design/icons-vue';
 </script>
 
@@ -47,7 +31,6 @@ export default {
   data() {
     return {
       keyword: '',
-      searchType: 'blog',
     };
   },
 };

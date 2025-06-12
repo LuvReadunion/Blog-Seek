@@ -11,10 +11,8 @@ class BlogseekConfig(AppConfig):
         # TZH 保证只会在主线程中初始化一次（监控进程不会初始化）
         if os.environ.get("RUN_MAIN") == "true":
             from .faiss_searcher import faiss_searcher
-            print("Initializing FaissSearch...")
 
             # TZH daemon=True 表示主线程结束后子线程也会结束
             threading.Thread(target=faiss_searcher.Initialize, daemon=True).start()
 
-            print("FaissSearch initialize successfully.")
         

@@ -1,7 +1,0 @@
-Server: nginx
-Date: Sat, 10 May 2025 12:00:19 GMT
-Content-Type: text/html; charset=UTF-8
-Link: <https://linmi.cc/wp-json/>; rel="https://api.w.org/"
-Link: <https://linmi.cc/wp-json/wp/v2/posts/21818>; rel="alternate"; type="application/json"
-Strict-Transport-Security: max-age=31536000; includeSubdomains;
-Content-Encoding: gzip

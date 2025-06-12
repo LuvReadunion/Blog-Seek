@@ -33,7 +33,7 @@
   <script setup>
   import { ref } from 'vue'
   import { useRouter } from 'vue-router'
-  import axios from 'axios'
+  import request from '@/utils/request';
   import { message } from 'ant-design-vue'
   import BlogSeekIcon from '@/assets/BlogSeek.svg';
   import { goToLogin, goToHome } from '@/utils/routers.js';
@@ -43,30 +43,38 @@
   const loading = ref(false)
   
   const onSubmit = async () => {
-    if (!form.value.username || !form.value.password || !form.value.confirmPassword) {
-      message.warning('请填写完整信息')
-      return
-    }
-    if (form.value.password !== form.value.confirmPassword) {
-      message.warning('两次密码输入不一致')
-      return
-    }
-    loading.value = true
-    try {
-      await axios.post('/api/register', {
-        username: form.value.username,
-        password: form.value.password
-      })
-      message.success('注册成功，请登录')
-      router.push('/login')
-    } catch (error) {
-      message.error('注册失败：' + (error.response?.data?.message || '请重试'))
-    } finally {
-      loading.value = false
-    }
+  if (!form.value.username || !form.value.password || !form.value.confirmPassword) {
+    message.warning('请填写完整信息')
+    return
   }
+  if (form.value.password !== form.value.confirmPassword) {
+    message.warning('两次密码输入不一致')
+    return
+  }
+  loading.value = true
+  try {
+    // ✅ 获取所有用户，检查是否重复
+    const res = await request.get('/api/users/')
+    const userExists = res.data.some(user => user.username === form.value.username)
+    if (userExists) {
+      message.error('该用户名已存在')
+      loading.value = false
+      return
+    }
+
+    await request.post('/api/users/', {
+      username: form.value.username,
+      password: form.value.password,
+    })
+    message.success('注册成功，请登录')
+    router.push('/login')
+  } catch (error) {
+    message.error('注册失败：' + (error.response?.data?.username || '请重试'))
+  } finally {
+    loading.value = false
+  }
+}
+
   </script>
   
-  <style >
-  </style>
   
