@@ -4,8 +4,8 @@
 
   <!-- 页面内容区 -->
   <a-layout-content class="searchBox">
-    <span class="title titleHover">Blog Seek</span>
-    <span class="subtitle subtitleHover">博采众长</span>
+    <span class="title titleHover" @click="gotoITrandom()">Blog Seek</span>
+    <span class="subtitle subtitleHover" @click="gotorandom()">博采众长</span>
     <div style="display: flex; margin-top: 16px;">
       <a-input-search
         v-model:value="keyword"
@@ -28,6 +28,7 @@ import { ref } from 'vue'
 import { message } from 'ant-design-vue'
 import AppHeader from '@/components/AppHeader.vue'
 import { goToBlog, goToSearch } from '@/utils/routers.js'
+import { getITrandom } from '@/utils/randomtext.js'
 
 const MAX_LENGTH = 100
 const keyword = ref('')
@@ -59,6 +60,27 @@ function onPaste(e) {
   }
 }
 
+/* 随机生成中文句子 */
+function randomText(minLength, maxLength) {
+  const simplifiedChineseStart = 0x4e00;
+  const simplifiedChineseEnd = 0x9fbf;
+  const textLength = Math.floor(Math.random() * (maxLength - minLength + 1)) + minLength;
+  let generatedText = '';
+
+  for (let i = 0; i < textLength; i++) {
+    const randomUnicode = Math.floor(Math.random() * (simplifiedChineseEnd - simplifiedChineseStart + 1)) + simplifiedChineseStart;
+    generatedText += String.fromCharCode(randomUnicode);
+  }
+  return generatedText;
+}
+function gotorandom() {
+  const text = randomText(3, 7);
+  goToSearch(text);
+}
+function gotoITrandom() {
+  const text = getITrandom();
+  goToSearch(text);
+}
 </script>
 
 <style>

@@ -18,7 +18,7 @@
 
   <div v-if="true" >
     <a-row gutter="[16,16]">
-      <a-col ::sm="24" :md="24" :lg="24" :xl="12" :xxl="12"
+      <a-col ::sm="24" :md="24" :lg="24" :xl="12" :xxl="12" :xs="24"
          v-for= "item in results" :key="item.id">
         <!-- :style="{ backgroundImage: `linear-gradient(to left, rgba(241, 255, 241, 0.35), rgba(248, 248, 255, 0.95) 60%), linear-gradient(to bottom, rgba(255, 255, 0, 0.1), rgba(0, 0, 255, 0.1)), url(${item.cover})`, 'background-size': 'cover' }" -->
         <div class="blog-card"  >
