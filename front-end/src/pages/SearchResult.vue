@@ -182,7 +182,7 @@ async function toggleFavorite(item) {
       message.success('已取消收藏')
     }
   } catch (error) {
-    message.error('操作失败，请重试')
+    message.error('操作失败，请重试(是不是还没登录捏)')
     console.error('收藏/取消失败:', error)
   }
 }

@@ -47,14 +47,21 @@
   // }
   loading.value = true
   try {
+    // 1. 提交 bio 修改
     await request.patch('/api/users/' + user.id + '/', {
       // password: form.value.password,
       bio: form.value.bio,
     })
+
+    // 2. 重新获取用户最新信息
+    const res = await request.get('/api/users/' + user.id + '/')
+    localStorage.setItem('user', JSON.stringify(res.data))  // 替换缓存
+
+    // 3. 提示并跳转
     message.success('修改成功')
     router.push('/user-profile')
   } catch (error) {
-    message.error('修改失败：' + (error.response?.data?.username || '请重试'))
+    message.error('修改失败：' + (error.response?.data?.bio || '请重试'))
   } finally {
     loading.value = false
   }

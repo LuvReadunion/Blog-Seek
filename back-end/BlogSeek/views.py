@@ -1,13 +1,17 @@
 from .faiss_searcher import faiss_searcher
 from .models import Blog
+from .permissions import IsSelf
+from .serializer import BlogSerializer, UserSerializer, ChangePasswordSerializer
+
 from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny, IsAdminUser
 from rest_framework.authentication import TokenAuthentication
-from .serializer import BlogSerializer, UserSerializer, ChangePasswordSerializer
-from .permissions import IsSelf
-from django.contrib.auth import get_user_model
+from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.views import ObtainAuthToken  
+
+from django.contrib.auth import get_user_model, authenticate
 
 User = get_user_model()
 
@@ -190,4 +194,28 @@ class UserViewSet(viewsets.ModelViewSet):
             serializer.save()
             return Response({'detail': '密码修改成功'}, status=200)
         return Response({'detail': '原本密码错误'}, status=400)
-    
+
+
+class CustomObtainAuthToken(ObtainAuthToken):
+    # TZH 重写用户登录返回 Token 的逻辑
+    def post(self, request):
+        # TZH 从请求中获取用户名和密码
+        username = request.data.get('username')
+        password = request.data.get('password')
+        
+        # TZH 检查用户名和密码是否为空
+        if not username or not password:
+            return Response({"detail": "请提供有效的用户名和密码"}, status=400)
+
+        # TZH 检查用户名是否存在
+        if not User.objects.filter(username=username).exists():  
+            return Response({"detail": "用户名不存在"}, status=404)
+
+        # TZH 如果用户名存在 检查密码是否正确
+        user = authenticate(username=username, password=password)  
+        if user is None:
+            return Response({"detail": "密码错误"}, status=400)  
+
+        # TZH 用户名和密码都正确 返回 Token
+        token, created = Token.objects.get_or_create(user=user)
+        return Response({"token": token.key})

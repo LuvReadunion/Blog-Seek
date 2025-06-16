@@ -24,12 +24,20 @@ class FaissSearch:
         print("文本嵌入模型加载完成")
 
         # TZH 获取所有博客标题
-        blogs = Blog.objects.all()
+        blogs = []
+        # mode = 'test'  # or 'prod' (production)
+        mode = 'prod'
+        if mode == 'test':
+            print('测试数据量：50 (如果当前不是在进行测试，请在faiss_searcher.py中修改mode改为prod)') # mode 在上方
+            blogs = Blog.objects.all()[:50]   # PYL: 只取前50篇博客做测试
+        else:
+            blogs = Blog.objects.all()
         titles = [b.title for b in blogs]
         vectors = []
 
         print(f"获取到 {len(titles)} 篇博客标题")
 
+        # TZH 串行生成向量  PYL:无法并行
         count = 0
         print("开始生成向量并构建索引...")
         for title in titles:
@@ -64,7 +72,7 @@ class FaissSearch:
 
         print("FaissSearch 已初始化，开始执行搜索...")
         # TZH 返回前 k 个结果
-        k = 10
+        k = 30
 
         print(f"查询转换为向量：{query}")
         # TZH 将查询转换为向量

@@ -74,6 +74,12 @@ class UserSerializer(serializers.ModelSerializer):
             'bio': {'required': False},     # TZH 简介可不填
         }
 
+    # TZH 定义密码验证方法
+    def validate_password(self, value):
+        if len(value) > 128:
+            raise serializers.ValidationError("密码长度不能超过128个字符")
+        return value
+
     # TZH 需要重写 create 方法
     # TZH 实现用户注册时自动加密密码
     def create(self, validated_data):

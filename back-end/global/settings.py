@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import BlogSeek
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,12 +27,13 @@ SECRET_KEY = 'django-insecure-%&jqakf*g)!!i8tm1_hofs7(4=+hsja*0@$2#0(+r$+*1s3$5s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '*' ]
+ALLOWED_HOSTS = [ '*' ] 
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',  # Luv
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,18 +41,18 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'BlogSeek.apps.BlogseekConfig',
-    'corsheaders',  # Luv
     'rest_framework', # TZH
     'rest_framework.authtoken', # TZH
+    "sslserver", # TZH 支持https
 ]
 
 AUTH_USER_MODEL = 'BlogSeek.User'
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',    # Luv
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
+    'corsheaders.middleware.CorsMiddleware',    # Luv
+    'django.middleware.common.CommonMiddleware',  # PYL: 修改顺序
     # 'django.middleware.csrf.CsrfViewMiddleware', # TZH
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -62,7 +64,7 @@ ROOT_URLCONF = 'global.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'dist')],  # TZH 前端整合到后端
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -72,6 +74,11 @@ TEMPLATES = [
             ],
         },
     },
+]
+
+# TZH 帮 django 找到静态文件的地址
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'dist/assets'),
 ]
 
 WSGI_APPLICATION = 'global.wsgi.application'
@@ -126,16 +133,18 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+# STATIC_URL = 'static/'
+# TZH 尝试
+STATIC_URL = '/assets/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+SECURE_CROSS_ORIGIN_OPENER_POLICY='None'
 
 # Luv 支持跨域配置开始
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True 
-
+# CORS_ORIGIN_ALLOW_ALL = True  # PYL: 旧版本名称
+CORS_ALLOW_ALL_ORIGINS = True   # PYL: 使用新版本名称
 

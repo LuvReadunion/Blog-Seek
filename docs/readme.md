@@ -1,3 +1,5 @@
+> The whole README is to be continue...
+
 # Blog-Seek
 
 > made in SYSU

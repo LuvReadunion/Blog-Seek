@@ -2,7 +2,8 @@ import { message } from 'ant-design-vue';
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://154.44.31.8:8000', // 后端地址
+  baseURL: '/', // 后端地址
+  //baseURL: 'http://154.44.31.8:8000', // 后端地址
   timeout: 5000,
 });
 
@@ -24,6 +25,6 @@ instance.interceptors.request.use(
 export default instance;
 
 export function downloadFile(fileName) { //下载Windows桌面版
-  const fileUrl = './desktop/' + fileName; // 文件的URL地址
+  const fileUrl = 'https://blogseek.top/desktop/' + fileName; // 文件的URL地址
   window.open(fileUrl);
 }

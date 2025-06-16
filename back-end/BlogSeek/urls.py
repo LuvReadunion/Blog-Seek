@@ -2,7 +2,8 @@
 from rest_framework.routers import DefaultRouter
 from django.urls import path, include
 from BlogSeek import views #TZH
-from rest_framework.authtoken.views import obtain_auth_token
+# from rest_framework.authtoken.views import obtain_auth_token
+from .views import CustomObtainAuthToken
 
 # TZH 配置默认路由
 router = DefaultRouter()
@@ -35,5 +36,5 @@ urlpatterns = [
 
     path('', include(router.urls)),
     # TZH 用户登录获取 token 的接口
-    path('login/', obtain_auth_token),  # 获取 token 的接口
+    path('login/', CustomObtainAuthToken.as_view(), name='login'),  # 获取 token 的接口
 ]

@@ -3,31 +3,31 @@
   <a-layout-header class="header">
     <div class="logo" @click="goToHome"></div>
     <div class="auth-buttons download">
-    <a-dropdown>
-      <div class="login-regis-buttons">
-        <DesktopOutlined /> 桌面版下载
-      </div>
-      <template #overlay>
-        <a-menu>
-          <a-button class="login-regis-buttons" type="link" @click="downloadFile('BS-Windows.zip')">
-            <WindowsOutlined /> Windows
-          </a-button>
-          <a-button class="login-regis-buttons" type="link" @click="downloadFile('BS-MacOS.zip')">
-            <AppleOutlined /> MacOS
-          </a-button>
-          <a-menu-divider />
-        </a-menu>
-      </template>
-    </a-dropdown>
+      <a-dropdown>
+        <div class="login-regis-buttons Untouch">
+          <DesktopOutlined /> 桌面版下载
+        </div>
+        <template #overlay>
+          <a-menu>
+            <a-button class="login-regis-buttons" type="link" @click="downloadFile('BS-Windows.zip')">
+              <WindowsOutlined /> Windows
+            </a-button>
+            <a-button class="login-regis-buttons" type="link" @click="downloadFile('BS-MacOS.zip')">
+              <AppleOutlined /> MacOS
+            </a-button>
+            <a-menu-divider />
+          </a-menu>
+        </template>
+      </a-dropdown>
     </div>
 
     <div class="auth-buttons">
       
       <template v-if="!isLoggedIn">
-        <a-button class="login-regis-buttons" type="link" @click="goToLogin">
+        <a-button class="login-regis-buttons Untouch" type="link" @click="goToLogin">
           <LoginOutlined /> 登录
         </a-button>
-        <a-button class="login-regis-buttons" type="link" @click="goToRegister">
+        <a-button class="login-regis-buttons Untouch" type="link" @click="goToRegister">
           <UserAddOutlined /> 注册
         </a-button>
       </template>
@@ -37,9 +37,9 @@
           <UserAvatar/>
           <template #overlay>
             <a-menu>
-              <a-menu-item @click="goToUser">个人中心</a-menu-item>
+              <a-button @click="goToUser">个人中心</a-button>
               <a-menu-divider />
-              <a-menu-item @click="logout">退出登录</a-menu-item>
+              <a-button @click="logout">退出登录</a-button>
             </a-menu>
           </template>
         </a-dropdown>
@@ -63,10 +63,9 @@ const isLoggedIn = computed(() => !!userStore.token)
 
 
 const logout = () => {
-  clear()
+  goToHome()
   userStore.logout()
-  location.reload()        // 刷新页面，使组件状态重置为未登录
-
+  //location.reload()        // 刷新页面，使组件状态重置为未登录
 }
 
 </script>
@@ -89,5 +88,11 @@ const logout = () => {
   margin-right: 1%;
   /*margin-top: 0.6%;*/
 }
+.auth-buttons {
+  margin-top: 10px;
+}
 
+.Untouch{
+  user-select:none;
+}
 </style>

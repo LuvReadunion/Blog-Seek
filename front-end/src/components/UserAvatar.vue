@@ -1,7 +1,7 @@
 
 <template>
 
-  <div>
+  <div style="user-select:none;">
     <a-avatar v-if="user" size="large" :style="{ backgroundColor: avatarColor }">
       {{ user.username?.charAt(0) || 'U' }}
     </a-avatar>

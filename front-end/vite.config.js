@@ -16,7 +16,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  
+  assetsDir: 'static',
   server: {
     allowedHosts: ['blogseek.top'],
   },
