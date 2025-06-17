@@ -3,25 +3,45 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from BlogSeek.models import Blog
+import os
+import pickle
 
 class FaissSearch:
+    # TZH 定义静态文件路径
+    INDEX_PATH     = "models/faiss.index"
+    IDMAP_PATH     = "models/faiss_id_map.pkl"
+    EMBEDS_PATH    = "models/faiss_embeds.npy"
+
     def __init__(self):
-        self.model = None
+        self.model = SentenceTransformer('moka-ai/m3e-base')
         self.index = None
         self.id_map = {}
         self._initialized = False
 
     def Initialize(self):
+        if self._initialized:
+            return
+
+        # TZH 如果索引 映射文件都存在 直接从磁盘加载
+        if os.path.exists(self.INDEX_PATH) and os.path.exists(self.IDMAP_PATH):
+            print("从磁盘加载 FAISS 索引和 id_map …")
+            self.index  = faiss.read_index(self.INDEX_PATH)
+            self.id_map = pickle.load(open(self.IDMAP_PATH, 'rb'))
+
+            # TZH 设置初始化完成
+            self._initialized = True
+            print("加载完成")
+            return
+
+        # TZH 否则需要重新初始化
+        self._rebuild()
+
+    def _rebuild(self):
         # TZH 确保只初始化一次
         if self._initialized:
             return
 
         print("FaissSearch 初始化中...")
-
-        # TZH 加载文本嵌入模型
-        self.model = SentenceTransformer('moka-ai/m3e-base')
-
-        print("文本嵌入模型加载完成")
 
         # TZH 获取所有博客标题
         blogs = []
@@ -59,7 +79,16 @@ class FaissSearch:
         for i, blog in enumerate(blogs):
             self.id_map[i] = blog.id
         
-        # TZH 设置初始化标志
+        # TZH 持久化到磁盘
+        print("持久化索引到磁盘…")
+        faiss.write_index(self.index, self.INDEX_PATH)
+
+        with open(self.IDMAP_PATH, 'wb') as f:
+            pickle.dump(self.id_map, f)
+
+        np.save(self.EMBEDS_PATH, embed_vectors, allow_pickle=False)
+
+        # TZH 设置初始化成功
         self._initialized = True
         print("FaissSearch 初始化完成")
 
@@ -90,5 +119,6 @@ class FaissSearch:
 
 # TZH 创建 FaissSearch 实例
 faiss_searcher = FaissSearch()
+faiss_searcher.Initialize()
 
 

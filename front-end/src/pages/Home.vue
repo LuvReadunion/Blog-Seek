@@ -86,7 +86,7 @@ function gotoITrandom() {
 <style>
 .searchBox {
   text-align: center;
-  margin: 160px auto;
+  margin: 120px auto;
   place-items: center;
   width: 100%;
   max-width: 600px;

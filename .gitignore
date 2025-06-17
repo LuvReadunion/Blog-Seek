@@ -22,6 +22,7 @@ back-end/.env
 back-end/blogseek_crawler/
 back-end/django_env/
 back-end/BlogSeek/migrations/
+back-end/models/
 __pycache__
 
 # 编辑器配置
@@ -38,3 +39,5 @@ Thumbs.db
 # nohup
 nohop*
 nohup*
+
+2025*

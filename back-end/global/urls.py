@@ -17,10 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic.base import TemplateView
-
+from django.conf import settings
+from django.conf.urls.static import static
+from pathlib import Path
+import os
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('BlogSeek.urls')), # TZH
     path('', TemplateView.as_view(template_name='index.html'))
 ]
+
+# TZH 凡是以 /assets/ 开头的路径 请去 dist/assets 文件夹里找
+urlpatterns += static(settings.STATIC_URL, document_root=os.path.join(BASE_DIR, 'dist/assets'))

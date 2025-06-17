@@ -142,7 +142,7 @@ async function fetchFollowedBlogs() {
     const res = await request.get('/api/users/followed_blogs/')
     followedBlogIds.value = new Set(res.data.map(blog => blog.id))
   } catch (error) {
-    console.error('获取收藏博客失败', error)
+    console.error('获取收藏博客失败(检查是否登录)', error)
   }
 }
 
