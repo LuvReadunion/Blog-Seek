@@ -120,15 +120,21 @@ function onPaste(e) {
   }
 }
 
-
+//Luv
+import { useUserStore } from '@/stores/user'
+const userStore = useUserStore()
 onMounted(() => {
   keyword.value = route.query.keyword || 'default';
   if (!keyword.value) {
     message.warning('未提供搜索关键词，将加载默认数据');
   }
   console.log('组件挂载完成，可以操作 DOM 了');
+  //获取搜索结果
   fetchResults();
-  fetchFollowedBlogs()
+  //获取收藏(先判断是否登录)
+  if(!!userStore.token){
+    fetchFollowedBlogs()
+  }
 });
 
 //Luv add

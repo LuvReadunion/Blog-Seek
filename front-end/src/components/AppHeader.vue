@@ -61,7 +61,6 @@ import UserAvatar from '@/components/UserAvatar.vue';
 const userStore = useUserStore()
 const isLoggedIn = computed(() => !!userStore.token)
 
-
 const logout = () => {
   goToHome()
   userStore.logout()
