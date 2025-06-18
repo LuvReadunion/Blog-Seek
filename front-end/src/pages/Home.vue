@@ -1,11 +1,12 @@
+
 <template>
   <!-- 顶部栏 -->
   <AppHeader />
 
   <!-- 页面内容区 -->
   <a-layout-content class="searchBox">
-    <span class="title titleHover" @click="gotoITrandom()">Blog Seek</span>
-    <span class="subtitle subtitleHover" @click="gotorandom()">博采众长</span>
+    <span class="title" @click="gotoITrandom()">Blog Seek</span>
+    <span class="subtitle" @click="gotorandom()">博采众长</span>
     <div style="display: flex; margin-top: 16px;">
       <a-input-search
         v-model:value="keyword"
@@ -95,22 +96,6 @@ function gotoITrandom() {
   padding: 40px;
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.titleHover{
-  user-select:none;
-}
-.titleHover:hover{
-  color: rgba(219, 13, 255, 0.913);
-  user-select:none;
-}
-.subtitleHover{
-  user-select:none;
-}
-.subtitleHover:hover{
-  color: rgba(25, 48, 255, 0.924);
-  text-shadow: 0 1px 4px rgba(255, 255, 72, 0.834);
-  user-select:none;
 }
 
 .githubAddress{

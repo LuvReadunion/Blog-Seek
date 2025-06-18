@@ -1,3 +1,4 @@
+
 @import './base.css';
 
 body {
@@ -12,10 +13,9 @@ body {
   width: 60px;
   height: 60px;
   margin-left: 20px;
+  cursor: pointer
 }
-.logo:hover {
-  content: url('@/assets/BlogSeek_white.svg');
-}
+
 .logo:active {
   content: url('@/assets/BlogSeek.svg');
 }
@@ -40,11 +40,17 @@ body {
   font-size: 50px;
   font-weight: bold;
   color: var(--color-heading);
+  cursor: pointer;
+  user-select:none;
+}
+.title:hover {
+  color: var(--vt-c-theme-light);
 }
 .subtitle {
   margin-left: 20px;
   font-size: 20px;
   color: var(--color-text);
+  user-select:none;
 } 
 .text {
   color: var(--color-text)

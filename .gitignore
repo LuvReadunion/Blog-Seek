@@ -40,4 +40,8 @@ Thumbs.db
 nohop*
 nohup*
 
+# 可能的数据备份
 2025*
+
+# docker备份
+docker-bak/

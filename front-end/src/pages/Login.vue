@@ -80,7 +80,8 @@ const onSubmit = async () => {
     message.success('登录成功')
     router.push('/')
   } catch (error) {
-    message.error('登录失败：' + (error))
+    //message.error('登录失败：' + (error))
+    message.error('登录失败(请检查用户名和密码)')
   } finally {
     loading.value = false
   }
