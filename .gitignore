@@ -19,7 +19,7 @@ back-end/db.sqlite3
 back-end/media/
 back-end/staticfiles/
 back-end/.env
-back-end/blogseek_crawler/
+# back-end/blogseek_crawler/
 back-end/django_env/
 back-end/BlogSeek/migrations/
 back-end/models/
