@@ -58,7 +58,24 @@ BlogSeek基本架构：
 
 ## 前端部署
 
-// 待补充
+### 安装依赖包
+
+cd到前端文件夹：
+```
+cd Blog-Seek/front-end
+```
+
+运行npm安装依赖包：
+```
+npm install 
+```
+
+### 打包前端到后端
+
+本项目开发完前端部分后，需要打包至后端。在front-end文件夹下运行脚本即可：
+```
+source ./auto_packaging.sh
+```
 
 ## 后端部署
 
@@ -125,16 +142,72 @@ kill -9 <PID>
 ```
 
 
-## 博客数据爬取
+## 博客爬取
 
 本项目需要爬取个人博客相关信息(但不是博客本身)，实现思路是爬取个人博客的RSS (如`feed.xml`)，解析并存储其中的博客信息。我们不保存博客本身，而是保存指向博客的指针(URL).
 
-// 待完善
+### 环境需求
 
-### 博客爬取
+使用虚拟环境 `django_env`
+
+```bash
+source django_env/bin/activate
+```
+
+下载爬虫所需依赖
+
+```bash
+cd blogseek_crawler
+pip install -r crawler_requirements.txt
+```
+
+### 运行
+
+在 `run.sh` 中修改参数：
+
+- `OUTPUT` ：输出文件路径，默认为`blog_django.json`；
+- `INPUT_URLS` ：待爬取url，格式为 `.csv`或`.txt`，每行一条，必选参数；
+- `XML_ONLY`：是否不分割爬取到的数据，只保存feed文件，默认为`false`。
+
+运行：
+
+```bash
+bash run.sh
+```
+
+### 运行结果
+
+你可以在`blogseek_crawler`目录下找到如下文件：
+
+```bash
+├── blogseek_crawler
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── items.py
+│   ├── middlewares.py
+│   ├── pipelines.py
+│   ├── settings.py
+│   ├── spiders
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── blog_list_spider.py
+│   └── utils
+│       ├── __init__.py
+│       ├── __pycache__
+│       └── standardize_date.py
+├── crawler_requirements.txt
+├── feeds                        //所有feeds.xml文件
+│   └── ...
+├── bloglist.log                 //爬虫日志文件
+├── blogs_django.json            //爬虫结果文件，如果你使用默认文件名的话
+└── scrapy.cfg
+```
 
 ### 导入博客数据
 
-### 启动服务器
 
-### 关闭服务器
+```bash
+cp your_data.json ../
+cd ..
+python manage.py loaddata your_data.json
+```
